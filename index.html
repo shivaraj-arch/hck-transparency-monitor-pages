@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-gray-950 text-gray-100">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karnataka High Court — Transparency Monitor</title>
+<!-- CDN libs disabled for now — uncomment when needed
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+-->
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #030712; color: #f3f4f6; font-family: system-ui, sans-serif; }
+  .card { background: #111827; border-radius: 12px; padding: 16px; border: 1px solid #1f2937; }
+  .stat-num { font-size: 2rem; font-weight: 700; }
+  .stat-label { font-size: 0.75rem; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.05em; }
+  .tab-btn { padding: 8px 16px; border-radius: 8px; font-size: 0.875rem; font-weight: 500; cursor: pointer; border: none; }
+  .tab-btn.active { background: #6366f1; color: #fff; }
+  .tab-btn:not(.active) { background: #1f2937; color: #9ca3af; }
+  .text-good { color: #22c55e; } .text-bad { color: #ef4444; } .text-warn { color: #f59e0b; }
+  canvas { max-height: 300px; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
+  th, td { padding: 6px 8px; text-align: left; }
+  th { color: #9ca3af; border-bottom: 1px solid #1f2937; }
+  tr { border-bottom: 1px solid rgba(31,41,55,0.5); }
+  input, select { background: #1f2937; border: 1px solid #374151; border-radius: 8px; padding: 8px 12px; color: #f3f4f6; font-size: 0.875rem; }
+  .grid { display: grid; gap: 12px; }
+  .grid-2 { grid-template-columns: repeat(2, 1fr); }
+  .grid-3 { grid-template-columns: repeat(3, 1fr); }
+  .grid-4 { grid-template-columns: repeat(2, 1fr); }
+  @media (min-width: 640px) { .grid-4 { grid-template-columns: repeat(4, 1fr); } .grid-3 { grid-template-columns: repeat(3, 1fr); } }
+  .text-center { text-align: center; }
+  .mb-4 { margin-bottom: 16px; } .mb-6 { margin-bottom: 24px; }
+  .gap-2 { gap: 8px; } .flex { display: flex; } .flex-wrap { flex-wrap: wrap; }
+  .font-mono { font-family: ui-monospace, monospace; } .text-xs { font-size: 0.75rem; } .text-sm { font-size: 0.875rem; }
+  .truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 140px; }
+  .hidden { display: none; }
+  .insight-list { display: grid; gap: 10px; }
+  .insight-item { padding: 12px; border-radius: 10px; background: #0f172a; border: 1px solid #1e293b; }
+  .insight-kicker { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; color: #94a3b8; margin-bottom: 4px; }
+  .insight-title { font-size: 0.95rem; font-weight: 600; margin-bottom: 4px; }
+  .insight-copy { font-size: 0.82rem; color: #cbd5e1; line-height: 1.45; }
+  .bar-list { display: grid; gap: 10px; }
+  .bar-row { display: grid; gap: 6px; }
+  .bar-meta { display: flex; justify-content: space-between; gap: 10px; font-size: 0.8rem; color: #cbd5e1; }
+  .bar-track { width: 100%; height: 10px; border-radius: 999px; background: #1e293b; overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 999px; background: linear-gradient(90deg, #0ea5e9, #22c55e); }
+  .bar-detail { font-size: 0.75rem; color: #94a3b8; }
+  .trend-groups { display: grid; gap: 14px; }
+  .trend-group { padding: 12px; border-radius: 10px; background: #0f172a; border: 1px solid #1e293b; }
+  .trend-title { font-size: 0.85rem; font-weight: 600; margin-bottom: 8px; color: #e2e8f0; }
+  .toolbar { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+  .pill { display: inline-flex; align-items: center; gap: 6px; padding: 3px 8px; border-radius: 999px; font-size: 0.75rem; border: 1px solid #334155; background: #0f172a; color: #cbd5e1; }
+  .narrative-body { color: #d1d5db; font-size: 0.92rem; line-height: 1.6; }
+  .narrative-body p + p { margin-top: 12px; }
+  .narrative-body strong { color: #f8fafc; font-weight: 700; }
+  @media (max-width: 640px) { .stat-num { font-size: 1.5rem; } }
+</style>
+</head>
+<body class="min-h-screen p-4 max-w-7xl mx-auto">
+
+<!-- Header -->
+<header class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 mb-6">
+  <div>
+    <h1 class="text-2xl font-bold">Karnataka High Court — Transparency Monitor</h1>
+  </div>
+  <div class="flex items-center gap-2">
+    <label class="text-sm text-gray-400">Date:</label>
+    <input type="date" id="dateSelect" class="bg-gray-800 border border-gray-700 rounded-lg px-3 py-1.5 text-sm">
+  </div>
+</header>
+
+<!-- Tabs -->
+<nav class="flex gap-2 mb-6 overflow-x-auto pb-2">
+  <button class="tab-btn active" data-tab="overview">Overview</button>
+  <button class="tab-btn" data-tab="judges">Judges</button>
+  <button class="tab-btn" data-tab="hearings">Hearings</button>
+  <button class="tab-btn" data-tab="trends">Trends</button>
+  <button class="tab-btn" data-tab="cases">All Cases</button>
+</nav>
+
+<!-- ═══════════ TAB: Overview ═══════════ -->
+<section id="tab-overview">
+  <!-- Top stats -->
+  <div class="grid grid-4 mb-6">
+    <div class="card text-center">
+      <div class="stat-num" id="st-scheduled">—</div>
+      <div class="stat-label">Scheduled</div>
+    </div>
+    <div class="card text-center">
+      <div class="stat-num text-good" id="st-heard">—</div>
+      <div class="stat-label">Heard</div>
+    </div>
+    <div class="card text-center">
+      <div class="stat-num text-bad" id="st-not-heard">—</div>
+      <div class="stat-label">Not Heard</div>
+    </div>
+    <div class="card text-center">
+      <div class="stat-num" id="st-pct">—</div>
+      <div class="stat-label">Hearing Rate</div>
+    </div>
+  </div>
+
+  <p id="registrarNote" class="text-xs" style="color:#6b7280;margin:-10px 0 20px 2px;">Registrar (Protocol and Hospitality) administrative lists are excluded from totals.</p>
+
+  <!-- Charts row -->
+  <div class="grid grid-2 mb-6">
+    <div class="card">
+      <h3 class="text-sm" style="font-weight:600;margin-bottom:8px">Case Type Hearing Rates</h3>
+      <div id="chartTypesText" class="text-xs" style="margin-bottom:10px"></div>
+      <div id="chartTypesBars" class="bar-list"></div>
+    </div>
+    <div class="card">
+      <h3 class="text-sm" style="font-weight:600;margin-bottom:8px">Hearing Stage Rates</h3>
+      <div id="chartStagesText" class="text-xs" style="margin-bottom:10px"></div>
+      <div id="chartStagesBars" class="bar-list"></div>
+    </div>
+  </div>
+  <div class="grid grid-2 mb-6">
+    <div class="card">
+      <h3 class="text-sm" style="font-weight:600;margin-bottom:8px">Stage Insights</h3>
+      <div id="stageInsights" class="insight-list"></div>
+    </div>
+    <div class="card">
+      <h3 class="text-sm" style="font-weight:600;margin-bottom:8px">Case Type Insights</h3>
+      <div id="typeInsights" class="insight-list"></div>
+    </div>
+  </div>
+
+  <div class="card mb-6">
+    <h3 class="text-sm" style="font-weight:600;margin-bottom:8px">Case Age Distribution</h3>
+    <div id="chartAgeText" class="text-xs"></div>
+    <canvas id="chartAge" class="hidden"></canvas>
+  </div>
+
+  <!-- Narrative -->
+  <div class="card mb-6" id="narrativeCard" style="display:none">
+    <h3 class="text-sm font-semibold mb-2" id="narrativeTitle">AI Insights</h3>
+    <div class="narrative-body" id="narrative"></div>
+  </div>
+</section>
+
+<!-- ═══════════ TAB: Judges ═══════════ -->
+<section id="tab-judges" style="display:none">
+  <div id="judgeCards"></div>
+</section>
+
+<!-- ═══════════ TAB: Hearings ═══════════ -->
+<section id="tab-hearings" style="display:none">
+  <div class="grid grid-3 mb-6">
+    <div class="card text-center">
+      <div class="stat-num text-good" id="hearing-best-stage">—</div>
+      <div class="stat-label">Top Stage</div>
+    </div>
+    <div class="card text-center">
+      <div class="stat-num text-good" id="hearing-best-type">—</div>
+      <div class="stat-label">Top Case Type</div>
+    </div>
+    <div class="card text-center">
+      <div class="stat-num text-warn" id="hearing-backlog">—</div>
+      <div class="stat-label">Largest Backlog</div>
+    </div>
+  </div>
+  <div class="grid grid-2 mb-6">
+    <div class="card">
+      <h3 class="text-sm font-semibold mb-3">Stage Breakdown</h3>
+      <div id="hearingStageTable"></div>
+    </div>
+    <div class="card">
+      <h3 class="text-sm font-semibold mb-3">Case Type Breakdown</h3>
+      <div id="hearingTypeTable"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ TAB: Trends ═══════════ -->
+<section id="tab-trends" style="display:none">
+  <div class="card mb-6">
+    <h3 class="text-sm font-semibold mb-3">Daily Hearing Rate Trend</h3>
+    <div id="trendOverviewBars" class="bar-list"></div>
+  </div>
+  <div class="grid grid-2">
+    <div class="card">
+      <h3 class="text-sm font-semibold mb-3">Stage Trends</h3>
+      <div id="trendStageGroups" class="trend-groups"></div>
+    </div>
+    <div class="card">
+      <h3 class="text-sm font-semibold mb-3">Case Type Trends</h3>
+      <div id="trendTypeGroups" class="trend-groups"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ TAB: Cases ═══════════ -->
+<section id="tab-cases" style="display:none">
+  <div class="toolbar">
+    <input type="text" id="caseSearch" placeholder="Search case number, hall, judge, party..."
+      style="flex:1;min-width:200px">
+    <select id="caseFilter" class="bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-sm">
+      <option value="">All</option>
+      <option value="heard">Heard</option>
+      <option value="not-heard">Not Heard</option>
+    </select>
+    <select id="hallFilter" class="bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-sm">
+      <option value="">All Halls</option>
+    </select>
+  </div>
+  <div class="card overflow-x-auto">
+    <table class="w-full text-sm">
+      <thead><tr class="text-left text-gray-400 border-b border-gray-800">
+        <th class="pb-2">Hall</th><th class="pb-2">Judge</th><th class="pb-2">Sl</th><th class="pb-2">Case No</th>
+        <th class="pb-2">Case Type</th><th class="pb-2">Subject</th><th class="pb-2">Stage</th>
+        <th class="pb-2">Petitioner</th><th class="pb-2">Respondent</th><th class="pb-2">Age</th><th class="pb-2">Heard</th>
+      </tr></thead>
+      <tbody id="casesTable"></tbody>
+    </table>
+  </div>
+</section>
+
+<footer class="text-center text-xs text-gray-600 mt-8 pb-4">
+  Karnataka High Court — Transparency Monitor | Data archived on GitHub
+</footer>
+<pre id="dbg" class="text-xs text-yellow-400 bg-gray-900 p-2 m-4 rounded hidden"></pre>
+
+<script>
+  window.addEventListener('error', (e) => {
+    const d = document.getElementById('dbg');
+    if (d) d.textContent += '\n❌ ' + e.message + ' @ ' + (e.filename||'').split('/').pop() + ':' + e.lineno;
+  });
+</script>
+<script src="app.js"></script>
+</body>
+</html>
