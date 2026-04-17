@@ -1,6 +1,6 @@
 /* Dashboard app.js
- * Loads causelist.json + eod_report.json from public/data/<date>/
- * plus a compact multi-day index from public/data/index.json.
+ * Loads causelist.json + eod_report.json from public/data/daily/<date>/
+ * plus a compact multi-day index from public/data/daily/index.json.
  * Renders charts and tables. Fully deterministic, no LLM calls.
  */
 
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 async function loadData() {
-  const base = `data/${currentDate}`;
+  const base = `data/daily/${currentDate}`;
   const dbg = document.getElementById('dbg');
   const log = (msg) => { if (dbg) { dbg.classList.remove('hidden'); dbg.textContent += msg + '\n'; } console.log(msg); };
   
@@ -78,7 +78,7 @@ async function loadData() {
   }
 
   try {
-    const historyResp = await fetch(`data/index.json`);
+    const historyResp = await fetch(`data/daily/index.json`);
     if (historyResp.ok) {
       const indexData = await historyResp.json();
       historyIndex = Array.isArray(indexData?.days) ? indexData.days : [];
