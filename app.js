@@ -7,20 +7,56 @@
 const $ = (sel) => document.querySelector(sel);
 const $$ = (sel) => [...document.querySelectorAll(sel)];
 
+const TODAY = new Date().toISOString().slice(0, 10);
+const CALENDAR_2026 = {
+  year: 2026,
+  generalHolidays: [
+    "2026-01-15", "2026-01-26", "2026-03-19", "2026-03-21", "2026-03-31",
+    "2026-04-03", "2026-04-14", "2026-04-20", "2026-05-01", "2026-05-28",
+    "2026-06-26", "2026-08-15", "2026-08-26", "2026-09-14", "2026-10-02",
+    "2026-10-20", "2026-10-21", "2026-11-10", "2026-11-27", "2026-12-25",
+  ],
+  extraHighCourtHolidays: [
+    "2026-01-01", "2026-01-02", "2026-01-16", "2026-03-20", "2026-03-30",
+    "2026-04-13", "2026-08-21", "2026-09-04", "2026-11-09",
+  ],
+  restrictedHolidays: [
+    "2026-01-27", "2026-02-04", "2026-03-02", "2026-03-17", "2026-03-20",
+    "2026-03-23", "2026-03-27", "2026-04-04", "2026-04-21", "2026-04-22",
+    "2026-08-21", "2026-08-27", "2026-08-28", "2026-09-04", "2026-09-08",
+    "2026-09-17", "2026-09-25", "2026-11-24", "2026-11-26", "2026-12-24",
+  ],
+  vacations: [
+    ["2026-05-04", "2026-05-30"],
+    ["2026-10-19", "2026-10-24"],
+    ["2026-12-21", "2026-12-31"],
+  ],
+  highCourtSittingDays: [
+    "2026-01-31", "2026-02-21", "2026-04-18", "2026-04-25",
+    "2026-08-29", "2026-09-19", "2026-11-21",
+  ],
+};
+
 // ── State ──
 let causelistData = null;
 let eodData = null;
 let historyIndex = [];
 let allCases = []; // flattened
-let currentDate = new Date().toISOString().slice(0, 10);
+let currentDate = TODAY;
 let currentTab = "overview"; // Track current tab
 let charts = {};
+let courtCalendarDays = buildCourtCalendarDays();
+let courtCalendarIndex = new Map(courtCalendarDays.map((day) => [day.date, day]));
+
+currentDate = coerceSelectableDate(currentDate);
 
 // ── Init ──
 document.addEventListener("DOMContentLoaded", () => {
-  $("#dateSelect").value = currentDate;
+  populateDateSelect();
+  updateDateHeader();
   $("#dateSelect").addEventListener("change", (e) => {
     currentDate = e.target.value;
+    updateDateHeader();
     loadData();
   });
 
@@ -122,10 +158,11 @@ function flattenCases() {
 // ── Render ──
 function renderAll() {
   renderOverview();
-  // Re-render current tab (in case data changed)
-  if (currentTab !== "overview") {
-    renderTab(currentTab);
-  }
+  renderJudges();
+  renderHearings();
+  renderTrends();
+  renderCalendarTab();
+  renderCasesTable();
 }
 
 function renderTab(tab) {
@@ -142,6 +179,10 @@ function renderTab(tab) {
       renderTrends();
       return;
     }
+    if (tab === "calendar") {
+      renderCalendarTab();
+      return;
+    }
     if (tab === "cases") {
       renderCasesTable();
     }
@@ -156,10 +197,22 @@ function renderOverview() {
     $("#st-heard").textContent = "—";
     $("#st-not-heard").textContent = "—";
     $("#st-pct").textContent = "—";
+    const noDataMessage = getNoDataMessage();
     const registrarNote = $("#registrarNote");
     if (registrarNote) {
       registrarNote.textContent = "Registrar (Protocol and Hospitality) administrative lists are excluded from totals.";
     }
+    $("#chartTypesText").textContent = noDataMessage;
+    $("#chartStagesText").textContent = noDataMessage;
+    $("#chartTypesBars").innerHTML = `<div class="bar-detail">${escapeHtml(noDataMessage)}</div>`;
+    $("#chartStagesBars").innerHTML = `<div class="bar-detail">${escapeHtml(noDataMessage)}</div>`;
+    $("#stageInsights").innerHTML = `<div class="insight-item"><div class="insight-copy">${escapeHtml(noDataMessage)}</div></div>`;
+    $("#typeInsights").innerHTML = `<div class="insight-item"><div class="insight-copy">${escapeHtml(noDataMessage)}</div></div>`;
+    $("#chartAgeText").textContent = noDataMessage;
+    destroyChart("chartAge");
+    $("#narrativeCard").style.display = "none";
+    $("#narrative").innerHTML = "";
+    populateHallFilter();
     return;
   }
 
@@ -241,6 +294,13 @@ function renderStageChart() {
 }
 
 function renderAgeChart() {
+  if (!allCases.length) {
+    const el = $("#chartAgeText");
+    if (el) el.textContent = getNoDataMessage();
+    destroyChart("chartAge");
+    return;
+  }
+
   const buckets = { "0-2y": 0, "3-5y": 0, "6-10y": 0, "11-20y": 0, "20+y": 0 };
   allCases.forEach((c) => {
     const age = c.case_age_years || 0;
@@ -451,6 +511,46 @@ function renderTrends() {
   renderTrendGroups("#trendTypeGroups", pickTrendLabels(days, "by_case_type"), "by_case_type");
 }
 
+function renderCalendarTab() {
+  const summary = getCalendarSummary();
+  $("#cal-working-over").textContent = summary.workingOver;
+  $("#cal-holidays-over").textContent = summary.holidaysOver;
+  $("#cal-working-left").textContent = summary.workingLeft;
+  $("#cal-holidays-left").textContent = summary.holidaysLeft;
+  $("#cal-working-total").textContent = summary.workingTotal;
+  $("#cal-holidays-total").textContent = summary.holidaysTotal;
+
+  const selectedDay = getCalendarDay(currentDate);
+  const selectedEl = $("#calendarSelectedDate");
+  if (selectedEl && selectedDay) {
+    selectedEl.innerHTML = `
+      <div class="insight-item">
+        <div class="insight-kicker">${escapeHtml(selectedDay.weekdayLong)}</div>
+        <div class="insight-title">${escapeHtml(selectedDay.date)}</div>
+        <div class="insight-copy">${escapeHtml(selectedDay.statusLabel)}</div>
+      </div>
+    `;
+  }
+
+  renderInsightList("#calendarRules", [
+    {
+      kicker: "Closed by default",
+      title: "Sundays and second Saturdays are blocked",
+      copy: "The date selector disables all Sundays and second Saturdays for 2026.",
+    },
+    {
+      kicker: "Court calendar",
+      title: "General, restricted and vacation days are treated as holidays",
+      copy: "The selector also disables all red, green and vacation dates listed in the High Court calendar.",
+    },
+    {
+      kicker: "High Court override",
+      title: "Declared sitting days stay enabled",
+      copy: "Special High Court sitting days override holiday or vacation treatment and remain selectable.",
+    },
+  ]);
+}
+
 // ── Cases Table ──
 function renderCasesTable() {
   const tbody = $("#casesTable");
@@ -485,6 +585,13 @@ function renderCasesTable() {
     if (judgeCompare !== 0) return judgeCompare;
     return String(left.case_number || "").localeCompare(String(right.case_number || ""), undefined, { numeric: true });
   });
+
+  if (!filtered.length) {
+    const hasCaseData = allCases.length > 0;
+    const emptyMessage = hasCaseData ? "No cases match the current search/filter." : getNoDataMessage();
+    tbody.innerHTML = `<tr><td colspan="11" class="py-3 text-sm" style="color:#94a3b8;">${escapeHtml(emptyMessage)}</td></tr>`;
+    return;
+  }
 
   const rows = [];
   for (const c of filtered) {
@@ -574,6 +681,146 @@ function getBestPerformer(rows) {
   return rows
     .filter((row) => (row.scheduled || 0) >= 3)
     .sort((a, b) => (b.heard_pct - a.heard_pct) || (b.heard - a.heard) || (b.scheduled - a.scheduled))[0] || null;
+}
+
+function buildCourtCalendarDays() {
+  const year = CALENDAR_2026.year;
+  const general = new Set(CALENDAR_2026.generalHolidays);
+  const restricted = new Set(CALENDAR_2026.restrictedHolidays);
+  const extra = new Set(CALENDAR_2026.extraHighCourtHolidays);
+  const sitting = new Set(CALENDAR_2026.highCourtSittingDays);
+  const days = [];
+
+  for (let month = 1; month <= 12; month += 1) {
+    const lastDay = new Date(year, month, 0).getDate();
+    for (let day = 1; day <= lastDay; day += 1) {
+      const date = toIsoDate(year, month, day);
+      const localDate = new Date(year, month - 1, day);
+      const reasons = [];
+      const isSunday = localDate.getDay() === 0;
+      const isSecondSaturday = localDate.getDay() === 6 && day >= 8 && day <= 14;
+
+      if (isSunday) reasons.push("Sunday");
+      if (isSecondSaturday) reasons.push("Second Saturday");
+      if (general.has(date)) reasons.push("General holiday");
+      if (restricted.has(date)) reasons.push("Restricted holiday");
+      if (extra.has(date)) reasons.push("Declared High Court holiday");
+      if (CALENDAR_2026.vacations.some(([start, end]) => date >= start && date <= end)) reasons.push("Court vacation");
+
+      const isSittingDay = sitting.has(date);
+      const isHoliday = reasons.length > 0 && !isSittingDay;
+      const isFuture = date > TODAY;
+      const statusLabel = isFuture
+        ? `Future date${isHoliday ? ` · ${reasons.join(", ")}` : ""}`
+        : isHoliday
+          ? `Holiday · ${reasons.join(", ")}`
+          : isSittingDay
+            ? "Working day · Declared sitting day"
+            : "Working day";
+
+      days.push({
+        date,
+        isHoliday,
+        isFuture,
+        isSittingDay,
+        reasons,
+        statusLabel,
+        weekdayShort: localDate.toLocaleDateString(undefined, { weekday: "short" }),
+        weekdayLong: localDate.toLocaleDateString(undefined, { weekday: "long" }),
+      });
+    }
+  }
+
+  return days;
+}
+
+function populateDateSelect() {
+  const select = $("#dateSelect");
+  if (!select) return;
+
+  const monthNames = [
+    "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December",
+  ];
+
+  select.innerHTML = "";
+  monthNames.forEach((monthName, index) => {
+    const prefix = `${CALENDAR_2026.year}-${String(index + 1).padStart(2, "0")}`;
+    const group = document.createElement("optgroup");
+    group.label = monthName;
+
+    courtCalendarDays
+      .filter((day) => day.date.startsWith(prefix))
+      .forEach((day) => {
+        const option = document.createElement("option");
+        option.value = day.date;
+        option.disabled = day.isHoliday || day.isFuture;
+        option.textContent = `${day.date} · ${day.weekdayShort}${day.isFuture ? " · Future" : day.isHoliday ? ` · ${day.reasons[0]}` : ""}`;
+        group.appendChild(option);
+      });
+
+    select.appendChild(group);
+  });
+
+  select.value = currentDate;
+}
+
+function updateDateHeader() {
+  const day = getCalendarDay(currentDate);
+  const badge = $("#dateStatus");
+  const workingLeft = $("#workingDaysLeft");
+  const summary = getCalendarSummary();
+
+  if (badge && day) {
+    badge.textContent = day.statusLabel;
+    badge.style.background = day.isFuture ? "#3f3f46" : day.isHoliday ? "#3f1d1d" : "#0f172a";
+    badge.style.borderColor = day.isFuture ? "#52525b" : day.isHoliday ? "#7f1d1d" : "#1d4ed8";
+    badge.style.color = day.isFuture ? "#d4d4d8" : day.isHoliday ? "#fecaca" : "#bfdbfe";
+  }
+
+  if (workingLeft) {
+    workingLeft.textContent = `${summary.workingLeft} working days left in 2026`;
+  }
+}
+
+function getCalendarDay(date) {
+  return courtCalendarIndex.get(date) || null;
+}
+
+function coerceSelectableDate(date) {
+  const target = typeof date === "string" && date ? date : TODAY;
+  const validDays = courtCalendarDays.filter((day) => !day.isHoliday && !day.isFuture);
+  const exact = validDays.find((day) => day.date === target);
+  if (exact) return exact.date;
+
+  const previous = validDays.filter((day) => day.date <= target).pop();
+  return previous?.date || validDays[validDays.length - 1]?.date || target;
+}
+
+function getCalendarSummary() {
+  const pastOrToday = courtCalendarDays.filter((day) => day.date <= TODAY);
+  const future = courtCalendarDays.filter((day) => day.date > TODAY);
+
+  return {
+    workingOver: pastOrToday.filter((day) => !day.isHoliday).length,
+    holidaysOver: pastOrToday.filter((day) => day.isHoliday).length,
+    workingLeft: future.filter((day) => !day.isHoliday).length,
+    holidaysLeft: future.filter((day) => day.isHoliday).length,
+    workingTotal: courtCalendarDays.filter((day) => !day.isHoliday).length,
+    holidaysTotal: courtCalendarDays.filter((day) => day.isHoliday).length,
+  };
+}
+
+function getNoDataMessage() {
+  const day = getCalendarDay(currentDate);
+  if (!day) return "No data available for this date.";
+  if (day.isFuture) return "Future dates are disabled in the 2026 court calendar.";
+  if (day.isHoliday) return `No cause list expected: ${day.statusLabel}.`;
+  return "No data available for this working day.";
+}
+
+function toIsoDate(year, month, day) {
+  return `${year}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
 }
 
 function getHistoryDays(anchorDate = currentDate) {

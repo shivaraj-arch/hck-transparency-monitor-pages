@@ -64,9 +64,11 @@
   <div>
     <h1 class="text-2xl font-bold">Karnataka High Court — Transparency Monitor</h1>
   </div>
-  <div class="flex items-center gap-2">
+  <div class="flex items-center gap-2 flex-wrap" style="justify-content:flex-end;">
     <label class="text-sm text-gray-400">Date:</label>
-    <input type="date" id="dateSelect" class="bg-gray-800 border border-gray-700 rounded-lg px-3 py-1.5 text-sm">
+    <select id="dateSelect" class="bg-gray-800 border border-gray-700 rounded-lg px-3 py-1.5 text-sm"></select>
+    <span id="dateStatus" class="pill">Loading calendar…</span>
+    <span id="workingDaysLeft" class="text-sm" style="color:#93c5fd;"></span>
   </div>
 </header>
 
@@ -76,6 +78,7 @@
   <button class="tab-btn" data-tab="judges">Judges</button>
   <button class="tab-btn" data-tab="hearings">Hearings</button>
   <button class="tab-btn" data-tab="trends">Trends</button>
+  <button class="tab-btn" data-tab="calendar">Calendars</button>
   <button class="tab-btn" data-tab="cases">All Cases</button>
 </nav>
 
@@ -191,6 +194,47 @@
   </div>
 </section>
 
+<!-- ═══════════ TAB: Calendars ═══════════ -->
+<section id="tab-calendar" style="display:none">
+  <div class="grid grid-3 mb-6">
+    <div class="card text-center">
+      <div class="stat-num" id="cal-working-over">—</div>
+      <div class="stat-label">Working Days Over</div>
+    </div>
+    <div class="card text-center">
+      <div class="stat-num" id="cal-holidays-over">—</div>
+      <div class="stat-label">Holidays Over</div>
+    </div>
+    <div class="card text-center">
+      <div class="stat-num" id="cal-working-left">—</div>
+      <div class="stat-label">Working Days Left</div>
+    </div>
+    <div class="card text-center">
+      <div class="stat-num" id="cal-holidays-left">—</div>
+      <div class="stat-label">Holidays Left</div>
+    </div>
+    <div class="card text-center">
+      <div class="stat-num" id="cal-working-total">—</div>
+      <div class="stat-label">Total Working Days</div>
+    </div>
+    <div class="card text-center">
+      <div class="stat-num" id="cal-holidays-total">—</div>
+      <div class="stat-label">Total Holidays</div>
+    </div>
+  </div>
+
+  <div class="grid grid-2">
+    <div class="card">
+      <h3 class="text-sm font-semibold mb-3">Selected Date Status</h3>
+      <div id="calendarSelectedDate"></div>
+    </div>
+    <div class="card">
+      <h3 class="text-sm font-semibold mb-3">Court Calendar Rules</h3>
+      <div id="calendarRules" class="insight-list"></div>
+    </div>
+  </div>
+</section>
+
 <!-- ═══════════ TAB: Cases ═══════════ -->
 <section id="tab-cases" style="display:none">
   <div class="toolbar">
@@ -228,6 +272,6 @@
     if (d) d.textContent += '\n❌ ' + e.message + ' @ ' + (e.filename||'').split('/').pop() + ':' + e.lineno;
   });
 </script>
-<script src="app.js?v=20260417b"></script>
+<script src="app.js?v=20260419a"></script>
 </body>
 </html>
