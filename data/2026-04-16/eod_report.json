@@ -589,9 +589,9 @@
     "commoner_heard_pct": 39.2,
     "bias_gap_pct": -7.5
   },
-  "narrative": "",
-  "narrative_format": "plain",
-  "narrative_model": null,
+  "narrative": "I need to produce a narrative based on the provided data, without using any tools. Since the user is requesting a narrative, I'll keep it straightforward. The final output should be between 200-300 words in simple markdown paragraphs. I’ll compare the overall hearing rate to the historical context from April 15, 2026, highlighting factual data and top performers, while being cautious about sample size. It's also important to mention low conversion dockets and signal bottlenecks. **Analyzing Hearing Data**\n\nI’m examining the stage conversion rates for hearings. The preliminary hearing has the highest at 42.9%, followed by unknown at 37.4%, and admission at 32.2%. When comparing to April 15, we see overall hearing percentages improved from 26.2% to 28.9%, with total hearings rising from 759 to 832. However, the percentage of orders heard dropped from 26.5% to 24.9%. The WP category remains dominant with 1361 scheduled and 393 heard, while CRL was lower with only 29.7%.",
+  "narrative_format": "markdown",
+  "narrative_model": "gpt-5.4",
   "judge_reports": [
     {
       "date": "2026-04-16",

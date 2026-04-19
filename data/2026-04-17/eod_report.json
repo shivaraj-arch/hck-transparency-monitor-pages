@@ -724,9 +724,9 @@
     "commoner_heard_pct": 40.1,
     "bias_gap_pct": -7.1
   },
-  "narrative": "",
-  "narrative_format": "plain",
-  "narrative_model": null,
+  "narrative": "Orders improved from 24.9 to 28.5, showing growth. Admissions increased as well, rising from 32.2 to 40.1. However, Final Hearing saw a decline from 16.5 to 13.7. Looking at case types, the WP 969 forecast is around 38.5%, lower than the 27.7 recently. The MFA has dipped to 45.9 from 53.5, but it’s still on the stronger side. WA is stable, showing little change. CRL.P is noticeably up, now at 35.2 from previous figures. I'd like to add notes on zero clearance in CA and MSA as well.",
+  "narrative_format": "markdown",
+  "narrative_model": "gpt-5.4",
   "judge_reports": [
     {
       "date": "2026-04-17",

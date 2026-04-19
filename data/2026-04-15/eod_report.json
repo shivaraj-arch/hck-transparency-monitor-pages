@@ -595,9 +595,9 @@
     "commoner_heard_pct": 35.8,
     "bias_gap_pct": -3.3
   },
-  "narrative": "",
-  "narrative_format": "plain",
-  "narrative_model": null,
+  "narrative": "On 15 April 2026, the Karnataka High Court heard 759 of 2,895 scheduled matters, an overall hearing rate of 26.2%. That is almost flat against 9 April’s 26.6%, but well below 2 April’s 32.2%. In absolute terms, the court still heard more cases than on 9 April (759 versus 713) because the listed docket was larger. The day’s throughput was therefore stable in percentage terms, but stretched across a heavier cause list.\n\nJudge-level performance was uneven. By volume, **M. Nagaprasanna** disposed of the most matters, hearing 105 across three lists, though that masked a sharp split between one strong list (103 of 200, 51.5%) and one very weak one (2 of 167, 1.2%). Strong single-list conversion also came from **K. Manmadha Rao** at 87 of 141 (61.7%), **P. Sree Sudha** at 51 of 84 (60.7%), **R. Devdas** at 40 of 72 (55.6%), and **K.S. Hemalekha** at 43 of 61 (70.5%). At the other end, **S. Rachaiah** heard none of 164 listed matters across three rosters, **Rajesh Rai** heard none of 53, and the **Chief Justice & C.M. Poonacha** combination heard 5 of 141 across two lists.\n\nStage conversion favored earlier or procedural stages. **Preliminary Hearing** performed best among substantial categories at 38.3%, followed by **Unknown** at 31.6% and **Admission** at 29.8%. **Final Hearing** was weak at 9.7%, and **Further Hearing** weaker still at 4.3%, suggesting deeper-stage matters were least likely to move. By case type, **WP** dominated the docket with 1,408 listed and 349 heard (24.8%), while **CRL.P** was similarly moderate at 25.0%. Clearance was strongest in **MFA** at 54.1% and **RPFC** at 48.3%, but very weak in **RFA** (8.6%), **COMAP** (1.8%), and **CCC** (2.4%). Compared with prior context, **MFA** improved sharply over both 9 April and 2 April, **CRL.P** improved markedly over 9 April, while **WP** remained broadly steady and **Final Hearing** conversion stayed notably below 2 April.",
+  "narrative_format": "markdown",
+  "narrative_model": "gpt-5.4",
   "judge_reports": [
     {
       "date": "2026-04-15",
