@@ -83,8 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 async function loadData() {
   const base = `data/${currentDate}`;
-  const dbg = document.getElementById('dbg');
-  const log = (msg) => { if (dbg) { dbg.classList.remove('hidden'); dbg.textContent += msg + '\n'; } console.log(msg); };
+  const log = (msg) => console.log(msg);
   
   try {
     log(`⏳ Loading ${base}/causelist.json ...`);
