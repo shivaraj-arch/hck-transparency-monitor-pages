@@ -3,11 +3,11 @@
     "date": "2026-04-15",
     "total_judges": 46,
     "total_scheduled": 2895,
-    "total_heard": 759,
+    "total_heard": 1006,
     "govt_scheduled": 901,
-    "govt_heard": 220,
+    "govt_heard": 293,
     "commoner_scheduled": 1994,
-    "commoner_heard": 539,
+    "commoner_heard": 713,
     "by_judge": [
       {
         "judge": "CHIEF JUSTICE & C.M. POONACHA",
@@ -22,10 +22,10 @@
         "judge": "CHIEF JUSTICE & C.M. POONACHA",
         "hall": "1",
         "scheduled": 49,
-        "heard": 4,
-        "heard_pct": 8.2,
-        "govt_heard_pct": 0.0,
-        "commoner_heard_pct": 8.7
+        "heard": 35,
+        "heard_pct": 71.4,
+        "govt_heard_pct": 66.7,
+        "commoner_heard_pct": 71.7
       },
       {
         "judge": "RAJESH RAI",
@@ -49,10 +49,10 @@
         "judge": "JAYANT BANERJI & RAJESH RAI K",
         "hall": "3",
         "scheduled": 27,
-        "heard": 0,
-        "heard_pct": 0.0,
+        "heard": 18,
+        "heard_pct": 66.7,
         "govt_heard_pct": 0.0,
-        "commoner_heard_pct": 0.0
+        "commoner_heard_pct": 66.7
       },
       {
         "judge": "D K SINGH & T.M.NADAF",
@@ -67,10 +67,10 @@
         "judge": "D K SINGH & T.M.NADAF",
         "hall": "4",
         "scheduled": 8,
-        "heard": 1,
-        "heard_pct": 12.5,
+        "heard": 5,
+        "heard_pct": 62.5,
         "govt_heard_pct": 0.0,
-        "commoner_heard_pct": 12.5
+        "commoner_heard_pct": 62.5
       },
       {
         "judge": "S.G.PANDIT & K. V. ARAVIND",
@@ -85,10 +85,10 @@
         "judge": "S.G.PANDIT & K. V. ARAVIND",
         "hall": "5",
         "scheduled": 19,
-        "heard": 0,
-        "heard_pct": 0.0,
-        "govt_heard_pct": 0.0,
-        "commoner_heard_pct": 0.0
+        "heard": 11,
+        "heard_pct": 57.9,
+        "govt_heard_pct": 50.0,
+        "commoner_heard_pct": 60.0
       },
       {
         "judge": "R DEVDAS",
@@ -121,10 +121,10 @@
         "judge": "S SUNIL DUTT YADAV",
         "hall": "7",
         "scheduled": 67,
-        "heard": 5,
-        "heard_pct": 7.5,
-        "govt_heard_pct": 12.5,
-        "commoner_heard_pct": 6.8
+        "heard": 18,
+        "heard_pct": 26.9,
+        "govt_heard_pct": 37.5,
+        "commoner_heard_pct": 25.4
       },
       {
         "judge": "MOHAMMAD NAWAZ & VENKATESH NAIK T",
@@ -157,10 +157,10 @@
         "judge": "S.R.KRISHNA KUMAR",
         "hall": "10",
         "scheduled": 13,
-        "heard": 0,
-        "heard_pct": 0.0,
-        "govt_heard_pct": 0.0,
-        "commoner_heard_pct": 0.0
+        "heard": 8,
+        "heard_pct": 61.5,
+        "govt_heard_pct": 100.0,
+        "commoner_heard_pct": 58.3
       },
       {
         "judge": "SACHIN SHANKAR MAGADUM",
@@ -202,9 +202,9 @@
         "judge": "R. NATARAJ",
         "hall": "12",
         "scheduled": 6,
-        "heard": 0,
-        "heard_pct": 0.0,
-        "govt_heard_pct": 0.0,
+        "heard": 4,
+        "heard_pct": 66.7,
+        "govt_heard_pct": 66.7,
         "commoner_heard_pct": 0.0
       },
       {
@@ -229,18 +229,18 @@
         "judge": "M.NAGAPRASANNA",
         "hall": "14",
         "scheduled": 167,
-        "heard": 2,
-        "heard_pct": 1.2,
-        "govt_heard_pct": 1.6,
-        "commoner_heard_pct": 0.0
+        "heard": 25,
+        "heard_pct": 15.0,
+        "govt_heard_pct": 17.2,
+        "commoner_heard_pct": 8.9
       },
       {
         "judge": "M.NAGAPRASANNA",
         "hall": "14",
         "scheduled": 16,
-        "heard": 0,
-        "heard_pct": 0.0,
-        "govt_heard_pct": 0.0,
+        "heard": 13,
+        "heard_pct": 81.2,
+        "govt_heard_pct": 81.2,
         "commoner_heard_pct": 0.0
       },
       {
@@ -256,18 +256,18 @@
         "judge": "M.I.ARUN",
         "hall": "15",
         "scheduled": 25,
-        "heard": 0,
-        "heard_pct": 0.0,
+        "heard": 10,
+        "heard_pct": 40.0,
         "govt_heard_pct": 0.0,
-        "commoner_heard_pct": 0.0
+        "commoner_heard_pct": 40.0
       },
       {
         "judge": "M.I.ARUN",
         "hall": "15",
         "scheduled": 5,
-        "heard": 0,
-        "heard_pct": 0.0,
-        "govt_heard_pct": 0.0,
+        "heard": 3,
+        "heard_pct": 60.0,
+        "govt_heard_pct": 60.0,
         "commoner_heard_pct": 0.0
       },
       {
@@ -283,10 +283,10 @@
         "judge": "E.S.INDIRESH",
         "hall": "17",
         "scheduled": 131,
-        "heard": 41,
-        "heard_pct": 31.3,
+        "heard": 82,
+        "heard_pct": 62.6,
         "govt_heard_pct": 36.4,
-        "commoner_heard_pct": 30.8
+        "commoner_heard_pct": 65.0
       },
       {
         "judge": "V SRISHANANDA",
@@ -301,10 +301,10 @@
         "judge": "V SRISHANANDA",
         "hall": "18",
         "scheduled": 90,
-        "heard": 12,
-        "heard_pct": 13.3,
-        "govt_heard_pct": 26.1,
-        "commoner_heard_pct": 9.0
+        "heard": 65,
+        "heard_pct": 72.2,
+        "govt_heard_pct": 78.3,
+        "commoner_heard_pct": 70.1
       },
       {
         "judge": "M.G.S. KAMAL",
@@ -319,9 +319,9 @@
         "judge": "M.G.S. KAMAL",
         "hall": "19",
         "scheduled": 5,
-        "heard": 0,
-        "heard_pct": 0.0,
-        "govt_heard_pct": 0.0,
+        "heard": 2,
+        "heard_pct": 40.0,
+        "govt_heard_pct": 40.0,
         "commoner_heard_pct": 0.0
       },
       {
@@ -346,9 +346,9 @@
         "judge": "ANANT RAMANATH HEGDE",
         "hall": "21",
         "scheduled": 5,
-        "heard": 0,
-        "heard_pct": 0.0,
-        "govt_heard_pct": 0.0,
+        "heard": 4,
+        "heard_pct": 80.0,
+        "govt_heard_pct": 80.0,
         "commoner_heard_pct": 0.0
       },
       {
@@ -391,9 +391,9 @@
         "judge": "K.S. HEMALEKHA",
         "hall": "23",
         "scheduled": 6,
-        "heard": 2,
-        "heard_pct": 33.3,
-        "govt_heard_pct": 33.3,
+        "heard": 6,
+        "heard_pct": 100.0,
+        "govt_heard_pct": 100.0,
         "commoner_heard_pct": 0.0
       },
       {
@@ -418,9 +418,9 @@
         "judge": "VIJAYKUMAR A. PATIL",
         "hall": "2A",
         "scheduled": 13,
-        "heard": 0,
-        "heard_pct": 0.0,
-        "govt_heard_pct": 0.0,
+        "heard": 5,
+        "heard_pct": 38.5,
+        "govt_heard_pct": 100.0,
         "commoner_heard_pct": 0.0
       }
     ],
@@ -428,38 +428,38 @@
       {
         "label": "ORDERS",
         "scheduled": 1019,
-        "heard": 270,
-        "heard_pct": 26.5
+        "heard": 369,
+        "heard_pct": 36.2
       },
       {
         "label": "UNKNOWN",
         "scheduled": 613,
-        "heard": 194,
-        "heard_pct": 31.6
+        "heard": 256,
+        "heard_pct": 41.8
       },
       {
         "label": "ADMISSION",
         "scheduled": 477,
-        "heard": 142,
-        "heard_pct": 29.8
+        "heard": 178,
+        "heard_pct": 37.3
       },
       {
         "label": "FINAL HEARING",
         "scheduled": 321,
-        "heard": 31,
-        "heard_pct": 9.7
+        "heard": 69,
+        "heard_pct": 21.5
       },
       {
         "label": "PRELIMINARY HEARING",
         "scheduled": 300,
-        "heard": 115,
-        "heard_pct": 38.3
+        "heard": 123,
+        "heard_pct": 41.0
       },
       {
         "label": "FURTHER HEARING",
         "scheduled": 163,
-        "heard": 7,
-        "heard_pct": 4.3
+        "heard": 11,
+        "heard_pct": 6.7
       },
       {
         "label": "PART HEARD IN ADMISSION",
@@ -472,26 +472,26 @@
       {
         "label": "WP",
         "scheduled": 1408,
-        "heard": 349,
-        "heard_pct": 24.8
+        "heard": 395,
+        "heard_pct": 28.1
       },
       {
         "label": "CRL.P",
         "scheduled": 600,
-        "heard": 150,
-        "heard_pct": 25.0
+        "heard": 207,
+        "heard_pct": 34.5
       },
       {
         "label": "MFA",
         "scheduled": 220,
-        "heard": 119,
-        "heard_pct": 54.1
+        "heard": 137,
+        "heard_pct": 62.3
       },
       {
         "label": "RSA",
         "scheduled": 125,
-        "heard": 18,
-        "heard_pct": 14.4
+        "heard": 53,
+        "heard_pct": 42.4
       },
       {
         "label": "CRL.A",
@@ -502,20 +502,20 @@
       {
         "label": "CRL.RP",
         "scheduled": 86,
-        "heard": 12,
-        "heard_pct": 14.0
+        "heard": 62,
+        "heard_pct": 72.1
       },
       {
         "label": "RFA",
         "scheduled": 81,
-        "heard": 7,
-        "heard_pct": 8.6
+        "heard": 21,
+        "heard_pct": 25.9
       },
       {
         "label": "WA",
         "scheduled": 70,
-        "heard": 18,
-        "heard_pct": 25.7
+        "heard": 23,
+        "heard_pct": 32.9
       },
       {
         "label": "RPFC",
@@ -526,14 +526,14 @@
       {
         "label": "COMAP",
         "scheduled": 56,
-        "heard": 1,
-        "heard_pct": 1.8
+        "heard": 12,
+        "heard_pct": 21.4
       },
       {
         "label": "CCC",
         "scheduled": 42,
-        "heard": 1,
-        "heard_pct": 2.4
+        "heard": 8,
+        "heard_pct": 19.0
       },
       {
         "label": "CP",
@@ -544,8 +544,8 @@
       {
         "label": "RP",
         "scheduled": 10,
-        "heard": 7,
-        "heard_pct": 70.0
+        "heard": 8,
+        "heard_pct": 80.0
       },
       {
         "label": "CRP",
@@ -556,8 +556,8 @@
       {
         "label": "CMP",
         "scheduled": 5,
-        "heard": 0,
-        "heard_pct": 0.0
+        "heard": 3,
+        "heard_pct": 60.0
       },
       {
         "label": "RFA.CROB",
@@ -590,14 +590,14 @@
         "heard_pct": 0.0
       }
     ],
-    "heard_pct": 26.2,
-    "govt_heard_pct": 24.4,
-    "commoner_heard_pct": 27.0,
-    "bias_gap_pct": -2.6
+    "heard_pct": 34.7,
+    "govt_heard_pct": 32.5,
+    "commoner_heard_pct": 35.8,
+    "bias_gap_pct": -3.3
   },
-  "narrative": "On 15 April 2026, the Karnataka High Court heard 759 of 2,895 scheduled matters, an overall hearing rate of 26.2%. That is almost flat against 9 April’s 26.6%, but well below 2 April’s 32.2%. In absolute terms, the court still heard more cases than on 9 April (759 versus 713) because the listed docket was larger. The day’s throughput was therefore stable in percentage terms, but stretched across a heavier cause list.\n\nJudge-level performance was uneven. By volume, **M. Nagaprasanna** disposed of the most matters, hearing 105 across three lists, though that masked a sharp split between one strong list (103 of 200, 51.5%) and one very weak one (2 of 167, 1.2%). Strong single-list conversion also came from **K. Manmadha Rao** at 87 of 141 (61.7%), **P. Sree Sudha** at 51 of 84 (60.7%), **R. Devdas** at 40 of 72 (55.6%), and **K.S. Hemalekha** at 43 of 61 (70.5%). At the other end, **S. Rachaiah** heard none of 164 listed matters across three rosters, **Rajesh Rai** heard none of 53, and the **Chief Justice & C.M. Poonacha** combination heard 5 of 141 across two lists.\n\nStage conversion favored earlier or procedural stages. **Preliminary Hearing** performed best among substantial categories at 38.3%, followed by **Unknown** at 31.6% and **Admission** at 29.8%. **Final Hearing** was weak at 9.7%, and **Further Hearing** weaker still at 4.3%, suggesting deeper-stage matters were least likely to move. By case type, **WP** dominated the docket with 1,408 listed and 349 heard (24.8%), while **CRL.P** was similarly moderate at 25.0%. Clearance was strongest in **MFA** at 54.1% and **RPFC** at 48.3%, but very weak in **RFA** (8.6%), **COMAP** (1.8%), and **CCC** (2.4%). Compared with prior context, **MFA** improved sharply over both 9 April and 2 April, **CRL.P** improved markedly over 9 April, while **WP** remained broadly steady and **Final Hearing** conversion stayed notably below 2 April.",
-  "narrative_format": "markdown",
-  "narrative_model": "gpt-5.4",
+  "narrative": "",
+  "narrative_format": "plain",
+  "narrative_model": null,
   "judge_reports": [
     {
       "date": "2026-04-15",
@@ -1669,23 +1669,23 @@
       "court_hall": "1",
       "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
       "total_scheduled": 49,
-      "total_heard": 4,
-      "total_not_heard": 45,
-      "heard_pct": 8.2,
+      "total_heard": 35,
+      "total_not_heard": 14,
+      "heard_pct": 71.4,
       "govt_scheduled": 3,
-      "govt_heard": 0,
-      "govt_heard_pct": 0.0,
+      "govt_heard": 2,
+      "govt_heard_pct": 66.7,
       "commoner_scheduled": 46,
-      "commoner_heard": 4,
-      "commoner_heard_pct": 8.7,
+      "commoner_heard": 33,
+      "commoner_heard_pct": 71.7,
       "by_stage": {
         "UNKNOWN": {
           "scheduled": 37,
-          "heard": 4
+          "heard": 33
         },
         "ORDERS": {
           "scheduled": 7,
-          "heard": 0
+          "heard": 2
         },
         "FINAL HEARING": {
           "scheduled": 5,
@@ -1695,27 +1695,27 @@
       "by_type": {
         "CCC": {
           "scheduled": 8,
-          "heard": 1
+          "heard": 8
         },
         "WP": {
           "scheduled": 12,
-          "heard": 1
+          "heard": 8
         },
         "COMAP": {
           "scheduled": 18,
-          "heard": 1
+          "heard": 12
         },
         "MFA": {
           "scheduled": 3,
-          "heard": 0
+          "heard": 3
         },
         "WA": {
           "scheduled": 7,
-          "heard": 1
+          "heard": 3
         },
         "RP": {
           "scheduled": 1,
-          "heard": 0
+          "heard": 1
         }
       },
       "cases": [
@@ -1725,7 +1725,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "1",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -1736,7 +1736,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "2",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -1747,7 +1747,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "3",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -1758,7 +1758,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "4",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -1769,7 +1769,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "5",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -1780,7 +1780,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "6",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -1791,7 +1791,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "7",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -1802,7 +1802,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "8",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -1813,7 +1813,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "9",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -1824,7 +1824,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "10",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -1835,7 +1835,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "11",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -1857,7 +1857,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "13",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -1868,7 +1868,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "14",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -1890,7 +1890,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "16",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -1901,7 +1901,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "17",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -1912,7 +1912,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "18",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -1923,7 +1923,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "19",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -1934,7 +1934,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "20",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -1945,7 +1945,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "21",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -1956,7 +1956,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "22",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -1967,7 +1967,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "23",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -1989,7 +1989,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "25",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -2000,7 +2000,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "26",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -2011,7 +2011,7 @@
           "subject_code": "AA",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "27",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -2022,7 +2022,7 @@
           "subject_code": "AA",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "28",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -2033,7 +2033,7 @@
           "subject_code": "AA",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "29",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -2055,7 +2055,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "31",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -2066,7 +2066,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "32",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -2088,7 +2088,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "34",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -2132,7 +2132,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "38",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -2176,7 +2176,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "39",
           "judge_name": "CHIEF JUSTICE & C.M. POONACHA",
           "court_hall": "1"
@@ -3232,37 +3232,37 @@
       "court_hall": "3",
       "judge_name": "JAYANT BANERJI & RAJESH RAI K",
       "total_scheduled": 27,
-      "total_heard": 0,
-      "total_not_heard": 27,
-      "heard_pct": 0.0,
+      "total_heard": 18,
+      "total_not_heard": 9,
+      "heard_pct": 66.7,
       "govt_scheduled": 0,
       "govt_heard": 0,
       "govt_heard_pct": 0.0,
       "commoner_scheduled": 27,
-      "commoner_heard": 0,
-      "commoner_heard_pct": 0.0,
+      "commoner_heard": 18,
+      "commoner_heard_pct": 66.7,
       "by_stage": {
         "ADMISSION": {
           "scheduled": 9,
-          "heard": 0
+          "heard": 6
         },
         "ORDERS": {
           "scheduled": 18,
-          "heard": 0
+          "heard": 12
         }
       },
       "by_type": {
         "WA": {
           "scheduled": 2,
-          "heard": 0
+          "heard": 2
         },
         "MFA": {
           "scheduled": 19,
-          "heard": 0
+          "heard": 14
         },
         "RFA": {
           "scheduled": 6,
-          "heard": 0
+          "heard": 2
         }
       },
       "cases": [
@@ -3272,7 +3272,7 @@
           "subject_code": "BDA",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "1",
           "judge_name": "JAYANT BANERJI & RAJESH RAI K",
           "court_hall": "3"
@@ -3283,7 +3283,7 @@
           "subject_code": "GW",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "2",
           "judge_name": "JAYANT BANERJI & RAJESH RAI K",
           "court_hall": "3"
@@ -3305,7 +3305,7 @@
           "subject_code": "FC",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "3",
           "judge_name": "JAYANT BANERJI & RAJESH RAI K",
           "court_hall": "3"
@@ -3327,7 +3327,7 @@
           "subject_code": "FC",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "4",
           "judge_name": "JAYANT BANERJI & RAJESH RAI K",
           "court_hall": "3"
@@ -3338,7 +3338,7 @@
           "subject_code": "FC",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "5",
           "judge_name": "JAYANT BANERJI & RAJESH RAI K",
           "court_hall": "3"
@@ -3360,7 +3360,7 @@
           "subject_code": "FC",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "6",
           "judge_name": "JAYANT BANERJI & RAJESH RAI K",
           "court_hall": "3"
@@ -3371,7 +3371,7 @@
           "subject_code": "BDA",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "7",
           "judge_name": "JAYANT BANERJI & RAJESH RAI K",
           "court_hall": "3"
@@ -3393,7 +3393,7 @@
           "subject_code": "FC",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "8",
           "judge_name": "JAYANT BANERJI & RAJESH RAI K",
           "court_hall": "3"
@@ -3415,7 +3415,7 @@
           "subject_code": "FC",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "9",
           "judge_name": "JAYANT BANERJI & RAJESH RAI K",
           "court_hall": "3"
@@ -3426,7 +3426,7 @@
           "subject_code": "FC",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "10",
           "judge_name": "JAYANT BANERJI & RAJESH RAI K",
           "court_hall": "3"
@@ -3437,7 +3437,7 @@
           "subject_code": "FC",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "11",
           "judge_name": "JAYANT BANERJI & RAJESH RAI K",
           "court_hall": "3"
@@ -3448,7 +3448,7 @@
           "subject_code": "PAR",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "12",
           "judge_name": "JAYANT BANERJI & RAJESH RAI K",
           "court_hall": "3"
@@ -3492,7 +3492,7 @@
           "subject_code": "SP",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "13",
           "judge_name": "JAYANT BANERJI & RAJESH RAI K",
           "court_hall": "3"
@@ -3503,7 +3503,7 @@
           "subject_code": "GW",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "14",
           "judge_name": "JAYANT BANERJI & RAJESH RAI K",
           "court_hall": "3"
@@ -3514,7 +3514,7 @@
           "subject_code": "FC",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "15",
           "judge_name": "JAYANT BANERJI & RAJESH RAI K",
           "court_hall": "3"
@@ -3536,7 +3536,7 @@
           "subject_code": "GW",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "16",
           "judge_name": "JAYANT BANERJI & RAJESH RAI K",
           "court_hall": "3"
@@ -3547,7 +3547,7 @@
           "subject_code": "FC",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "17",
           "judge_name": "JAYANT BANERJI & RAJESH RAI K",
           "court_hall": "3"
@@ -3558,7 +3558,7 @@
           "subject_code": "FC",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "18",
           "judge_name": "JAYANT BANERJI & RAJESH RAI K",
           "court_hall": "3"
@@ -4192,33 +4192,33 @@
       "court_hall": "4",
       "judge_name": "D K SINGH & T.M.NADAF",
       "total_scheduled": 8,
-      "total_heard": 1,
-      "total_not_heard": 7,
-      "heard_pct": 12.5,
+      "total_heard": 5,
+      "total_not_heard": 3,
+      "heard_pct": 62.5,
       "govt_scheduled": 0,
       "govt_heard": 0,
       "govt_heard_pct": 0.0,
       "commoner_scheduled": 8,
-      "commoner_heard": 1,
-      "commoner_heard_pct": 12.5,
+      "commoner_heard": 5,
+      "commoner_heard_pct": 62.5,
       "by_stage": {
         "ORDERS": {
           "scheduled": 3,
-          "heard": 1
+          "heard": 3
         },
         "FINAL HEARING": {
           "scheduled": 5,
-          "heard": 0
+          "heard": 2
         }
       },
       "by_type": {
         "RFA": {
           "scheduled": 4,
-          "heard": 0
+          "heard": 2
         },
         "WA": {
           "scheduled": 1,
-          "heard": 0
+          "heard": 1
         },
         "WP": {
           "scheduled": 1,
@@ -4226,7 +4226,7 @@
         },
         "MFA": {
           "scheduled": 2,
-          "heard": 0
+          "heard": 1
         }
       },
       "cases": [
@@ -4236,7 +4236,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "1",
           "judge_name": "D K SINGH & T.M.NADAF",
           "court_hall": "4"
@@ -4247,7 +4247,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "2",
           "judge_name": "D K SINGH & T.M.NADAF",
           "court_hall": "4"
@@ -4269,7 +4269,7 @@
           "subject_code": "",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "4",
           "judge_name": "D K SINGH & T.M.NADAF",
           "court_hall": "4"
@@ -4313,7 +4313,7 @@
           "subject_code": "",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "7",
           "judge_name": "D K SINGH & T.M.NADAF",
           "court_hall": "4"
@@ -4971,27 +4971,27 @@
       "court_hall": "5",
       "judge_name": "S.G.PANDIT & K. V. ARAVIND",
       "total_scheduled": 19,
-      "total_heard": 0,
-      "total_not_heard": 19,
-      "heard_pct": 0.0,
+      "total_heard": 11,
+      "total_not_heard": 8,
+      "heard_pct": 57.9,
       "govt_scheduled": 4,
-      "govt_heard": 0,
-      "govt_heard_pct": 0.0,
+      "govt_heard": 2,
+      "govt_heard_pct": 50.0,
       "commoner_scheduled": 15,
-      "commoner_heard": 0,
-      "commoner_heard_pct": 0.0,
+      "commoner_heard": 9,
+      "commoner_heard_pct": 60.0,
       "by_stage": {
         "ORDERS": {
           "scheduled": 4,
-          "heard": 0
+          "heard": 2
         },
         "PRELIMINARY HEARING": {
           "scheduled": 6,
-          "heard": 0
+          "heard": 5
         },
         "FURTHER HEARING": {
           "scheduled": 7,
-          "heard": 0
+          "heard": 4
         },
         "FINAL HEARING": {
           "scheduled": 2,
@@ -5001,7 +5001,7 @@
       "by_type": {
         "WP": {
           "scheduled": 19,
-          "heard": 0
+          "heard": 11
         }
       },
       "cases": [
@@ -5011,7 +5011,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "1",
           "judge_name": "S.G.PANDIT & K. V. ARAVIND",
           "court_hall": "5"
@@ -5033,7 +5033,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "2",
           "judge_name": "S.G.PANDIT & K. V. ARAVIND",
           "court_hall": "5"
@@ -5066,7 +5066,7 @@
           "subject_code": "",
           "stage": "PRELIMINARY HEARING",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "5",
           "judge_name": "S.G.PANDIT & K. V. ARAVIND",
           "court_hall": "5"
@@ -5077,7 +5077,7 @@
           "subject_code": "",
           "stage": "PRELIMINARY HEARING",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "6",
           "judge_name": "S.G.PANDIT & K. V. ARAVIND",
           "court_hall": "5"
@@ -5088,7 +5088,7 @@
           "subject_code": "",
           "stage": "PRELIMINARY HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "7",
           "judge_name": "S.G.PANDIT & K. V. ARAVIND",
           "court_hall": "5"
@@ -5099,7 +5099,7 @@
           "subject_code": "",
           "stage": "PRELIMINARY HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "8",
           "judge_name": "S.G.PANDIT & K. V. ARAVIND",
           "court_hall": "5"
@@ -5110,7 +5110,7 @@
           "subject_code": "",
           "stage": "PRELIMINARY HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "9",
           "judge_name": "S.G.PANDIT & K. V. ARAVIND",
           "court_hall": "5"
@@ -5121,7 +5121,7 @@
           "subject_code": "",
           "stage": "FURTHER HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "10",
           "judge_name": "S.G.PANDIT & K. V. ARAVIND",
           "court_hall": "5"
@@ -5143,7 +5143,7 @@
           "subject_code": "",
           "stage": "FURTHER HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "11",
           "judge_name": "S.G.PANDIT & K. V. ARAVIND",
           "court_hall": "5"
@@ -5154,7 +5154,7 @@
           "subject_code": "",
           "stage": "FURTHER HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "12",
           "judge_name": "S.G.PANDIT & K. V. ARAVIND",
           "court_hall": "5"
@@ -5187,7 +5187,7 @@
           "subject_code": "",
           "stage": "FURTHER HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "15",
           "judge_name": "S.G.PANDIT & K. V. ARAVIND",
           "court_hall": "5"
@@ -7650,19 +7650,19 @@
       "court_hall": "7",
       "judge_name": "S SUNIL DUTT YADAV",
       "total_scheduled": 67,
-      "total_heard": 5,
-      "total_not_heard": 62,
-      "heard_pct": 7.5,
+      "total_heard": 18,
+      "total_not_heard": 49,
+      "heard_pct": 26.9,
       "govt_scheduled": 8,
-      "govt_heard": 1,
-      "govt_heard_pct": 12.5,
+      "govt_heard": 3,
+      "govt_heard_pct": 37.5,
       "commoner_scheduled": 59,
-      "commoner_heard": 4,
-      "commoner_heard_pct": 6.8,
+      "commoner_heard": 15,
+      "commoner_heard_pct": 25.4,
       "by_stage": {
         "UNKNOWN": {
           "scheduled": 26,
-          "heard": 2
+          "heard": 15
         },
         "PRELIMINARY HEARING": {
           "scheduled": 14,
@@ -7676,7 +7676,7 @@
       "by_type": {
         "WP": {
           "scheduled": 67,
-          "heard": 5
+          "heard": 18
         }
       },
       "cases": [
@@ -7686,7 +7686,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "1",
           "judge_name": "S SUNIL DUTT YADAV",
           "court_hall": "7"
@@ -7719,7 +7719,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "4",
           "judge_name": "S SUNIL DUTT YADAV",
           "court_hall": "7"
@@ -7741,7 +7741,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "6",
           "judge_name": "S SUNIL DUTT YADAV",
           "court_hall": "7"
@@ -7752,7 +7752,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "7",
           "judge_name": "S SUNIL DUTT YADAV",
           "court_hall": "7"
@@ -7763,7 +7763,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "8",
           "judge_name": "S SUNIL DUTT YADAV",
           "court_hall": "7"
@@ -7774,7 +7774,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "9",
           "judge_name": "S SUNIL DUTT YADAV",
           "court_hall": "7"
@@ -7785,7 +7785,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "10",
           "judge_name": "S SUNIL DUTT YADAV",
           "court_hall": "7"
@@ -7840,7 +7840,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "13",
           "judge_name": "S SUNIL DUTT YADAV",
           "court_hall": "7"
@@ -7851,7 +7851,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "14",
           "judge_name": "S SUNIL DUTT YADAV",
           "court_hall": "7"
@@ -7862,7 +7862,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "15",
           "judge_name": "S SUNIL DUTT YADAV",
           "court_hall": "7"
@@ -7895,7 +7895,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "18",
           "judge_name": "S SUNIL DUTT YADAV",
           "court_hall": "7"
@@ -7906,7 +7906,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "19",
           "judge_name": "S SUNIL DUTT YADAV",
           "court_hall": "7"
@@ -7928,7 +7928,7 @@
           "subject_code": "",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "21",
           "judge_name": "S SUNIL DUTT YADAV",
           "court_hall": "7"
@@ -12570,37 +12570,37 @@
       "court_hall": "10",
       "judge_name": "S.R.KRISHNA KUMAR",
       "total_scheduled": 13,
-      "total_heard": 0,
-      "total_not_heard": 13,
-      "heard_pct": 0.0,
+      "total_heard": 8,
+      "total_not_heard": 5,
+      "heard_pct": 61.5,
       "govt_scheduled": 1,
-      "govt_heard": 0,
-      "govt_heard_pct": 0.0,
+      "govt_heard": 1,
+      "govt_heard_pct": 100.0,
       "commoner_scheduled": 12,
-      "commoner_heard": 0,
-      "commoner_heard_pct": 0.0,
+      "commoner_heard": 7,
+      "commoner_heard_pct": 58.3,
       "by_stage": {
         "PRELIMINARY HEARING": {
           "scheduled": 1,
-          "heard": 0
+          "heard": 1
         },
         "ORDERS": {
           "scheduled": 10,
-          "heard": 0
+          "heard": 6
         },
         "FINAL HEARING": {
           "scheduled": 2,
-          "heard": 0
+          "heard": 1
         }
       },
       "by_type": {
         "WP": {
           "scheduled": 11,
-          "heard": 0
+          "heard": 7
         },
         "RSA": {
           "scheduled": 2,
-          "heard": 0
+          "heard": 1
         }
       },
       "cases": [
@@ -12610,7 +12610,7 @@
           "subject_code": "",
           "stage": "PRELIMINARY HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "1",
           "judge_name": "S.R.KRISHNA KUMAR",
           "court_hall": "10"
@@ -12621,7 +12621,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "2",
           "judge_name": "S.R.KRISHNA KUMAR",
           "court_hall": "10"
@@ -12632,7 +12632,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "3",
           "judge_name": "S.R.KRISHNA KUMAR",
           "court_hall": "10"
@@ -12643,7 +12643,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "4",
           "judge_name": "S.R.KRISHNA KUMAR",
           "court_hall": "10"
@@ -12654,7 +12654,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "5",
           "judge_name": "S.R.KRISHNA KUMAR",
           "court_hall": "10"
@@ -12676,7 +12676,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "6",
           "judge_name": "S.R.KRISHNA KUMAR",
           "court_hall": "10"
@@ -12720,7 +12720,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "7",
           "judge_name": "S.R.KRISHNA KUMAR",
           "court_hall": "10"
@@ -12731,7 +12731,7 @@
           "subject_code": "PAR",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "8",
           "judge_name": "S.R.KRISHNA KUMAR",
           "court_hall": "10"
@@ -16362,25 +16362,25 @@
       "court_hall": "12",
       "judge_name": "R. NATARAJ",
       "total_scheduled": 6,
-      "total_heard": 0,
-      "total_not_heard": 6,
-      "heard_pct": 0.0,
+      "total_heard": 4,
+      "total_not_heard": 2,
+      "heard_pct": 66.7,
       "govt_scheduled": 6,
-      "govt_heard": 0,
-      "govt_heard_pct": 0.0,
+      "govt_heard": 4,
+      "govt_heard_pct": 66.7,
       "commoner_scheduled": 0,
       "commoner_heard": 0,
       "commoner_heard_pct": 0.0,
       "by_stage": {
         "ORDERS": {
           "scheduled": 6,
-          "heard": 0
+          "heard": 4
         }
       },
       "by_type": {
         "CRL.P": {
           "scheduled": 6,
-          "heard": 0
+          "heard": 4
         }
       },
       "cases": [
@@ -16412,7 +16412,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "2",
           "judge_name": "R. NATARAJ",
           "court_hall": "12"
@@ -16423,7 +16423,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "3",
           "judge_name": "R. NATARAJ",
           "court_hall": "12"
@@ -16434,7 +16434,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "4",
           "judge_name": "R. NATARAJ",
           "court_hall": "12"
@@ -16445,7 +16445,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "5",
           "judge_name": "R. NATARAJ",
           "court_hall": "12"
@@ -19503,19 +19503,19 @@
       "court_hall": "14",
       "judge_name": "M.NAGAPRASANNA",
       "total_scheduled": 167,
-      "total_heard": 2,
-      "total_not_heard": 165,
-      "heard_pct": 1.2,
+      "total_heard": 25,
+      "total_not_heard": 142,
+      "heard_pct": 15.0,
       "govt_scheduled": 122,
-      "govt_heard": 2,
-      "govt_heard_pct": 1.6,
+      "govt_heard": 21,
+      "govt_heard_pct": 17.2,
       "commoner_scheduled": 45,
-      "commoner_heard": 0,
-      "commoner_heard_pct": 0.0,
+      "commoner_heard": 4,
+      "commoner_heard_pct": 8.9,
       "by_stage": {
         "UNKNOWN": {
           "scheduled": 69,
-          "heard": 1
+          "heard": 21
         },
         "ADMISSION": {
           "scheduled": 13,
@@ -19523,21 +19523,21 @@
         },
         "PRELIMINARY HEARING": {
           "scheduled": 2,
-          "heard": 0
+          "heard": 1
         },
         "ORDERS": {
           "scheduled": 83,
-          "heard": 1
+          "heard": 3
         }
       },
       "by_type": {
         "CRL.P": {
           "scheduled": 134,
-          "heard": 2
+          "heard": 24
         },
         "WP": {
           "scheduled": 33,
-          "heard": 0
+          "heard": 1
         }
       },
       "cases": [
@@ -19547,7 +19547,7 @@
           "subject_code": "DATE)                        528(BNSS)",
           "stage": "",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "1",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -19558,7 +19558,7 @@
           "subject_code": "FOR FURTHER HEARING) 528(BNSS)",
           "stage": "",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "2",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -19569,7 +19569,7 @@
           "subject_code": "BNSS)",
           "stage": "",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "3",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -19591,7 +19591,7 @@
           "subject_code": "DATE)                        528(BNSS)",
           "stage": "",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "5",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -19602,7 +19602,7 @@
           "subject_code": "BNSS)",
           "stage": "",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "6",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -19613,7 +19613,7 @@
           "subject_code": "BNSS)",
           "stage": "",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "7",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -19646,7 +19646,7 @@
           "subject_code": "BNSS)",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "10",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -19657,7 +19657,7 @@
           "subject_code": "DATE)                        528(BNSS)",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "11",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -19668,7 +19668,7 @@
           "subject_code": "BNSS)",
           "stage": "",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "12",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -19679,7 +19679,7 @@
           "subject_code": "AS PER R(J) CIRCULAR 528(BNSS)",
           "stage": "",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "13",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -19690,7 +19690,7 @@
           "subject_code": "BNSS)",
           "stage": "",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "14",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -19701,7 +19701,7 @@
           "subject_code": "BNSS)",
           "stage": "",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "15",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -19712,7 +19712,7 @@
           "subject_code": "BNSS)",
           "stage": "",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "16",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -19734,7 +19734,7 @@
           "subject_code": "BNSS)",
           "stage": "",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "18",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -19778,7 +19778,7 @@
           "subject_code": "BNSS)",
           "stage": "",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "22",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -19789,7 +19789,7 @@
           "subject_code": "BNSS)",
           "stage": "",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "23",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -19800,7 +19800,7 @@
           "subject_code": "BNSS)",
           "stage": "",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "24",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -19822,7 +19822,7 @@
           "subject_code": "BNSS)",
           "stage": "",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "25",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -19833,7 +19833,7 @@
           "subject_code": "BNSS)",
           "stage": "",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "26",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -19910,7 +19910,7 @@
           "subject_code": "AS PER R(J) CIRCULAR 528(BNSS)",
           "stage": "",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "28",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -20449,7 +20449,7 @@
           "subject_code": "",
           "stage": "PRELIMINARY HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "70",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -20570,7 +20570,7 @@
           "subject_code": "DATE)                        528(BNSS)",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "81",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -20614,7 +20614,7 @@
           "subject_code": "BNSS)",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "85",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -21385,25 +21385,25 @@
       "court_hall": "14",
       "judge_name": "M.NAGAPRASANNA",
       "total_scheduled": 16,
-      "total_heard": 0,
-      "total_not_heard": 16,
-      "heard_pct": 0.0,
+      "total_heard": 13,
+      "total_not_heard": 3,
+      "heard_pct": 81.2,
       "govt_scheduled": 16,
-      "govt_heard": 0,
-      "govt_heard_pct": 0.0,
+      "govt_heard": 13,
+      "govt_heard_pct": 81.2,
       "commoner_scheduled": 0,
       "commoner_heard": 0,
       "commoner_heard_pct": 0.0,
       "by_stage": {
         "ORDERS": {
           "scheduled": 16,
-          "heard": 0
+          "heard": 13
         }
       },
       "by_type": {
         "CRL.P": {
           "scheduled": 16,
-          "heard": 0
+          "heard": 13
         }
       },
       "cases": [
@@ -21413,7 +21413,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "1",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -21424,7 +21424,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "2",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -21435,7 +21435,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "3",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -21457,7 +21457,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "5",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -21468,7 +21468,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "6",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -21479,7 +21479,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "7",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -21490,7 +21490,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "8",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -21501,7 +21501,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "9",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -21512,7 +21512,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "10",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -21523,7 +21523,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "11",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -21534,7 +21534,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "12",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -21567,7 +21567,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "15",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -21578,7 +21578,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "16",
           "judge_name": "M.NAGAPRASANNA",
           "court_hall": "14"
@@ -23127,23 +23127,23 @@
       "court_hall": "15",
       "judge_name": "M.I.ARUN",
       "total_scheduled": 25,
-      "total_heard": 0,
-      "total_not_heard": 25,
-      "heard_pct": 0.0,
+      "total_heard": 10,
+      "total_not_heard": 15,
+      "heard_pct": 40.0,
       "govt_scheduled": 0,
       "govt_heard": 0,
       "govt_heard_pct": 0.0,
       "commoner_scheduled": 25,
-      "commoner_heard": 0,
-      "commoner_heard_pct": 0.0,
+      "commoner_heard": 10,
+      "commoner_heard_pct": 40.0,
       "by_stage": {
         "ADMISSION": {
           "scheduled": 1,
-          "heard": 0
+          "heard": 1
         },
         "ORDERS": {
           "scheduled": 6,
-          "heard": 0
+          "heard": 6
         },
         "FURTHER HEARING": {
           "scheduled": 5,
@@ -23151,13 +23151,13 @@
         },
         "FINAL HEARING": {
           "scheduled": 13,
-          "heard": 0
+          "heard": 3
         }
       },
       "by_type": {
         "RFA": {
           "scheduled": 24,
-          "heard": 0
+          "heard": 10
         },
         "RFA.CROB": {
           "scheduled": 1,
@@ -23171,7 +23171,7 @@
           "subject_code": "PAR",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "1",
           "judge_name": "M.I.ARUN",
           "court_hall": "15"
@@ -23182,7 +23182,7 @@
           "subject_code": "PAR",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "2",
           "judge_name": "M.I.ARUN",
           "court_hall": "15"
@@ -23193,7 +23193,7 @@
           "subject_code": "PAR",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "3",
           "judge_name": "M.I.ARUN",
           "court_hall": "15"
@@ -23204,7 +23204,7 @@
           "subject_code": "DEC/INJ",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "4",
           "judge_name": "M.I.ARUN",
           "court_hall": "15"
@@ -23215,7 +23215,7 @@
           "subject_code": "POS",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "5",
           "judge_name": "M.I.ARUN",
           "court_hall": "15"
@@ -23226,7 +23226,7 @@
           "subject_code": "DEC/POS",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "6",
           "judge_name": "M.I.ARUN",
           "court_hall": "15"
@@ -23237,7 +23237,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "7",
           "judge_name": "M.I.ARUN",
           "court_hall": "15"
@@ -23380,7 +23380,7 @@
           "subject_code": "PAR",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "15",
           "judge_name": "M.I.ARUN",
           "court_hall": "15"
@@ -23391,7 +23391,7 @@
           "subject_code": "DEC/INJ",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "16",
           "judge_name": "M.I.ARUN",
           "court_hall": "15"
@@ -23402,7 +23402,7 @@
           "subject_code": "RES",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "17",
           "judge_name": "M.I.ARUN",
           "court_hall": "15"
@@ -23447,25 +23447,25 @@
       "court_hall": "15",
       "judge_name": "M.I.ARUN",
       "total_scheduled": 5,
-      "total_heard": 0,
-      "total_not_heard": 5,
-      "heard_pct": 0.0,
+      "total_heard": 3,
+      "total_not_heard": 2,
+      "heard_pct": 60.0,
       "govt_scheduled": 5,
-      "govt_heard": 0,
-      "govt_heard_pct": 0.0,
+      "govt_heard": 3,
+      "govt_heard_pct": 60.0,
       "commoner_scheduled": 0,
       "commoner_heard": 0,
       "commoner_heard_pct": 0.0,
       "by_stage": {
         "ORDERS": {
           "scheduled": 5,
-          "heard": 0
+          "heard": 3
         }
       },
       "by_type": {
         "CRL.P": {
           "scheduled": 5,
-          "heard": 0
+          "heard": 3
         }
       },
       "cases": [
@@ -23475,7 +23475,7 @@
           "subject_code": "BNSS)",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "1",
           "judge_name": "M.I.ARUN",
           "court_hall": "15"
@@ -23486,7 +23486,7 @@
           "subject_code": "AS PER NOTIFICATION 483(BNSS)",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "2",
           "judge_name": "M.I.ARUN",
           "court_hall": "15"
@@ -23519,7 +23519,7 @@
           "subject_code": "AS PER NOTIFICATION 483(BNSS)",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "5",
           "judge_name": "M.I.ARUN",
           "court_hall": "15"
@@ -23619,45 +23619,45 @@
       "court_hall": "17",
       "judge_name": "E.S.INDIRESH",
       "total_scheduled": 131,
-      "total_heard": 41,
-      "total_not_heard": 90,
-      "heard_pct": 31.3,
+      "total_heard": 82,
+      "total_not_heard": 49,
+      "heard_pct": 62.6,
       "govt_scheduled": 11,
       "govt_heard": 4,
       "govt_heard_pct": 36.4,
       "commoner_scheduled": 120,
-      "commoner_heard": 37,
-      "commoner_heard_pct": 30.8,
+      "commoner_heard": 78,
+      "commoner_heard_pct": 65.0,
       "by_stage": {
         "ORDERS": {
           "scheduled": 45,
-          "heard": 15
+          "heard": 33
         },
         "PRELIMINARY HEARING": {
           "scheduled": 12,
-          "heard": 8
+          "heard": 9
         },
         "ADMISSION": {
           "scheduled": 37,
-          "heard": 17
+          "heard": 23
         },
         "FINAL HEARING": {
           "scheduled": 37,
-          "heard": 1
+          "heard": 17
         }
       },
       "by_type": {
         "RSA": {
           "scheduled": 43,
-          "heard": 2
+          "heard": 33
         },
         "WP": {
           "scheduled": 73,
-          "heard": 34
+          "heard": 41
         },
         "CMP": {
           "scheduled": 5,
-          "heard": 0
+          "heard": 3
         },
         "MFA": {
           "scheduled": 8,
@@ -23675,7 +23675,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "1",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -23686,7 +23686,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "2",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -23697,7 +23697,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "3",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -23708,7 +23708,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "4",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -23719,7 +23719,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "5",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -23730,7 +23730,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "6",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -23741,7 +23741,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "7",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -23752,7 +23752,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "8",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -23763,7 +23763,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "9",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -23818,7 +23818,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "14",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -23829,7 +23829,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "15",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -23840,7 +23840,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "16",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -23851,7 +23851,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "17",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -23873,7 +23873,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "18",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -23884,7 +23884,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "19",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -23895,7 +23895,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "20",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -23917,7 +23917,7 @@
           "subject_code": "",
           "stage": "PRELIMINARY HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "22",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -23961,7 +23961,7 @@
           "subject_code": "",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "26",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -23972,7 +23972,7 @@
           "subject_code": "",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "27",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -23983,7 +23983,7 @@
           "subject_code": "",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "28",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -23994,7 +23994,7 @@
           "subject_code": "",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "29",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -24005,7 +24005,7 @@
           "subject_code": "",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "30",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -24016,7 +24016,7 @@
           "subject_code": "",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "31",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -24060,7 +24060,7 @@
           "subject_code": "",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "34",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -24071,7 +24071,7 @@
           "subject_code": "",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "35",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -24082,7 +24082,7 @@
           "subject_code": "",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "36",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -24104,7 +24104,7 @@
           "subject_code": "",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "38",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -24126,7 +24126,7 @@
           "subject_code": "",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "40",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -24137,7 +24137,7 @@
           "subject_code": "",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "41",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -24148,7 +24148,7 @@
           "subject_code": "",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "42",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -24159,7 +24159,7 @@
           "subject_code": "",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "43",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -24170,7 +24170,7 @@
           "subject_code": "",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "44",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -24181,7 +24181,7 @@
           "subject_code": "",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "45",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -24192,7 +24192,7 @@
           "subject_code": "",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "46",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -24203,7 +24203,7 @@
           "subject_code": "",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "47",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -24214,7 +24214,7 @@
           "subject_code": "",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "48",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -24236,7 +24236,7 @@
           "subject_code": "",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "49",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -24258,7 +24258,7 @@
           "subject_code": "",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "51",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -24280,7 +24280,7 @@
           "subject_code": "",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "52",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -25050,7 +25050,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "2",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -25094,7 +25094,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "6",
           "judge_name": "E.S.INDIRESH",
           "court_hall": "17"
@@ -25245,33 +25245,33 @@
       "court_hall": "18",
       "judge_name": "V SRISHANANDA",
       "total_scheduled": 90,
-      "total_heard": 12,
-      "total_not_heard": 78,
-      "heard_pct": 13.3,
+      "total_heard": 65,
+      "total_not_heard": 25,
+      "heard_pct": 72.2,
       "govt_scheduled": 23,
-      "govt_heard": 6,
-      "govt_heard_pct": 26.1,
+      "govt_heard": 18,
+      "govt_heard_pct": 78.3,
       "commoner_scheduled": 67,
-      "commoner_heard": 6,
-      "commoner_heard_pct": 9.0,
+      "commoner_heard": 47,
+      "commoner_heard_pct": 70.1,
       "by_stage": {
         "ORDERS": {
           "scheduled": 20,
-          "heard": 5
+          "heard": 19
         },
         "ADMISSION": {
           "scheduled": 37,
-          "heard": 4
+          "heard": 27
         },
         "FINAL HEARING": {
           "scheduled": 33,
-          "heard": 3
+          "heard": 19
         }
       },
       "by_type": {
         "CRL.RP": {
           "scheduled": 85,
-          "heard": 12
+          "heard": 62
         },
         "CRL.A": {
           "scheduled": 1,
@@ -25279,7 +25279,7 @@
         },
         "RSA": {
           "scheduled": 4,
-          "heard": 0
+          "heard": 3
         }
       },
       "cases": [
@@ -25300,7 +25300,7 @@
           "subject_code": "BNSS)",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "2",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25311,7 +25311,7 @@
           "subject_code": "BNSS)",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "3",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25322,7 +25322,7 @@
           "subject_code": "BNSS)",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "4",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25333,7 +25333,7 @@
           "subject_code": "BNSS)",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "5",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25355,7 +25355,7 @@
           "subject_code": "BNSS)",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "7",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25388,7 +25388,7 @@
           "subject_code": "BNSS)",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "10",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25410,7 +25410,7 @@
           "subject_code": "BNSS)",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "12",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25421,7 +25421,7 @@
           "subject_code": "BNSS)",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "13",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25432,7 +25432,7 @@
           "subject_code": "BNSS)",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "14",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25443,7 +25443,7 @@
           "subject_code": "BNSS)",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "15",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25454,7 +25454,7 @@
           "subject_code": "BNSS)",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "16",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25465,7 +25465,7 @@
           "subject_code": "BNSS)",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "17",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25476,7 +25476,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "18",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25487,7 +25487,7 @@
           "subject_code": "BNSS)",
           "stage": "ORDERS",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "19",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25509,7 +25509,7 @@
           "subject_code": "BNSS)",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "21",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25553,7 +25553,7 @@
           "subject_code": "BNSS)",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "25",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25575,7 +25575,7 @@
           "subject_code": "A) OF           438(BNSS)",
           "stage": "ADMISSION",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "27",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25608,7 +25608,7 @@
           "subject_code": "BNSS)",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "30",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25619,7 +25619,7 @@
           "subject_code": "BNSS)",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "31",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25630,7 +25630,7 @@
           "subject_code": "BNSS)",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "32",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25641,7 +25641,7 @@
           "subject_code": "BNSS)",
           "stage": "ADMISSION",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "33",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25652,7 +25652,7 @@
           "subject_code": "BNSS)",
           "stage": "ADMISSION",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "34",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25674,7 +25674,7 @@
           "subject_code": "BNSS)",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "36",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25696,7 +25696,7 @@
           "subject_code": "BNSS)",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "38",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25707,7 +25707,7 @@
           "subject_code": "BNSS)",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "39",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25718,7 +25718,7 @@
           "subject_code": "BNSS)",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "40",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25729,7 +25729,7 @@
           "subject_code": "BNSS)",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "41",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25740,7 +25740,7 @@
           "subject_code": "BNSS)",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "42",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25751,7 +25751,7 @@
           "subject_code": "BNSS)",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "43",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25762,7 +25762,7 @@
           "subject_code": "BNSS)",
           "stage": "ADMISSION",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "44",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25773,7 +25773,7 @@
           "subject_code": "BNSS)",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "45",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25806,7 +25806,7 @@
           "subject_code": "BNSS)",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "48",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25828,7 +25828,7 @@
           "subject_code": "BNSS)",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "49",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25839,7 +25839,7 @@
           "subject_code": "BNSS)",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "50",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25850,7 +25850,7 @@
           "subject_code": "BNSS)",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "51",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25861,7 +25861,7 @@
           "subject_code": "BNSS)",
           "stage": "ADMISSION",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "52",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25905,7 +25905,7 @@
           "subject_code": "BNSS)",
           "stage": "ADMISSION",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "56",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25971,7 +25971,7 @@
           "subject_code": "ADMITTED ON                  438(BNSS)",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "61",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -25982,7 +25982,7 @@
           "subject_code": "ADMITTED ON                    438(BNSS)",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "62",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -26004,7 +26004,7 @@
           "subject_code": "CRL.RP NOT ADMITTED) 438(BNSS)",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "63",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -26015,7 +26015,7 @@
           "subject_code": "BNSS)",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "64",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -26048,7 +26048,7 @@
           "subject_code": "BNSS)",
           "stage": "FINAL HEARING",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "67",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -26070,7 +26070,7 @@
           "subject_code": "BNSS)",
           "stage": "FINAL HEARING",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "69",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -26081,7 +26081,7 @@
           "subject_code": "BNSS)",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "70",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -26092,7 +26092,7 @@
           "subject_code": "",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "71",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -26103,7 +26103,7 @@
           "subject_code": "ADMITTED ON                  438(BNSS)",
           "stage": "FINAL HEARING",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "72",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -26114,7 +26114,7 @@
           "subject_code": "BNSS)",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "73",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -26136,7 +26136,7 @@
           "subject_code": "MON",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "75",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -26147,7 +26147,7 @@
           "subject_code": "PAR",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "76",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -26158,7 +26158,7 @@
           "subject_code": "BNSS)",
           "stage": "FINAL HEARING",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "77",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -26180,7 +26180,7 @@
           "subject_code": "BNSS)",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "79",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -26191,7 +26191,7 @@
           "subject_code": "PAR",
           "stage": "FINAL HEARING",
           "is_govt_case": false,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "80",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -26235,7 +26235,7 @@
           "subject_code": "",
           "stage": "FINAL HEARING",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "84",
           "judge_name": "V SRISHANANDA",
           "court_hall": "18"
@@ -27074,25 +27074,25 @@
       "court_hall": "19",
       "judge_name": "M.G.S. KAMAL",
       "total_scheduled": 5,
-      "total_heard": 0,
-      "total_not_heard": 5,
-      "heard_pct": 0.0,
+      "total_heard": 2,
+      "total_not_heard": 3,
+      "heard_pct": 40.0,
       "govt_scheduled": 5,
-      "govt_heard": 0,
-      "govt_heard_pct": 0.0,
+      "govt_heard": 2,
+      "govt_heard_pct": 40.0,
       "commoner_scheduled": 0,
       "commoner_heard": 0,
       "commoner_heard_pct": 0.0,
       "by_stage": {
         "ORDERS": {
           "scheduled": 5,
-          "heard": 0
+          "heard": 2
         }
       },
       "by_type": {
         "CRL.P": {
           "scheduled": 5,
-          "heard": 0
+          "heard": 2
         }
       },
       "cases": [
@@ -27102,7 +27102,7 @@
           "subject_code": "VIDE NOTIFICATION    482(BNSS)",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "1",
           "judge_name": "M.G.S. KAMAL",
           "court_hall": "19"
@@ -27146,7 +27146,7 @@
           "subject_code": "VIDE NOTIFICATION    483(BNSS)",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "5",
           "judge_name": "M.G.S. KAMAL",
           "court_hall": "19"
@@ -29314,25 +29314,25 @@
       "court_hall": "21",
       "judge_name": "ANANT RAMANATH HEGDE",
       "total_scheduled": 5,
-      "total_heard": 0,
-      "total_not_heard": 5,
-      "heard_pct": 0.0,
+      "total_heard": 4,
+      "total_not_heard": 1,
+      "heard_pct": 80.0,
       "govt_scheduled": 5,
-      "govt_heard": 0,
-      "govt_heard_pct": 0.0,
+      "govt_heard": 4,
+      "govt_heard_pct": 80.0,
       "commoner_scheduled": 0,
       "commoner_heard": 0,
       "commoner_heard_pct": 0.0,
       "by_stage": {
         "ORDERS": {
           "scheduled": 5,
-          "heard": 0
+          "heard": 4
         }
       },
       "by_type": {
         "CRL.P": {
           "scheduled": 5,
-          "heard": 0
+          "heard": 4
         }
       },
       "cases": [
@@ -29342,7 +29342,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "1",
           "judge_name": "ANANT RAMANATH HEGDE",
           "court_hall": "21"
@@ -29353,7 +29353,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "2",
           "judge_name": "ANANT RAMANATH HEGDE",
           "court_hall": "21"
@@ -29364,7 +29364,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "3",
           "judge_name": "ANANT RAMANATH HEGDE",
           "court_hall": "21"
@@ -29386,7 +29386,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "5",
           "judge_name": "ANANT RAMANATH HEGDE",
           "court_hall": "21"
@@ -32021,25 +32021,25 @@
       "court_hall": "23",
       "judge_name": "K.S. HEMALEKHA",
       "total_scheduled": 6,
-      "total_heard": 2,
-      "total_not_heard": 4,
-      "heard_pct": 33.3,
+      "total_heard": 6,
+      "total_not_heard": 0,
+      "heard_pct": 100.0,
       "govt_scheduled": 6,
-      "govt_heard": 2,
-      "govt_heard_pct": 33.3,
+      "govt_heard": 6,
+      "govt_heard_pct": 100.0,
       "commoner_scheduled": 0,
       "commoner_heard": 0,
       "commoner_heard_pct": 0.0,
       "by_stage": {
         "ORDERS": {
           "scheduled": 6,
-          "heard": 2
+          "heard": 6
         }
       },
       "by_type": {
         "CRL.P": {
           "scheduled": 6,
-          "heard": 2
+          "heard": 6
         }
       },
       "cases": [
@@ -32049,7 +32049,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "1",
           "judge_name": "K.S. HEMALEKHA",
           "court_hall": "23"
@@ -32060,7 +32060,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "2",
           "judge_name": "K.S. HEMALEKHA",
           "court_hall": "23"
@@ -32071,7 +32071,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "3",
           "judge_name": "K.S. HEMALEKHA",
           "court_hall": "23"
@@ -32082,7 +32082,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "4",
           "judge_name": "K.S. HEMALEKHA",
           "court_hall": "23"
@@ -34227,25 +34227,25 @@
       "court_hall": "2A",
       "judge_name": "VIJAYKUMAR A. PATIL",
       "total_scheduled": 13,
-      "total_heard": 0,
-      "total_not_heard": 13,
-      "heard_pct": 0.0,
+      "total_heard": 5,
+      "total_not_heard": 8,
+      "heard_pct": 38.5,
       "govt_scheduled": 5,
-      "govt_heard": 0,
-      "govt_heard_pct": 0.0,
+      "govt_heard": 5,
+      "govt_heard_pct": 100.0,
       "commoner_scheduled": 8,
       "commoner_heard": 0,
       "commoner_heard_pct": 0.0,
       "by_stage": {
         "ORDERS": {
           "scheduled": 13,
-          "heard": 0
+          "heard": 5
         }
       },
       "by_type": {
         "CRL.P": {
           "scheduled": 5,
-          "heard": 0
+          "heard": 5
         },
         "WP": {
           "scheduled": 8,
@@ -34259,7 +34259,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "1",
           "judge_name": "VIJAYKUMAR A. PATIL",
           "court_hall": "2A"
@@ -34270,7 +34270,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "2",
           "judge_name": "VIJAYKUMAR A. PATIL",
           "court_hall": "2A"
@@ -34281,7 +34281,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "3",
           "judge_name": "VIJAYKUMAR A. PATIL",
           "court_hall": "2A"
@@ -34292,7 +34292,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "4",
           "judge_name": "VIJAYKUMAR A. PATIL",
           "court_hall": "2A"
@@ -34303,7 +34303,7 @@
           "subject_code": "",
           "stage": "ORDERS",
           "is_govt_case": true,
-          "was_heard": false,
+          "was_heard": true,
           "sl_no": "5",
           "judge_name": "VIJAYKUMAR A. PATIL",
           "court_hall": "2A"
