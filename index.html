@@ -55,7 +55,7 @@
   .narrative-header { display:flex; align-items:flex-start; justify-content:space-between; gap:12px; margin-bottom:14px; }
   .narrative-heading { font-size: 1.12rem; font-weight: 700; font-style: italic; color: #f8fafc; letter-spacing: 0.01em; }
   .narrative-subtitle { font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.08em; color: #cbd5e1; }
-  .narrative-body { color: #d1d5db; font-size: 0.98rem; line-height: 1.72; font-family: Georgia, "Times New Roman", serif; }
+  .narrative-body { color: #d1d5db; font-size: 0.96rem; line-height: 1.68; font-family: inherit; }
   .narrative-body p + p { margin-top: 12px; }
   .narrative-body strong { color: #f8fafc; font-weight: 700; }
   .donate-link { display:inline-flex; align-items:center; gap:8px; padding:8px 12px; border-radius:999px; border:1px solid #14532d; background:linear-gradient(180deg, #166534, #14532d); color:#ecfdf5; text-decoration:none; font-size:0.82rem; font-weight:600; }
@@ -63,27 +63,43 @@
   .footer-links { display:flex; justify-content:center; gap:10px; flex-wrap:wrap; }
   .footer-links a { color:#93c5fd; text-decoration:none; }
   .footer-links a:hover { text-decoration:underline; }
+  .header-shell { padding-top: 14px; margin-bottom: 24px; }
+  .header-title { font-size: 2rem; font-weight: 800; letter-spacing: 0.01em; line-height: 1.1; }
+  .header-subrow { display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-top: 12px; }
+  .header-controls { display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+  .donate-link { cursor:pointer; }
+  .donate-modal-backdrop { position: fixed; inset: 0; background: rgba(3, 7, 18, 0.72); display: flex; align-items: center; justify-content: center; padding: 20px; z-index: 50; }
+  .donate-modal { width: min(440px, 100%); background: linear-gradient(180deg, #111827, #0f172a); border: 1px solid #334155; border-radius: 16px; box-shadow: 0 24px 80px rgba(0, 0, 0, 0.42); padding: 20px; }
+  .donate-modal-title { font-size: 1rem; font-weight: 700; color: #f8fafc; margin-bottom: 8px; }
+  .donate-modal-copy { color: #cbd5e1; font-size: 0.92rem; line-height: 1.6; margin-bottom: 14px; }
+  .donate-vpa { display:block; padding: 10px 12px; border-radius: 10px; background: #020617; border: 1px solid #1e293b; color: #86efac; font-family: ui-monospace, monospace; font-size: 0.95rem; margin-bottom: 14px; }
+  .donate-modal-actions { display:flex; justify-content:flex-end; gap:10px; flex-wrap:wrap; }
+  .btn-quiet { padding: 8px 12px; border-radius: 10px; border: 1px solid #334155; background: #111827; color: #e5e7eb; cursor:pointer; }
+  .btn-donate-open { display:inline-flex; align-items:center; gap:8px; padding: 8px 12px; border-radius: 10px; border: 1px solid #14532d; background: linear-gradient(180deg, #166534, #14532d); color:#ecfdf5; text-decoration:none; font-weight: 700; }
+  @media (max-width: 640px) { .header-title { font-size: 1.6rem; } .header-subrow { align-items:flex-start; } }
   @media (max-width: 640px) { .stat-num { font-size: 1.5rem; } }
 </style>
 </head>
 <body class="min-h-screen p-4 max-w-7xl mx-auto">
 
 <!-- Header -->
-<header class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 mb-6">
+<header class="header-shell">
   <div>
-    <h1 class="text-2xl font-bold">Karnataka High Court — Transparency Monitor</h1>
+    <h1 class="header-title">Karnataka High Court<br>Transparency Monitor</h1>
   </div>
-  <div class="flex items-center gap-2 flex-wrap" style="justify-content:flex-end;">
-    <label class="text-sm text-gray-400">Date:</label>
-    <select id="dateSelect" class="bg-gray-800 border border-gray-700 rounded-lg px-3 py-1.5 text-sm"></select>
-    <span id="dateStatus" class="pill">Loading calendar…</span>
-    <span id="workingDaysLeft" class="text-sm" style="color:#93c5fd;"></span>
-    <a class="donate-link" href="upi://pay?pa=shivarajms120@okaxis.com&pn=Shivaraj%20M%20S&cu=INR" title="Support via Google Pay / UPI">
+  <div class="header-subrow">
+    <div class="header-controls">
+      <label class="text-sm text-gray-400">Date:</label>
+      <select id="dateSelect" class="bg-gray-800 border border-gray-700 rounded-lg px-3 py-1.5 text-sm"></select>
+      <span id="dateStatus" class="pill">Loading calendar…</span>
+      <span id="workingDaysLeft" class="text-sm" style="color:#93c5fd;"></span>
+    </div>
+    <button type="button" id="donateButton" class="donate-link" title="Support via Google Pay / UPI">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <path d="M12 21c-4.5-3.4-7-6.1-7-9.5A4.5 4.5 0 0 1 9.5 7c1.2 0 2.4.5 3.2 1.5C13.6 7.5 14.8 7 16 7a4.5 4.5 0 0 1 4.5 4.5c0 3.4-2.5 6.1-7 9.5Z"/>
       </svg>
       <span>Donate / GPay</span>
-    </a>
+    </button>
   </div>
 </header>
 
@@ -287,6 +303,18 @@
   <br>
   <br>
 </footer>
+
+<div id="donateModal" class="donate-modal-backdrop hidden" aria-hidden="true">
+  <div class="donate-modal" role="dialog" aria-modal="true" aria-labelledby="donateModalTitle">
+    <div class="donate-modal-title" id="donateModalTitle">Support The Court Brief</div>
+    <div class="donate-modal-copy">Donate to VPA <strong>shivarajms120@okaxis.com</strong> to keep the AI narrative alive.</div>
+    <span class="donate-vpa">shivarajms120@okaxis.com</span>
+    <div class="donate-modal-actions">
+      <button type="button" id="donateClose" class="btn-quiet">Close</button>
+      <a class="btn-donate-open" href="upi://pay?pa=shivarajms120@okaxis.com&pn=Shivaraj%20M%20S&cu=INR">Open GPay / UPI</a>
+    </div>
+  </div>
+</div>
 <script src="app.js?v=20260419a"></script>
 </body>
 </html>

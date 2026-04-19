@@ -54,6 +54,7 @@ currentDate = coerceSelectableDate(currentDate);
 document.addEventListener("DOMContentLoaded", () => {
   populateDateSelect();
   updateDateHeader();
+  setupDonateModal();
   $("#dateSelect").addEventListener("change", (e) => {
     currentDate = e.target.value;
     updateDateHeader();
@@ -548,6 +549,34 @@ function renderCalendarTab() {
       copy: "Special High Court sitting days override holiday or vacation treatment and remain selectable.",
     },
   ]);
+}
+
+function setupDonateModal() {
+  const openButton = $("#donateButton");
+  const modal = $("#donateModal");
+  const closeButton = $("#donateClose");
+  if (!openButton || !modal || !closeButton) return;
+
+  const closeModal = () => {
+    modal.classList.add("hidden");
+    modal.setAttribute("aria-hidden", "true");
+  };
+
+  openButton.addEventListener("click", () => {
+    modal.classList.remove("hidden");
+    modal.setAttribute("aria-hidden", "false");
+  });
+
+  closeButton.addEventListener("click", closeModal);
+  modal.addEventListener("click", (event) => {
+    if (event.target === modal) closeModal();
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && !modal.classList.contains("hidden")) {
+      closeModal();
+    }
+  });
 }
 
 // ── Cases Table ──
