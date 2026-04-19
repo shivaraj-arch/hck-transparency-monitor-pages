@@ -576,11 +576,17 @@ function getBestPerformer(rows) {
     .sort((a, b) => (b.heard_pct - a.heard_pct) || (b.heard - a.heard) || (b.scheduled - a.scheduled))[0] || null;
 }
 
-function getHistoryDays() {
-  return [...historyIndex]
+function getHistoryDays(anchorDate = currentDate) {
+  const sorted = [...historyIndex]
     .filter((day) => day && day.date)
-    .sort((a, b) => a.date.localeCompare(b.date))
-    .slice(-14);
+    .sort((a, b) => a.date.localeCompare(b.date));
+
+  if (!sorted.length) return [];
+
+  // Anchor trend window to the selected date instead of always using latest days.
+  const capped = sorted.filter((day) => day.date <= anchorDate);
+  const source = capped.length ? capped : sorted;
+  return source.slice(-14);
 }
 
 function summarizeBreakdownObject(counter) {
