@@ -34,7 +34,7 @@
   .gap-2 { gap: 8px; } .flex { display: flex; } .flex-wrap { flex-wrap: wrap; }
   .font-mono { font-family: ui-monospace, monospace; } .text-xs { font-size: 0.75rem; } .text-sm { font-size: 0.875rem; }
   .truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 140px; }
-  .hidden { display: none; }
+  .hidden { display: none !important; }
   .insight-list { display: grid; gap: 10px; }
   .insight-item { padding: 12px; border-radius: 10px; background: #0f172a; border: 1px solid #1e293b; }
   .insight-kicker { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; color: #94a3b8; margin-bottom: 4px; }
@@ -69,13 +69,12 @@
   .header-controls { display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
   .donate-link { cursor:pointer; }
   .donate-modal-backdrop { position: fixed; inset: 0; background: rgba(3, 7, 18, 0.72); display: flex; align-items: center; justify-content: center; padding: 20px; z-index: 50; }
-  .donate-modal { width: min(440px, 100%); background: linear-gradient(180deg, #111827, #0f172a); border: 1px solid #334155; border-radius: 16px; box-shadow: 0 24px 80px rgba(0, 0, 0, 0.42); padding: 20px; }
+  .donate-modal { width: min(440px, 100%); background: linear-gradient(180deg, #111827, #0f172a); border: 1px solid #334155; border-radius: 16px; box-shadow: 0 24px 80px rgba(0, 0, 0, 0.42); padding: 20px; position: relative; }
+  .donate-modal-close { position:absolute; top:12px; right:12px; width:32px; height:32px; border-radius:999px; border:1px solid #334155; background:#111827; color:#e5e7eb; cursor:pointer; font-size:1.1rem; line-height:1; }
   .donate-modal-title { font-size: 1rem; font-weight: 700; color: #f8fafc; margin-bottom: 8px; }
   .donate-modal-copy { color: #cbd5e1; font-size: 0.92rem; line-height: 1.6; margin-bottom: 14px; }
   .donate-vpa { display:block; padding: 10px 12px; border-radius: 10px; background: #020617; border: 1px solid #1e293b; color: #86efac; font-family: ui-monospace, monospace; font-size: 0.95rem; margin-bottom: 14px; }
-  .donate-modal-actions { display:flex; justify-content:flex-end; gap:10px; flex-wrap:wrap; }
-  .btn-quiet { padding: 8px 12px; border-radius: 10px; border: 1px solid #334155; background: #111827; color: #e5e7eb; cursor:pointer; }
-  .btn-donate-open { display:inline-flex; align-items:center; gap:8px; padding: 8px 12px; border-radius: 10px; border: 1px solid #14532d; background: linear-gradient(180deg, #166534, #14532d); color:#ecfdf5; text-decoration:none; font-weight: 700; }
+  .donate-vpa a { color: inherit; text-decoration: none; }
   @media (max-width: 640px) { .header-title { font-size: 1.6rem; } .header-subrow { align-items:flex-start; } }
   @media (max-width: 640px) { .stat-num { font-size: 1.5rem; } }
 </style>
@@ -85,7 +84,7 @@
 <!-- Header -->
 <header class="header-shell">
   <div>
-    <h1 class="header-title">Karnataka High Court<br>Transparency Monitor</h1>
+    <h1 class="header-title">Karnataka High Court Transparency Monitor</h1>
   </div>
   <div class="header-subrow">
     <div class="header-controls">
@@ -306,13 +305,10 @@
 
 <div id="donateModal" class="donate-modal-backdrop hidden" aria-hidden="true">
   <div class="donate-modal" role="dialog" aria-modal="true" aria-labelledby="donateModalTitle">
+    <button type="button" id="donateClose" class="donate-modal-close" aria-label="Close donate popup">&times;</button>
     <div class="donate-modal-title" id="donateModalTitle">Support The Court Brief</div>
     <div class="donate-modal-copy">Donate to VPA <strong>shivarajms120@okaxis.com</strong> to keep the AI narrative alive.</div>
-    <span class="donate-vpa">shivarajms120@okaxis.com</span>
-    <div class="donate-modal-actions">
-      <button type="button" id="donateClose" class="btn-quiet">Close</button>
-      <a class="btn-donate-open" href="upi://pay?pa=shivarajms120@okaxis.com&pn=Shivaraj%20M%20S&cu=INR">Open GPay / UPI</a>
-    </div>
+    <span class="donate-vpa"><a href="upi://pay?pa=shivarajms120@okaxis.com&pn=Shivaraj%20M%20S&cu=INR">shivarajms120@okaxis.com</a></span>
   </div>
 </div>
 <script src="app.js?v=20260419a"></script>
