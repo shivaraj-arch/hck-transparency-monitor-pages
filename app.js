@@ -49,8 +49,6 @@ let courtCalendarDays = buildCourtCalendarDays();
 let courtCalendarIndex = new Map(courtCalendarDays.map((day) => [day.date, day]));
 let publishedDates = new Set();
 
-currentDate = coerceSelectableDate(currentDate);
-
 // ── Init ──
 document.addEventListener("DOMContentLoaded", () => {
   populateDateSelect();
@@ -536,7 +534,7 @@ function renderCalendarTab() {
       <div class="insight-item">
         <div class="insight-kicker">${escapeHtml(selectedDay.weekdayLong)}</div>
         <div class="insight-title">${escapeHtml(selectedDay.date)}</div>
-        <div class="insight-copy">${escapeHtml(selectedDay.statusLabel)}</div>
+        <div class="insight-copy">${escapeHtml(getDayStatusLabel(selectedDay))}</div>
       </div>
     `;
   }
@@ -747,15 +745,6 @@ function buildCourtCalendarDays() {
       const isSittingDay = sitting.has(date);
       const isHoliday = reasons.length > 0 && !isSittingDay;
       const isFuture = date > TODAY;
-      const statusLabel = isFuture
-        ? isHoliday
-          ? `Future holiday · ${reasons.join(", ")}`
-          : "Future working day"
-        : isHoliday
-          ? `Holiday · ${reasons.join(", ")}`
-          : isSittingDay
-            ? "Working day · Declared sitting day"
-            : "Working day";
 
       days.push({
         date,
@@ -763,7 +752,6 @@ function buildCourtCalendarDays() {
         isFuture,
         isSittingDay,
         reasons,
-        statusLabel,
         weekdayShort: localDate.toLocaleDateString(undefined, { weekday: "short" }),
         weekdayLong: localDate.toLocaleDateString(undefined, { weekday: "long" }),
       });
@@ -794,7 +782,7 @@ function populateDateSelect() {
         const option = document.createElement("option");
         option.value = day.date;
         option.disabled = !isSelectableDay(day);
-        option.textContent = `${day.date} · ${day.weekdayShort}${day.isFuture ? day.isHoliday ? ` · Future holiday` : " · Future" : day.isHoliday ? ` · ${day.reasons[0]}` : ""}${isPublishedDate(day.date) ? " · Published" : ""}`;
+        option.textContent = `${day.date} · ${day.weekdayShort}${day.reasons.length ? ` · ${day.reasons[0]}` : ""}${isPublishedDate(day.date) ? " · Published" : ""}`;
         group.appendChild(option);
       });
 
@@ -811,10 +799,11 @@ function updateDateHeader() {
   const summary = getCalendarSummary();
 
   if (badge && day) {
-    badge.textContent = day.statusLabel;
-    badge.style.background = day.isFuture ? "#3f3f46" : day.isHoliday ? "#3f1d1d" : "#0f172a";
-    badge.style.borderColor = day.isFuture ? "#52525b" : day.isHoliday ? "#7f1d1d" : "#1d4ed8";
-    badge.style.color = day.isFuture ? "#d4d4d8" : day.isHoliday ? "#fecaca" : "#bfdbfe";
+    const isPublished = isPublishedDate(day.date);
+    badge.textContent = getDayStatusLabel(day);
+    badge.style.background = day.isFuture && !isPublished ? "#3f3f46" : day.isHoliday && !isPublished ? "#3f1d1d" : "#0f172a";
+    badge.style.borderColor = day.isFuture && !isPublished ? "#52525b" : day.isHoliday && !isPublished ? "#7f1d1d" : "#1d4ed8";
+    badge.style.color = day.isFuture && !isPublished ? "#d4d4d8" : day.isHoliday && !isPublished ? "#fecaca" : "#bfdbfe";
   }
 
   if (workingLeft) {
@@ -850,6 +839,25 @@ function getCalendarSummary() {
   };
 }
 
+function getDayStatusLabel(day) {
+  if (!day) return "Unknown date";
+  if (isPublishedDate(day.date)) {
+    return day.reasons.length
+      ? `Working day · Published data available (${day.reasons.join(", ")})`
+      : "Working day · Published data available";
+  }
+  if (day.isFuture) {
+    return day.reasons.length ? `Unavailable · ${day.reasons.join(", ")}` : "Unavailable";
+  }
+  if (day.isHoliday) {
+    return `Holiday · ${day.reasons.join(", ")}`;
+  }
+  if (day.isSittingDay) {
+    return "Working day · Declared sitting day";
+  }
+  return "Working day";
+}
+
 function isPublishedDate(date) {
   return publishedDates.has(date);
 }
@@ -861,8 +869,8 @@ function isSelectableDay(day) {
 function getNoDataMessage() {
   const day = getCalendarDay(currentDate);
   if (!day) return "No data available for this date.";
-  if (day.isFuture) return day.isHoliday ? `Future holiday: ${day.reasons.join(", ")}.` : "Future dates are disabled in the 2026 court calendar.";
-  if (day.isHoliday) return `No cause list expected: ${day.statusLabel}.`;
+  if (day.isFuture) return day.reasons.length ? `Unavailable: ${day.reasons.join(", ")}.` : "Future dates are disabled in the 2026 court calendar.";
+  if (day.isHoliday && !isPublishedDate(day.date)) return `No cause list expected: ${getDayStatusLabel(day)}.`;
   return "No data available for this working day.";
 }
 
