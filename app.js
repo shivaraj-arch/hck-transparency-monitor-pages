@@ -47,6 +47,7 @@ let currentTab = "overview"; // Track current tab
 let charts = {};
 let courtCalendarDays = buildCourtCalendarDays();
 let courtCalendarIndex = new Map(courtCalendarDays.map((day) => [day.date, day]));
+let publishedDates = new Set();
 
 currentDate = coerceSelectableDate(currentDate);
 
@@ -125,6 +126,14 @@ async function loadData() {
     log(`⚠️ History error: ${e.message}`);
     historyIndex = [];
   }
+
+  publishedDates = new Set(historyIndex.map((day) => day.date).filter(Boolean));
+  if (causelistData || eodData) {
+    publishedDates.add(currentDate);
+  }
+  currentDate = coerceSelectableDate(currentDate);
+  populateDateSelect();
+  updateDateHeader();
 
   try {
     flattenCases();
@@ -739,7 +748,9 @@ function buildCourtCalendarDays() {
       const isHoliday = reasons.length > 0 && !isSittingDay;
       const isFuture = date > TODAY;
       const statusLabel = isFuture
-        ? `Future date${isHoliday ? ` · ${reasons.join(", ")}` : ""}`
+        ? isHoliday
+          ? `Future holiday · ${reasons.join(", ")}`
+          : "Future working day"
         : isHoliday
           ? `Holiday · ${reasons.join(", ")}`
           : isSittingDay
@@ -782,8 +793,8 @@ function populateDateSelect() {
       .forEach((day) => {
         const option = document.createElement("option");
         option.value = day.date;
-        option.disabled = day.isHoliday || day.isFuture;
-        option.textContent = `${day.date} · ${day.weekdayShort}${day.isFuture ? " · Future" : day.isHoliday ? ` · ${day.reasons[0]}` : ""}`;
+        option.disabled = !isSelectableDay(day);
+        option.textContent = `${day.date} · ${day.weekdayShort}${day.isFuture ? day.isHoliday ? ` · Future holiday` : " · Future" : day.isHoliday ? ` · ${day.reasons[0]}` : ""}${isPublishedDate(day.date) ? " · Published" : ""}`;
         group.appendChild(option);
       });
 
@@ -817,7 +828,7 @@ function getCalendarDay(date) {
 
 function coerceSelectableDate(date) {
   const target = typeof date === "string" && date ? date : TODAY;
-  const validDays = courtCalendarDays.filter((day) => !day.isHoliday && !day.isFuture);
+  const validDays = courtCalendarDays.filter((day) => isSelectableDay(day));
   const exact = validDays.find((day) => day.date === target);
   if (exact) return exact.date;
 
@@ -839,10 +850,18 @@ function getCalendarSummary() {
   };
 }
 
+function isPublishedDate(date) {
+  return publishedDates.has(date);
+}
+
+function isSelectableDay(day) {
+  return isPublishedDate(day.date) || (!day.isHoliday && !day.isFuture);
+}
+
 function getNoDataMessage() {
   const day = getCalendarDay(currentDate);
   if (!day) return "No data available for this date.";
-  if (day.isFuture) return "Future dates are disabled in the 2026 court calendar.";
+  if (day.isFuture) return day.isHoliday ? `Future holiday: ${day.reasons.join(", ")}.` : "Future dates are disabled in the 2026 court calendar.";
   if (day.isHoliday) return `No cause list expected: ${day.statusLabel}.`;
   return "No data available for this working day.";
 }
