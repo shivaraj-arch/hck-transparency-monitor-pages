@@ -460,8 +460,7 @@ function renderJudges() {
                 <div style="font-size:0.75rem;color:var(--subtle);margin-top:4px;">${row.benchType}</div>
               </td>
               <td style="padding:10px 8px;color:var(--pill-text);">
-                <div>${[...new Set(row.listSummaries.map((summary) => summary.listNo))].sort((a, b) => a - b).join(", ")}</div>
-                <div style="font-size:0.75rem;color:var(--subtle);margin-top:4px;">${escapeHtml(listSummaries)}</div>
+                <div>${escapeHtml(listSummaries)}</div>
               </td>
               <td style="padding:10px 8px;text-align:right;color:#c084fc;font-weight:600;">${row.totalCases}</td>
               <td style="padding:10px 8px;text-align:right;color:${heardColor};font-weight:600;">${heardPct == null ? "—" : `${heardPct}%`} ${row.totalScheduled ? `<span style="display:block;font-size:0.75rem;color:var(--subtle);font-weight:400;">${row.totalHeard}/${row.totalScheduled}</span>` : ""}</td>
@@ -483,7 +482,7 @@ function renderHearings() {
   const stageRows = getStageRows();
   const typeRows = getCaseTypeRows();
   const bestStage = getBestPerformer(stageRows);
-  const bestType = getBestPerformer(typeRows);
+  const bestType = getBestPerformer(typeRows, 20);
   const backlog = getLargestBacklog(stageRows, typeRows);
 
   $("#hearing-best-stage").textContent = bestStage ? `${bestStage.label} ${bestStage.heard_pct}%` : "—";
@@ -590,23 +589,37 @@ function setupDonateModal() {
 }
 
 function setupThemeToggle() {
-  const select = $("#themeSelect");
-  if (!select) return;
+  const toggle = $("#themeToggle");
+  if (!toggle) return;
+
+  const buttons = $$(".mode-btn");
+  if (!buttons.length) return;
 
   const savedTheme = localStorage.getItem(THEME_STORAGE_KEY);
   const initialTheme = savedTheme === "light" ? "light" : "dark";
   applyTheme(initialTheme);
-  select.value = initialTheme;
+  updateThemeToggle(initialTheme);
 
-  select.addEventListener("change", (event) => {
-    const theme = event.target.value === "light" ? "light" : "dark";
-    applyTheme(theme);
-    localStorage.setItem(THEME_STORAGE_KEY, theme);
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const theme = button.dataset.theme === "light" ? "light" : "dark";
+      applyTheme(theme);
+      updateThemeToggle(theme);
+      localStorage.setItem(THEME_STORAGE_KEY, theme);
+    });
   });
 }
 
 function applyTheme(theme) {
   document.body.setAttribute("data-theme", theme);
+}
+
+function updateThemeToggle(theme) {
+  $$(".mode-btn").forEach((button) => {
+    const isActive = button.dataset.theme === theme;
+    button.classList.toggle("active", isActive);
+    button.setAttribute("aria-pressed", isActive ? "true" : "false");
+  });
 }
 
 // ── Cases Table ──
@@ -735,9 +748,9 @@ function getCaseTypeRows() {
   }));
 }
 
-function getBestPerformer(rows) {
+function getBestPerformer(rows, minScheduled = 3) {
   return rows
-    .filter((row) => (row.scheduled || 0) >= 3)
+    .filter((row) => (row.scheduled || 0) >= minScheduled)
     .sort((a, b) => (b.heard_pct - a.heard_pct) || (b.heard - a.heard) || (b.scheduled - a.scheduled))[0] || null;
 }
 

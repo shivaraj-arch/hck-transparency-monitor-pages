@@ -71,6 +71,9 @@
   .tab-btn { padding: 8px 16px; border-radius: 8px; font-size: 0.875rem; font-weight: 500; cursor: pointer; border: none; }
   .tab-btn.active { background: #6366f1; color: #fff; }
   .tab-btn:not(.active) { background: var(--input-bg); color: var(--muted); border: 1px solid var(--input-border); }
+  .mode-toggle { display: inline-flex; align-items: center; border: 1px solid var(--input-border); border-radius: 999px; background: var(--input-bg); padding: 3px; gap: 4px; }
+  .mode-btn { border: none; background: transparent; color: var(--muted); font-size: 0.78rem; font-weight: 600; padding: 7px 12px; border-radius: 999px; cursor: pointer; transition: background 0.2s ease, color 0.2s ease; }
+  .mode-btn.active { background: #6366f1; color: #fff; }
   .text-good { color: #22c55e; } .text-bad { color: #ef4444; } .text-warn { color: #f59e0b; }
   canvas { max-height: 300px; }
   table { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
@@ -122,6 +125,9 @@
   .header-subrow { display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-top: 12px; }
   .header-controls { display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
   .mode-select { min-width: 88px; }
+  .tab-strip { display:flex; flex-wrap:wrap; width:100%; gap:8px; margin-bottom:24px; overflow:visible; }
+  .tab-strip .tab-btn { flex: 1 1 140px; text-align:center; min-width: 0; }
+  section[id^='tab-'] { width:100%; min-width:0; max-height: calc(100dvh - 220px); overflow:auto; padding-right: 4px; }
   .donate-link { cursor:pointer; }
   .donate-modal-backdrop { position: fixed; inset: 0; background: rgba(3, 7, 18, 0.72); display: flex; align-items: center; justify-content: center; padding: 20px; z-index: 50; }
   .donate-modal { width: min(440px, 100%); background: linear-gradient(180deg, #111827, #0f172a); border: 1px solid #334155; border-radius: 16px; box-shadow: 0 24px 80px rgba(0, 0, 0, 0.42); padding: 20px; position: relative; }
@@ -143,11 +149,11 @@
   </div>
   <div class="header-subrow">
     <div class="header-controls">
-      <label class="text-sm text-gray-400" for="themeSelect">Mode:</label>
-      <select id="themeSelect" class="mode-select">
-        <option value="dark">Dark</option>
-        <option value="light">Light</option>
-      </select>
+      <span class="text-sm text-gray-400">Mode:</span>
+      <div id="themeToggle" class="mode-toggle" role="tablist" aria-label="Theme mode toggle">
+        <button type="button" id="themeDark" class="mode-btn" data-theme="dark" aria-pressed="false">Dark</button>
+        <button type="button" id="themeLight" class="mode-btn" data-theme="light" aria-pressed="false">Light</button>
+      </div>
       <label class="text-sm text-gray-400">Date:</label>
       <select id="dateSelect" class="bg-gray-800 border border-gray-700 rounded-lg px-3 py-1.5 text-sm"></select>
       <span id="dateStatus" class="pill">Loading calendar…</span>
@@ -163,7 +169,7 @@
 </header>
 
 <!-- Tabs -->
-<nav class="flex gap-2 mb-6 overflow-x-auto pb-2">
+<nav class="tab-strip">
   <button class="tab-btn active" data-tab="overview">Overview</button>
   <button class="tab-btn" data-tab="judges">Judges</button>
   <button class="tab-btn" data-tab="hearings">Hearings</button>
@@ -253,7 +259,7 @@
     </div>
     <div class="card text-center">
       <div class="stat-num text-good" id="hearing-best-type">—</div>
-      <div class="stat-label">Top Case Type</div>
+      <div class="stat-label">Top Case Type Heard</div>
     </div>
     <div class="card text-center">
       <div class="stat-num text-warn" id="hearing-backlog">—</div>
@@ -371,6 +377,6 @@
     <span class="donate-vpa"><a href="upi://pay?pa=shivarajms120@okaxis.com&pn=Shivaraj%20M%20S&cu=INR">shivarajms120@okaxis.com</a></span>
   </div>
 </div>
-<script src="app.js?v=20260419a"></script>
+<script src="app.js?v=20260502a"></script>
 </body>
 </html>
