@@ -8,6 +8,7 @@ const $ = (sel) => document.querySelector(sel);
 const $$ = (sel) => [...document.querySelectorAll(sel)];
 
 const TODAY = new Date().toISOString().slice(0, 10);
+const THEME_STORAGE_KEY = "hck-theme";
 const CALENDAR_2026 = {
   year: 2026,
   generalHolidays: [
@@ -51,6 +52,7 @@ let publishedDates = new Set();
 
 // ── Init ──
 document.addEventListener("DOMContentLoaded", () => {
+  setupThemeToggle();
   populateDateSelect();
   updateDateHeader();
   setupDonateModal();
@@ -360,6 +362,7 @@ function renderJudges() {
     const groupedJudges = new Map();
     for (const judge of causelistData.judges || []) {
       const judgeNames = judge.judge_names?.length ? judge.judge_names : [judge.judge_name || "Unknown"];
+      const reportJudgeName = judge.judge_name || judgeNames.join(" & ");
       const judgeKey = `${judge.court_hall || "?"}::${judgeNames.join(" & ")}`;
       if (!groupedJudges.has(judgeKey)) {
         groupedJudges.set(judgeKey, {
@@ -382,12 +385,12 @@ function renderJudges() {
         totalCases,
       });
 
-      const jr = eodData?.judge_reports?.find((report) =>
+      const judgeReports = (eodData?.judge_reports || []).filter((report) =>
         report.court_hall === judge.court_hall &&
-        report.judge_name === judge.judge_name &&
-        report.total_scheduled === totalCases
+        report.judge_name === reportJudgeName
       );
-      if (jr) {
+
+      for (const jr of judgeReports) {
         groupedJudge.totalHeard += jr.total_heard || 0;
         groupedJudge.totalScheduled += jr.total_scheduled || 0;
         const stage = summarizeBreakdownObject(jr.by_stage);
@@ -413,10 +416,10 @@ function renderJudges() {
     const card = document.createElement("div");
     card.className = "card";
     const summary = document.createElement("div");
-    summary.style.cssText = "display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:12px;font-size:0.8rem;color:#94a3b8;";
+    summary.style.cssText = "display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:12px;font-size:0.8rem;color:var(--subtle);";
     summary.innerHTML = `
-      <span>Judge rows total: <b style="color:#e5e7eb;">${listedTotal}</b></span>
-      <span>Scheduled total: <b style="color:#e5e7eb;">${scheduledTotal}</b></span>
+      <span>Judge rows total: <b style="color:var(--title);">${listedTotal}</b></span>
+      <span>Scheduled total: <b style="color:var(--title);">${scheduledTotal}</b></span>
       <span>Reconciled: <b style="color:${totalsMatch ? "#22c55e" : "#ef4444"};">${totalsMatch ? "Yes" : "No"}</b></span>
     `;
     card.appendChild(summary);
@@ -425,12 +428,12 @@ function renderJudges() {
     table.innerHTML = `
       <thead style="border-bottom:2px solid #374151;">
         <tr style="text-align:left;">
-          <th style="padding:10px 8px;color:#9ca3af;">Hall</th>
-          <th style="padding:10px 8px;color:#9ca3af;">Judge</th>
-          <th style="padding:10px 8px;color:#9ca3af;">Lists</th>
-          <th style="padding:10px 8px;color:#9ca3af;text-align:right;">Listed</th>
-          <th style="padding:10px 8px;color:#9ca3af;text-align:right;">Heard</th>
-          <th style="padding:10px 8px;color:#9ca3af;">Top Stage</th>
+          <th style="padding:10px 8px;color:var(--muted);">Hall</th>
+          <th style="padding:10px 8px;color:var(--muted);">Judge</th>
+          <th style="padding:10px 8px;color:var(--muted);">Lists</th>
+          <th style="padding:10px 8px;color:var(--muted);text-align:right;">Listed</th>
+          <th style="padding:10px 8px;color:var(--muted);text-align:right;">Heard</th>
+          <th style="padding:10px 8px;color:var(--muted);">Top Stage</th>
         </tr>
       </thead>
       <tbody>
@@ -451,18 +454,18 @@ function renderJudges() {
             .join(" · ");
           return `
             <tr style="border-bottom:1px solid rgba(31,41,55,0.7);vertical-align:top;">
-              <td style="padding:10px 8px;color:#e5e7eb;font-weight:600;">${escapeHtml(row.hall)}</td>
+              <td style="padding:10px 8px;color:var(--title);font-weight:600;">${escapeHtml(row.hall)}</td>
               <td style="padding:10px 8px;">
-                <div style="color:#e5e7eb;font-weight:600;">${escapeHtml(row.judgeNames.join(", "))}</div>
-                <div style="font-size:0.75rem;color:#94a3b8;margin-top:4px;">${row.benchType}</div>
+                <div style="color:var(--title);font-weight:600;">${escapeHtml(row.judgeNames.join(", "))}</div>
+                <div style="font-size:0.75rem;color:var(--subtle);margin-top:4px;">${row.benchType}</div>
               </td>
-              <td style="padding:10px 8px;color:#cbd5e1;">
+              <td style="padding:10px 8px;color:var(--pill-text);">
                 <div>${[...new Set(row.listSummaries.map((summary) => summary.listNo))].sort((a, b) => a - b).join(", ")}</div>
-                <div style="font-size:0.75rem;color:#94a3b8;margin-top:4px;">${escapeHtml(listSummaries)}</div>
+                <div style="font-size:0.75rem;color:var(--subtle);margin-top:4px;">${escapeHtml(listSummaries)}</div>
               </td>
               <td style="padding:10px 8px;text-align:right;color:#c084fc;font-weight:600;">${row.totalCases}</td>
-              <td style="padding:10px 8px;text-align:right;color:${heardColor};font-weight:600;">${heardPct == null ? "—" : `${heardPct}%`} ${row.totalScheduled ? `<span style="display:block;font-size:0.75rem;color:#94a3b8;font-weight:400;">${row.totalHeard}/${row.totalScheduled}</span>` : ""}</td>
-              <td style="padding:10px 8px;color:#cbd5e1;">${row.topStage ? `${escapeHtml(row.topStage.label)} <span style="color:#94a3b8;">(${row.topStage.heard_pct}%)</span>` : "—"}</td>
+              <td style="padding:10px 8px;text-align:right;color:${heardColor};font-weight:600;">${heardPct == null ? "—" : `${heardPct}%`} ${row.totalScheduled ? `<span style="display:block;font-size:0.75rem;color:var(--subtle);font-weight:400;">${row.totalHeard}/${row.totalScheduled}</span>` : ""}</td>
+              <td style="padding:10px 8px;color:var(--pill-text);">${row.topStage ? `${escapeHtml(row.topStage.label)} <span style="color:var(--subtle);">(${row.topStage.heard_pct}%)</span>` : "—"}</td>
             </tr>`;
         }).join("")}
       </tbody>
@@ -586,6 +589,26 @@ function setupDonateModal() {
   });
 }
 
+function setupThemeToggle() {
+  const select = $("#themeSelect");
+  if (!select) return;
+
+  const savedTheme = localStorage.getItem(THEME_STORAGE_KEY);
+  const initialTheme = savedTheme === "light" ? "light" : "dark";
+  applyTheme(initialTheme);
+  select.value = initialTheme;
+
+  select.addEventListener("change", (event) => {
+    const theme = event.target.value === "light" ? "light" : "dark";
+    applyTheme(theme);
+    localStorage.setItem(THEME_STORAGE_KEY, theme);
+  });
+}
+
+function applyTheme(theme) {
+  document.body.setAttribute("data-theme", theme);
+}
+
 // ── Cases Table ──
 function renderCasesTable() {
   const tbody = $("#casesTable");
@@ -624,7 +647,7 @@ function renderCasesTable() {
   if (!filtered.length) {
     const hasCaseData = allCases.length > 0;
     const emptyMessage = hasCaseData ? "No cases match the current search/filter." : getNoDataMessage();
-    tbody.innerHTML = `<tr><td colspan="11" class="py-3 text-sm" style="color:#94a3b8;">${escapeHtml(emptyMessage)}</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="11" class="py-3 text-sm" style="color:var(--subtle);">${escapeHtml(emptyMessage)}</td></tr>`;
     return;
   }
 
@@ -801,9 +824,9 @@ function updateDateHeader() {
   if (badge && day) {
     const isPublished = isPublishedDate(day.date);
     badge.textContent = getDayStatusLabel(day);
-    badge.style.background = day.isFuture && !isPublished ? "#3f3f46" : day.isHoliday && !isPublished ? "#3f1d1d" : "#0f172a";
-    badge.style.borderColor = day.isFuture && !isPublished ? "#52525b" : day.isHoliday && !isPublished ? "#7f1d1d" : "#1d4ed8";
-    badge.style.color = day.isFuture && !isPublished ? "#d4d4d8" : day.isHoliday && !isPublished ? "#fecaca" : "#bfdbfe";
+    badge.style.background = day.isFuture && !isPublished ? "var(--badge-disabled-bg)" : day.isHoliday && !isPublished ? "var(--badge-holiday-bg)" : "var(--badge-working-bg)";
+    badge.style.borderColor = day.isFuture && !isPublished ? "var(--badge-disabled-border)" : day.isHoliday && !isPublished ? "var(--badge-holiday-border)" : "var(--badge-working-border)";
+    badge.style.color = day.isFuture && !isPublished ? "var(--badge-disabled-text)" : day.isHoliday && !isPublished ? "var(--badge-holiday-text)" : "var(--badge-working-text)";
   }
 
   if (workingLeft) {
