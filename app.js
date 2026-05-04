@@ -85,35 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 async function loadData() {
-  const base = `data/${currentDate}`;
   const log = (msg) => console.log(msg);
-  
-  try {
-    log(`⏳ Loading ${base}/causelist.json ...`);
-    const clResp = await fetch(`${base}/causelist.json`);
-    log(`📌 Fetch status: ${clResp.status}`);
-    if (clResp.ok) {
-      causelistData = await clResp.json();
-      if (!causelistData || !causelistData.judges) {
-        throw new Error("Invalid causelist structure: missing judges array");
-      }
-    } else {
-      causelistData = null;
-      log(`⚠️ Causelist fetch failed: ${clResp.status}`);
-    }
-  } catch (e) { 
-    log(`❌ Causelist error: ${e.message}`);
-    causelistData = null;
-  }
-
-  try {
-    const eodResp = await fetch(`${base}/eod_report.json`);
-    if (eodResp.ok) eodData = await eodResp.json();
-    else eodData = null;
-  } catch (e) { 
-    log(`⚠️ EOD error: ${e.message}`);
-    eodData = null;
-  }
 
   try {
     const historyResp = await fetch(`data/index.json`);
@@ -129,11 +101,42 @@ async function loadData() {
   }
 
   publishedDates = new Set(historyIndex.map((day) => day.date).filter(Boolean));
+  currentDate = hasResolvedInitialDate ? coerceSelectableDate(currentDate) : getDefaultDate();
+  hasResolvedInitialDate = true;
+
+  const base = `data/${currentDate}`;
+
+  try {
+    log(`⏳ Loading ${base}/causelist.json ...`);
+    const clResp = await fetch(`${base}/causelist.json`);
+    log(`📌 Fetch status: ${clResp.status}`);
+    if (clResp.ok) {
+      causelistData = await clResp.json();
+      if (!causelistData || !causelistData.judges) {
+        throw new Error("Invalid causelist structure: missing judges array");
+      }
+    } else {
+      causelistData = null;
+      log(`⚠️ Causelist fetch failed: ${clResp.status}`);
+    }
+  } catch (e) {
+    log(`❌ Causelist error: ${e.message}`);
+    causelistData = null;
+  }
+
+  try {
+    const eodResp = await fetch(`${base}/eod_report.json`);
+    if (eodResp.ok) eodData = await eodResp.json();
+    else eodData = null;
+  } catch (e) {
+    log(`⚠️ EOD error: ${e.message}`);
+    eodData = null;
+  }
+
   if (causelistData || eodData) {
     publishedDates.add(currentDate);
   }
-  currentDate = hasResolvedInitialDate ? coerceSelectableDate(currentDate) : getDefaultDate();
-  hasResolvedInitialDate = true;
+
   populateDateSelect();
   updateDateHeader();
 
