@@ -49,6 +49,7 @@ let charts = {};
 let courtCalendarDays = buildCourtCalendarDays();
 let courtCalendarIndex = new Map(courtCalendarDays.map((day) => [day.date, day]));
 let publishedDates = new Set();
+let hasResolvedInitialDate = false;
 
 // ── Init ──
 document.addEventListener("DOMContentLoaded", () => {
@@ -131,7 +132,8 @@ async function loadData() {
   if (causelistData || eodData) {
     publishedDates.add(currentDate);
   }
-  currentDate = coerceSelectableDate(currentDate);
+  currentDate = hasResolvedInitialDate ? coerceSelectableDate(currentDate) : getDefaultDate();
+  hasResolvedInitialDate = true;
   populateDateSelect();
   updateDateHeader();
 
@@ -859,6 +861,11 @@ function coerceSelectableDate(date) {
 
   const previous = validDays.filter((day) => day.date <= target).pop();
   return previous?.date || validDays[validDays.length - 1]?.date || target;
+}
+
+function getDefaultDate() {
+  const latestPublishedDate = [...publishedDates].sort((a, b) => a.localeCompare(b)).pop();
+  return latestPublishedDate || coerceSelectableDate(TODAY);
 }
 
 function getCalendarSummary() {
