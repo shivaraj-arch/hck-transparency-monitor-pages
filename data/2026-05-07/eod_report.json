@@ -1,0 +1,3060 @@
+{
+  "summary": {
+    "date": "2026-05-07",
+    "total_judges": 6,
+    "total_scheduled": 235,
+    "total_heard": 170,
+    "govt_scheduled": 81,
+    "govt_heard": 52,
+    "commoner_scheduled": 154,
+    "commoner_heard": 118,
+    "by_judge": [
+      {
+        "judge": "SACHIN SHANKAR MAGADUM",
+        "hall": "9",
+        "scheduled": 4,
+        "heard": 2,
+        "heard_pct": 50.0,
+        "govt_heard_pct": 50.0,
+        "commoner_heard_pct": 50.0
+      },
+      {
+        "judge": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+        "hall": "9",
+        "scheduled": 43,
+        "heard": 35,
+        "heard_pct": 81.4,
+        "govt_heard_pct": 100.0,
+        "commoner_heard_pct": 80.5
+      },
+      {
+        "judge": "S VISHWAJITH SHETTY",
+        "hall": "10",
+        "scheduled": 41,
+        "heard": 27,
+        "heard_pct": 65.9,
+        "govt_heard_pct": 66.7,
+        "commoner_heard_pct": 65.7
+      },
+      {
+        "judge": "S VISHWAJITH SHETTY & RAJESH RAI K",
+        "hall": "10",
+        "scheduled": 1,
+        "heard": 1,
+        "heard_pct": 100.0,
+        "govt_heard_pct": 0.0,
+        "commoner_heard_pct": 100.0
+      },
+      {
+        "judge": "S VISHWAJITH SHETTY",
+        "hall": "10",
+        "scheduled": 70,
+        "heard": 56,
+        "heard_pct": 80.0,
+        "govt_heard_pct": 66.7,
+        "commoner_heard_pct": 81.2
+      },
+      {
+        "judge": "V SRISHANANDA",
+        "hall": "11",
+        "scheduled": 76,
+        "heard": 49,
+        "heard_pct": 64.5,
+        "govt_heard_pct": 63.1,
+        "commoner_heard_pct": 72.7
+      }
+    ],
+    "by_stage": [
+      {
+        "label": "UNKNOWN",
+        "scheduled": 87,
+        "heard": 57,
+        "heard_pct": 65.5
+      },
+      {
+        "label": "PRELIMINARY HEARING",
+        "scheduled": 65,
+        "heard": 46,
+        "heard_pct": 70.8
+      },
+      {
+        "label": "ORDERS",
+        "scheduled": 63,
+        "heard": 53,
+        "heard_pct": 84.1
+      },
+      {
+        "label": "ADMISSION",
+        "scheduled": 18,
+        "heard": 12,
+        "heard_pct": 66.7
+      },
+      {
+        "label": "FINAL HEARING",
+        "scheduled": 2,
+        "heard": 2,
+        "heard_pct": 100.0
+      }
+    ],
+    "by_case_type": [
+      {
+        "label": "WP",
+        "scheduled": 120,
+        "heard": 90,
+        "heard_pct": 75.0
+      },
+      {
+        "label": "CRL.P",
+        "scheduled": 60,
+        "heard": 38,
+        "heard_pct": 63.3
+      },
+      {
+        "label": "MFA",
+        "scheduled": 10,
+        "heard": 9,
+        "heard_pct": 90.0
+      },
+      {
+        "label": "WA",
+        "scheduled": 10,
+        "heard": 8,
+        "heard_pct": 80.0
+      },
+      {
+        "label": "CRL.A",
+        "scheduled": 10,
+        "heard": 7,
+        "heard_pct": 70.0
+      },
+      {
+        "label": "RFA",
+        "scheduled": 7,
+        "heard": 5,
+        "heard_pct": 71.4
+      },
+      {
+        "label": "COMAP",
+        "scheduled": 6,
+        "heard": 5,
+        "heard_pct": 83.3
+      },
+      {
+        "label": "CRL.RP",
+        "scheduled": 6,
+        "heard": 3,
+        "heard_pct": 50.0
+      },
+      {
+        "label": "RSA",
+        "scheduled": 2,
+        "heard": 2,
+        "heard_pct": 100.0
+      },
+      {
+        "label": "CRP",
+        "scheduled": 1,
+        "heard": 1,
+        "heard_pct": 100.0
+      },
+      {
+        "label": "RERA.A",
+        "scheduled": 1,
+        "heard": 1,
+        "heard_pct": 100.0
+      },
+      {
+        "label": "WPHC",
+        "scheduled": 1,
+        "heard": 1,
+        "heard_pct": 100.0
+      },
+      {
+        "label": "CCC",
+        "scheduled": 1,
+        "heard": 0,
+        "heard_pct": 0.0
+      }
+    ],
+    "heard_pct": 72.3,
+    "govt_heard_pct": 64.2,
+    "commoner_heard_pct": 76.6,
+    "bias_gap_pct": -12.4
+  },
+  "narrative": "On 7 May 2026, the Karnataka High Court heard 170 of 235 scheduled matters, for an overall hearing rate of **72.3%**. That is below the **81.9%** recorded on 5 May, though today’s list was much larger at 235 matters versus 116. Relative to the broader, heavier boards seen on 30 April (**44.3%**) and 28 April (**40.3%**), today’s disposal pace was substantially stronger.\n\nJudge-wise, the strongest substantial performance came from **Sachin Shankar Magadum & Rajesh Rai K**, who heard **35 of 43 matters (81.4%)**, the best rate among benches with meaningful volume. One **S Vishwajith Shetty** board also performed strongly at **56 of 70 (80.0%)**, while his other 41-case board cleared **27 (65.9%)**. **V Srishananda** heard **49 of 76 (64.5%)**, handling the day’s largest single load but at a more moderate conversion rate. The single-case **S Vishwajith Shetty & Rajesh Rai K** board was technically at **100%**, but on negligible volume. Compared with 5 May, both the Magadum-Rajesh Rai K bench and the main Shetty board were somewhat less efficient, though both still remained among the better-performing boards.\n\nStage-wise, **ORDERS** was the clearest conversion category, with **53 of 63 matters heard (84.1%)**, outperforming **PRELIMINARY HEARING** at **70.8%**, **ADMISSION** at **66.7%**, and **UNKNOWN** at **65.5%**. That continues the pattern from 5 May, when Orders was also the best-converting major stage at **93.3%**.\n\nCase-type distribution was led by **WP** matters, which made up **120 of 235 listings** and delivered **90 hearings (75.0%)**, giving the largest contribution to total clearance. **CRL.P** formed the second-largest block at **60 scheduled**, but converted less efficiently at **63.3%**, leaving the biggest residual backlog in absolute terms. Smaller categories such as **MFA (90.0%)**, **WA (80.0%)**, and **COMAP (83.3%)** converted well, while **CRL.RP** remained weak at **50.0%**, broadly in line with its modest conversion pattern on 5 May (**53.8%**).",
+  "narrative_format": "markdown",
+  "narrative_model": "gpt-5.4",
+  "judge_reports": [
+    {
+      "date": "2026-05-07",
+      "court_hall": "9",
+      "judge_name": "SACHIN SHANKAR MAGADUM",
+      "total_scheduled": 4,
+      "total_heard": 2,
+      "total_not_heard": 2,
+      "heard_pct": 50.0,
+      "govt_scheduled": 2,
+      "govt_heard": 1,
+      "govt_heard_pct": 50.0,
+      "commoner_scheduled": 2,
+      "commoner_heard": 1,
+      "commoner_heard_pct": 50.0,
+      "by_stage": {
+        "UNKNOWN": {
+          "scheduled": 4,
+          "heard": 2
+        }
+      },
+      "by_type": {
+        "WP": {
+          "scheduled": 4,
+          "heard": 2
+        }
+      },
+      "cases": [
+        {
+          "case_number": "WP 11652/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "1",
+          "judge_name": "SACHIN SHANKAR MAGADUM",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 11655/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "2",
+          "judge_name": "SACHIN SHANKAR MAGADUM",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 1465/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "3",
+          "judge_name": "SACHIN SHANKAR MAGADUM",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 6839/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "4",
+          "judge_name": "SACHIN SHANKAR MAGADUM",
+          "court_hall": "9"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-07",
+      "court_hall": "9",
+      "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+      "total_scheduled": 43,
+      "total_heard": 35,
+      "total_not_heard": 8,
+      "heard_pct": 81.4,
+      "govt_scheduled": 2,
+      "govt_heard": 2,
+      "govt_heard_pct": 100.0,
+      "commoner_scheduled": 41,
+      "commoner_heard": 33,
+      "commoner_heard_pct": 80.5,
+      "by_stage": {
+        "UNKNOWN": {
+          "scheduled": 3,
+          "heard": 1
+        },
+        "PRELIMINARY HEARING": {
+          "scheduled": 2,
+          "heard": 2
+        },
+        "ADMISSION": {
+          "scheduled": 5,
+          "heard": 3
+        },
+        "ORDERS": {
+          "scheduled": 33,
+          "heard": 29
+        }
+      },
+      "by_type": {
+        "WA": {
+          "scheduled": 9,
+          "heard": 7
+        },
+        "COMAP": {
+          "scheduled": 6,
+          "heard": 5
+        },
+        "WP": {
+          "scheduled": 11,
+          "heard": 11
+        },
+        "MFA": {
+          "scheduled": 6,
+          "heard": 5
+        },
+        "RERA.A": {
+          "scheduled": 1,
+          "heard": 1
+        },
+        "RFA": {
+          "scheduled": 3,
+          "heard": 2
+        },
+        "WPHC": {
+          "scheduled": 1,
+          "heard": 1
+        },
+        "CCC": {
+          "scheduled": 1,
+          "heard": 0
+        },
+        "CRL.A": {
+          "scheduled": 5,
+          "heard": 3
+        }
+      },
+      "cases": [
+        {
+          "case_number": "WA 1385/2026",
+          "case_type": "WA",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "1",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WA 1388/2026",
+          "case_type": "WA",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "1",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "COMAP 265/2026",
+          "case_type": "COMAP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "2",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 13511/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "3",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 14745/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "4",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "MFA 4991/2024",
+          "case_type": "MFA",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "5",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "MFA 8718/2023",
+          "case_type": "MFA",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "5",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "RERA.A 19/2026",
+          "case_type": "RERA.A",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "6",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "RFA 242/2026",
+          "case_type": "RFA",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "7",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "RFA 1024/2026",
+          "case_type": "RFA",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "8",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WPHC 49/2026",
+          "case_type": "WPHC",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "9",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "COMAP 267/2026",
+          "case_type": "COMAP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "10",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "COMAP 268/2026",
+          "case_type": "COMAP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "11",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "COMAP 269/2026",
+          "case_type": "COMAP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "12",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "COMAP 270/2026",
+          "case_type": "COMAP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "13",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "CCC 570/2026",
+          "case_type": "CCC",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "14",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "CRL.A 775/2026",
+          "case_type": "CRL.A",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "15",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "CRL.A 748/2026",
+          "case_type": "CRL.A",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "15",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "CRL.A 812/2026",
+          "case_type": "CRL.A",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "16",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "CRL.A 822/2026",
+          "case_type": "CRL.A",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "17",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "RFA 1023/2026",
+          "case_type": "RFA",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "18",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WA 1396/2026",
+          "case_type": "WA",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "19",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WA 1401/2026",
+          "case_type": "WA",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "20",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WA 1402/2026",
+          "case_type": "WA",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "21",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WA 1403/2026",
+          "case_type": "WA",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "22",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WA 1404/2026",
+          "case_type": "WA",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "23",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "MFA 3247/2026",
+          "case_type": "MFA",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "24",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "MFA 3333/2026",
+          "case_type": "MFA",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "25",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 14824/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "26",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 14834/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "27",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 14846/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "28",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 14850/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "29",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "MFA 1978/2023",
+          "case_type": "MFA",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "30",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "CRL.A 157/2025",
+          "case_type": "CRL.A",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "31",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "COMAP 149/2026",
+          "case_type": "COMAP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "32",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WA 976/2026",
+          "case_type": "WA",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "33",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WA 1397/2026",
+          "case_type": "WA",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "34",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "MFA 1905/2026",
+          "case_type": "MFA",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "35",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 14636/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "36",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 14689/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "37",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 14823/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "38",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 14826/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "39",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 14841/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "40",
+          "judge_name": "SACHIN SHANKAR MAGADUM & RAJESH RAI K",
+          "court_hall": "9"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-07",
+      "court_hall": "10",
+      "judge_name": "S VISHWAJITH SHETTY",
+      "total_scheduled": 41,
+      "total_heard": 27,
+      "total_not_heard": 14,
+      "heard_pct": 65.9,
+      "govt_scheduled": 6,
+      "govt_heard": 4,
+      "govt_heard_pct": 66.7,
+      "commoner_scheduled": 35,
+      "commoner_heard": 23,
+      "commoner_heard_pct": 65.7,
+      "by_stage": {
+        "UNKNOWN": {
+          "scheduled": 10,
+          "heard": 9
+        },
+        "ORDERS": {
+          "scheduled": 4,
+          "heard": 1
+        },
+        "PRELIMINARY HEARING": {
+          "scheduled": 25,
+          "heard": 15
+        },
+        "ADMISSION": {
+          "scheduled": 2,
+          "heard": 2
+        }
+      },
+      "by_type": {
+        "CRP": {
+          "scheduled": 1,
+          "heard": 1
+        },
+        "MFA": {
+          "scheduled": 3,
+          "heard": 3
+        },
+        "RSA": {
+          "scheduled": 2,
+          "heard": 2
+        },
+        "WP": {
+          "scheduled": 34,
+          "heard": 20
+        },
+        "RFA": {
+          "scheduled": 1,
+          "heard": 1
+        }
+      },
+      "cases": [
+        {
+          "case_number": "CRP 463/2026",
+          "case_type": "CRP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "1",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "MFA 3236/2026",
+          "case_type": "MFA",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "2",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "RSA 848/2026",
+          "case_type": "RSA",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "3",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "RSA 849/2026",
+          "case_type": "RSA",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "4",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14460/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "5",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14702/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "6",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14781/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "7",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14782/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "8",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 12857/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "9",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14068/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "10",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 13670/2025",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "11",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 11458/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "12",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "MFA 3214/2026",
+          "case_type": "MFA",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "13",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14780/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "14",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 11155/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "15",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14012/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "16",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14021/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "17",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14462/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "18",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14483/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "19",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14545/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "20",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14588/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "21",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14606/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "22",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14762/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "23",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14763/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "24",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14764/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "25",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14769/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "26",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14773/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "27",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14775/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "28",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14776/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "29",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14777/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "30",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14778/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "31",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14779/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "32",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14783/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "33",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14784/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "34",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14785/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "35",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14786/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "36",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14788/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "37",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14791/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "38",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14793/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "39",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "MFA 3240/2026",
+          "case_type": "MFA",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "40",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "RFA 698/2026",
+          "case_type": "RFA",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "41",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-07",
+      "court_hall": "10",
+      "judge_name": "S VISHWAJITH SHETTY & RAJESH RAI K",
+      "total_scheduled": 1,
+      "total_heard": 1,
+      "total_not_heard": 0,
+      "heard_pct": 100.0,
+      "govt_scheduled": 0,
+      "govt_heard": 0,
+      "govt_heard_pct": 0.0,
+      "commoner_scheduled": 1,
+      "commoner_heard": 1,
+      "commoner_heard_pct": 100.0,
+      "by_stage": {
+        "UNKNOWN": {
+          "scheduled": 1,
+          "heard": 1
+        }
+      },
+      "by_type": {
+        "WA": {
+          "scheduled": 1,
+          "heard": 1
+        }
+      },
+      "cases": [
+        {
+          "case_number": "WA 1400/2026",
+          "case_type": "WA",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "1",
+          "judge_name": "S VISHWAJITH SHETTY & RAJESH RAI K",
+          "court_hall": "10"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-07",
+      "court_hall": "10",
+      "judge_name": "S VISHWAJITH SHETTY",
+      "total_scheduled": 70,
+      "total_heard": 56,
+      "total_not_heard": 14,
+      "heard_pct": 80.0,
+      "govt_scheduled": 6,
+      "govt_heard": 4,
+      "govt_heard_pct": 66.7,
+      "commoner_scheduled": 64,
+      "commoner_heard": 52,
+      "commoner_heard_pct": 81.2,
+      "by_stage": {
+        "UNKNOWN": {
+          "scheduled": 29,
+          "heard": 24
+        },
+        "ORDERS": {
+          "scheduled": 3,
+          "heard": 3
+        },
+        "PRELIMINARY HEARING": {
+          "scheduled": 38,
+          "heard": 29
+        }
+      },
+      "by_type": {
+        "MFA": {
+          "scheduled": 1,
+          "heard": 1
+        },
+        "RFA": {
+          "scheduled": 3,
+          "heard": 2
+        },
+        "WP": {
+          "scheduled": 66,
+          "heard": 53
+        }
+      },
+      "cases": [
+        {
+          "case_number": "MFA 3320/2026",
+          "case_type": "MFA",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "1",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "RFA 1021/2026",
+          "case_type": "RFA",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "2",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "RFA 1022/2026",
+          "case_type": "RFA",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "3",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "RFA 1025/2026",
+          "case_type": "RFA",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "4",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14805/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "5",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14806/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "6",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14807/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "7",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14808/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "8",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14811/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "9",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14812/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "10",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14816/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "11",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14836/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "12",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14842/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "13",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14848/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "14",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14851/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "15",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14853/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "16",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14854/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "17",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14858/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "18",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14861/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "19",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14863/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "20",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14864/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "21",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14865/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "22",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14867/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "23",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14869/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "24",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14870/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "25",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14871/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "26",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14873/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "27",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14238/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "28",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14695/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "29",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14800/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "30",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14804/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "31",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14874/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "33",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 12570/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "34",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14706/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "35",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14795/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "36",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14796/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "37",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14798/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "38",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14801/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "39",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14802/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "40",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14803/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "41",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14809/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "42",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14813/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "43",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14814/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "44",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14815/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "45",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14825/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "46",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14827/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "47",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14828/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "48",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14829/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "49",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14830/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "50",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14831/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "51",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14832/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "52",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14833/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "53",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14835/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "54",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14837/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "55",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14839/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "56",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14840/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "57",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14843/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "58",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14844/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "59",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14845/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "60",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14847/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "61",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14849/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "62",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14852/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "63",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14855/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "64",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14856/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "65",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14857/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "66",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14859/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "67",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14860/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "68",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14862/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "69",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14866/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "70",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 14868/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "71",
+          "judge_name": "S VISHWAJITH SHETTY",
+          "court_hall": "10"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-07",
+      "court_hall": "11",
+      "judge_name": "V SRISHANANDA",
+      "total_scheduled": 76,
+      "total_heard": 49,
+      "total_not_heard": 27,
+      "heard_pct": 64.5,
+      "govt_scheduled": 65,
+      "govt_heard": 41,
+      "govt_heard_pct": 63.1,
+      "commoner_scheduled": 11,
+      "commoner_heard": 8,
+      "commoner_heard_pct": 72.7,
+      "by_stage": {
+        "UNKNOWN": {
+          "scheduled": 40,
+          "heard": 20
+        },
+        "ORDERS": {
+          "scheduled": 23,
+          "heard": 20
+        },
+        "ADMISSION": {
+          "scheduled": 11,
+          "heard": 7
+        },
+        "FINAL HEARING": {
+          "scheduled": 2,
+          "heard": 2
+        }
+      },
+      "by_type": {
+        "CRL.A": {
+          "scheduled": 5,
+          "heard": 4
+        },
+        "CRL.P": {
+          "scheduled": 60,
+          "heard": 38
+        },
+        "CRL.RP": {
+          "scheduled": 6,
+          "heard": 3
+        },
+        "WP": {
+          "scheduled": 5,
+          "heard": 4
+        }
+      },
+      "cases": [
+        {
+          "case_number": "CRL.A 813/2026",
+          "case_type": "CRL.A",
+          "subject_code": "C",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "1",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6840/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "2",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6841/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "3",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6867/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "4",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6871/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "5",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6874/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "6",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6896/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "7",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6907/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "8",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6915/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "9",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6925/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "10",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6926/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "11",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6928/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "12",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6931/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "13",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6937/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "14",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.RP 756/2026",
+          "case_type": "CRL.RP",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "15",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 14797/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "16",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 14872/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "17",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6304/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "18",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6294/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "19",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6851/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "20",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6856/2026",
+          "case_type": "CRL.P",
+          "subject_code": "CH MOVED)                    483(BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "21",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6863/2026",
+          "case_type": "CRL.P",
+          "subject_code": "CH MOVED)                    482(BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "22",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6866/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "23",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6875/2026",
+          "case_type": "CRL.P",
+          "subject_code": "CH MOVED)                    482(BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "24",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6876/2026",
+          "case_type": "CRL.P",
+          "subject_code": "CH MOVED)                    483(BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "25",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6889/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "26",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6893/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "27",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6894/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "28",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6895/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "29",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6901/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "30",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6902/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "31",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6903/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "32",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6906/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "33",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6914/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "34",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6917/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "35",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6921/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "36",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6922/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "37",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6924/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "38",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6933/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "39",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6934/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "40",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.A 778/2026",
+          "case_type": "CRL.A",
+          "subject_code": "C",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "41",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 1118/2026",
+          "case_type": "CRL.P",
+          "subject_code": "CH MOVED)                    483(BNSS)",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "42",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 3069/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "43",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 4039/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "44",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 4578/2026",
+          "case_type": "CRL.P",
+          "subject_code": "CH MOVED)                    482(BNSS)",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "45",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 4584/2026",
+          "case_type": "CRL.P",
+          "subject_code": "CH MOVED)                    483(BNSS)",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "46",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 4756/2026",
+          "case_type": "CRL.P",
+          "subject_code": "CH MOVED)                    483(BNSS)",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "47",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 4938/2026",
+          "case_type": "CRL.P",
+          "subject_code": "CH MOVED)                    483(BNSS)",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "48",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 4952/2026",
+          "case_type": "CRL.P",
+          "subject_code": "MEMO A/W DOCUMENTS 482(BNSS)",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "49",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 5513/2026",
+          "case_type": "CRL.P",
+          "subject_code": "CH MOVED)                    482(BNSS)",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "50",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 5580/2026",
+          "case_type": "CRL.P",
+          "subject_code": "CH MOVED)                    483(BNSS)",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "51",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6438/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "52",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6535/2026",
+          "case_type": "CRL.P",
+          "subject_code": "CH MOVED)                    483(BNSS)",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "53",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6839/2026",
+          "case_type": "CRL.P",
+          "subject_code": "DATE)                        482(BNSS)",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "54",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6850/2026",
+          "case_type": "CRL.P",
+          "subject_code": "DATE)                        483(BNSS)",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "55",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 14767/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "56",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 5651/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "57",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6836/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "58",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6860/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "59",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6890/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "60",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6916/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "61",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 14757/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "62",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 14698/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "62.1",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.A 804/2026",
+          "case_type": "CRL.A",
+          "subject_code": "2)",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "63",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.A 810/2026",
+          "case_type": "CRL.A",
+          "subject_code": "C",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "64",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.A 815/2026",
+          "case_type": "CRL.A",
+          "subject_code": "2)",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "65",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6905/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "66",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6913/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "ADMISSION",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "67",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6918/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "68",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6923/2026",
+          "case_type": "CRL.P",
+          "subject_code": "BNSS)",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "69",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.RP 128/2021",
+          "case_type": "CRL.RP",
+          "subject_code": "BNSS)",
+          "stage": "ADMISSION",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "70",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.RP 127/2021",
+          "case_type": "CRL.RP",
+          "subject_code": "BNSS)",
+          "stage": "ADMISSION",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "70.1",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.RP 755/2026",
+          "case_type": "CRL.RP",
+          "subject_code": "BNSS)",
+          "stage": "ADMISSION",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "71",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.RP 764/2026",
+          "case_type": "CRL.RP",
+          "subject_code": "BNSS)",
+          "stage": "ADMISSION",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "72",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.RP 1299/2015",
+          "case_type": "CRL.RP",
+          "subject_code": "",
+          "stage": "FINAL HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "73",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 16286/2025",
+          "case_type": "CRL.P",
+          "subject_code": "VIDE NOTIFICATION   483(BNSS)",
+          "stage": "FINAL HEARING",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "74",
+          "judge_name": "V SRISHANANDA",
+          "court_hall": "11"
+        }
+      ]
+    }
+  ]
+}
