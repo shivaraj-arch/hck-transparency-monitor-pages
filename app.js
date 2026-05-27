@@ -601,7 +601,7 @@ function setupThemeToggle() {
   if (!buttons.length) return;
 
   const savedTheme = localStorage.getItem(THEME_STORAGE_KEY);
-  const initialTheme = savedTheme === "light" ? "light" : "dark";
+  const initialTheme = savedTheme === "dark" ? "dark" : "light";
   applyTheme(initialTheme);
   updateThemeToggle(initialTheme);
 
