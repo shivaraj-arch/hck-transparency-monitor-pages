@@ -1,0 +1,2495 @@
+{
+  "summary": {
+    "date": "2026-05-29",
+    "total_judges": 4,
+    "total_scheduled": 194,
+    "total_heard": 141,
+    "govt_scheduled": 78,
+    "govt_heard": 50,
+    "commoner_scheduled": 116,
+    "commoner_heard": 91,
+    "by_judge": [
+      {
+        "judge": "S SUNIL DUTT YADAV & S RACHAIAH",
+        "hall": "9",
+        "scheduled": 18,
+        "heard": 17,
+        "heard_pct": 94.4,
+        "govt_heard_pct": 100.0,
+        "commoner_heard_pct": 93.8
+      },
+      {
+        "judge": "R. NATARAJ",
+        "hall": "11",
+        "scheduled": 166,
+        "heard": 124,
+        "heard_pct": 74.7,
+        "govt_heard_pct": 72.7,
+        "commoner_heard_pct": 76.0
+      },
+      {
+        "judge": "ANANT RAMANATH HEGDE",
+        "hall": "21",
+        "scheduled": 2,
+        "heard": 0,
+        "heard_pct": 0.0,
+        "govt_heard_pct": 0.0,
+        "commoner_heard_pct": 0.0
+      },
+      {
+        "judge": "S RACHAIAH",
+        "hall": "22",
+        "scheduled": 8,
+        "heard": 0,
+        "heard_pct": 0.0,
+        "govt_heard_pct": 0.0,
+        "commoner_heard_pct": 0.0
+      }
+    ],
+    "by_stage": [
+      {
+        "label": "ORDERS",
+        "scheduled": 81,
+        "heard": 64,
+        "heard_pct": 79.0
+      },
+      {
+        "label": "UNKNOWN",
+        "scheduled": 53,
+        "heard": 32,
+        "heard_pct": 60.4
+      },
+      {
+        "label": "PRELIMINARY HEARING",
+        "scheduled": 40,
+        "heard": 29,
+        "heard_pct": 72.5
+      },
+      {
+        "label": "ADMISSION",
+        "scheduled": 20,
+        "heard": 16,
+        "heard_pct": 80.0
+      }
+    ],
+    "by_case_type": [
+      {
+        "label": "WP",
+        "scheduled": 96,
+        "heard": 73,
+        "heard_pct": 76.0
+      },
+      {
+        "label": "CRL.P",
+        "scheduled": 57,
+        "heard": 35,
+        "heard_pct": 61.4
+      },
+      {
+        "label": "CRL.A",
+        "scheduled": 12,
+        "heard": 10,
+        "heard_pct": 83.3
+      },
+      {
+        "label": "CRL.RP",
+        "scheduled": 11,
+        "heard": 10,
+        "heard_pct": 90.9
+      },
+      {
+        "label": "WA",
+        "scheduled": 5,
+        "heard": 5,
+        "heard_pct": 100.0
+      },
+      {
+        "label": "RFA",
+        "scheduled": 3,
+        "heard": 2,
+        "heard_pct": 66.7
+      },
+      {
+        "label": "MFA",
+        "scheduled": 2,
+        "heard": 2,
+        "heard_pct": 100.0
+      },
+      {
+        "label": "CCC",
+        "scheduled": 2,
+        "heard": 1,
+        "heard_pct": 50.0
+      },
+      {
+        "label": "RPFC",
+        "scheduled": 2,
+        "heard": 1,
+        "heard_pct": 50.0
+      },
+      {
+        "label": "CP",
+        "scheduled": 1,
+        "heard": 1,
+        "heard_pct": 100.0
+      },
+      {
+        "label": "WPHC",
+        "scheduled": 1,
+        "heard": 1,
+        "heard_pct": 100.0
+      },
+      {
+        "label": "CRP",
+        "scheduled": 1,
+        "heard": 0,
+        "heard_pct": 0.0
+      },
+      {
+        "label": "RSA",
+        "scheduled": 1,
+        "heard": 0,
+        "heard_pct": 0.0
+      }
+    ],
+    "heard_pct": 72.7,
+    "govt_heard_pct": 64.1,
+    "commoner_heard_pct": 78.4,
+    "bias_gap_pct": -14.3
+  },
+  "narrative": "(Narrative skipped — no free Gemini model available)",
+  "narrative_format": "markdown",
+  "narrative_model": null,
+  "judge_reports": [
+    {
+      "date": "2026-05-29",
+      "court_hall": "9",
+      "judge_name": "S SUNIL DUTT YADAV & S RACHAIAH",
+      "total_scheduled": 18,
+      "total_heard": 17,
+      "total_not_heard": 1,
+      "heard_pct": 94.4,
+      "govt_scheduled": 2,
+      "govt_heard": 2,
+      "govt_heard_pct": 100.0,
+      "commoner_scheduled": 16,
+      "commoner_heard": 15,
+      "commoner_heard_pct": 93.8,
+      "by_stage": {
+        "UNKNOWN": {
+          "scheduled": 5,
+          "heard": 4
+        },
+        "ORDERS": {
+          "scheduled": 10,
+          "heard": 10
+        },
+        "PRELIMINARY HEARING": {
+          "scheduled": 3,
+          "heard": 3
+        }
+      },
+      "by_type": {
+        "CCC": {
+          "scheduled": 2,
+          "heard": 1
+        },
+        "RFA": {
+          "scheduled": 1,
+          "heard": 1
+        },
+        "WA": {
+          "scheduled": 5,
+          "heard": 5
+        },
+        "WP": {
+          "scheduled": 6,
+          "heard": 6
+        },
+        "WPHC": {
+          "scheduled": 1,
+          "heard": 1
+        },
+        "CRL.A": {
+          "scheduled": 2,
+          "heard": 2
+        },
+        "MFA": {
+          "scheduled": 1,
+          "heard": 1
+        }
+      },
+      "cases": [
+        {
+          "case_number": "CCC 577/2026",
+          "case_type": "CCC",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "1",
+          "judge_name": "S SUNIL DUTT YADAV & S RACHAIAH",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "RFA 1049/2026",
+          "case_type": "RFA",
+          "subject_code": "SP",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "2",
+          "judge_name": "S SUNIL DUTT YADAV & S RACHAIAH",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WA 1463/2026",
+          "case_type": "WA",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "3",
+          "judge_name": "S SUNIL DUTT YADAV & S RACHAIAH",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WA 952/2026",
+          "case_type": "WA",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "4",
+          "judge_name": "S SUNIL DUTT YADAV & S RACHAIAH",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 15889/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "5",
+          "judge_name": "S SUNIL DUTT YADAV & S RACHAIAH",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WPHC 59/2026",
+          "case_type": "WPHC",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "6",
+          "judge_name": "S SUNIL DUTT YADAV & S RACHAIAH",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "CRL.A 775/2026",
+          "case_type": "CRL.A",
+          "subject_code": "C",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "7",
+          "judge_name": "S SUNIL DUTT YADAV & S RACHAIAH",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WA 1432/2026",
+          "case_type": "WA",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "8",
+          "judge_name": "S SUNIL DUTT YADAV & S RACHAIAH",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WA 1460/2026",
+          "case_type": "WA",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "9",
+          "judge_name": "S SUNIL DUTT YADAV & S RACHAIAH",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 15596/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "10",
+          "judge_name": "S SUNIL DUTT YADAV & S RACHAIAH",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "CRL.A 882/2026",
+          "case_type": "CRL.A",
+          "subject_code": "21(NIA)",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "11",
+          "judge_name": "S SUNIL DUTT YADAV & S RACHAIAH",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "MFA 3548/2026",
+          "case_type": "MFA",
+          "subject_code": "KPIDFA",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "12",
+          "judge_name": "S SUNIL DUTT YADAV & S RACHAIAH",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 15856/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "13",
+          "judge_name": "S SUNIL DUTT YADAV & S RACHAIAH",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 16022/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "14",
+          "judge_name": "S SUNIL DUTT YADAV & S RACHAIAH",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 16065/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "15",
+          "judge_name": "S SUNIL DUTT YADAV & S RACHAIAH",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "CCC 576/2026",
+          "case_type": "CCC",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "16",
+          "judge_name": "S SUNIL DUTT YADAV & S RACHAIAH",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WA 1446/2026",
+          "case_type": "WA",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "17",
+          "judge_name": "S SUNIL DUTT YADAV & S RACHAIAH",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 16029/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "18",
+          "judge_name": "S SUNIL DUTT YADAV & S RACHAIAH",
+          "court_hall": "9"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-29",
+      "court_hall": "11",
+      "judge_name": "R. NATARAJ",
+      "total_scheduled": 166,
+      "total_heard": 124,
+      "total_not_heard": 42,
+      "heard_pct": 74.7,
+      "govt_scheduled": 66,
+      "govt_heard": 48,
+      "govt_heard_pct": 72.7,
+      "commoner_scheduled": 100,
+      "commoner_heard": 76,
+      "commoner_heard_pct": 76.0,
+      "by_stage": {
+        "UNKNOWN": {
+          "scheduled": 38,
+          "heard": 28
+        },
+        "ORDERS": {
+          "scheduled": 71,
+          "heard": 54
+        },
+        "PRELIMINARY HEARING": {
+          "scheduled": 37,
+          "heard": 26
+        },
+        "ADMISSION": {
+          "scheduled": 20,
+          "heard": 16
+        }
+      },
+      "by_type": {
+        "CRL.A": {
+          "scheduled": 10,
+          "heard": 8
+        },
+        "CRL.P": {
+          "scheduled": 49,
+          "heard": 35
+        },
+        "CRL.RP": {
+          "scheduled": 11,
+          "heard": 10
+        },
+        "WP": {
+          "scheduled": 88,
+          "heard": 67
+        },
+        "CRP": {
+          "scheduled": 1,
+          "heard": 0
+        },
+        "MFA": {
+          "scheduled": 1,
+          "heard": 1
+        },
+        "RFA": {
+          "scheduled": 2,
+          "heard": 1
+        },
+        "RPFC": {
+          "scheduled": 2,
+          "heard": 1
+        },
+        "RSA": {
+          "scheduled": 1,
+          "heard": 0
+        },
+        "CP": {
+          "scheduled": 1,
+          "heard": 1
+        }
+      },
+      "cases": [
+        {
+          "case_number": "CRL.A 880/2026",
+          "case_type": "CRL.A",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "1",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.A 885/2026",
+          "case_type": "CRL.A",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "2",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.A 886/2026",
+          "case_type": "CRL.A",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "3",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.A 887/2026",
+          "case_type": "CRL.A",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "4",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7418/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "5",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7423/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "6",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7425/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "7",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7430/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "8",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7439/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "9",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7443/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "10",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7444/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "11",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7448/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "12",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7449/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "13",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7450/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "14",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7451/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "15",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7455/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "16",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7456/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "17",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7457/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "18",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.RP 835/2026",
+          "case_type": "CRL.RP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "19",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16062/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "20",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6904/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "21",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7015/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "22",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7362/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "23",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7372/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "24",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7374/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "25",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7377/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "26",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7389/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "27",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7409/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "28",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7426/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "29",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7428/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "30",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7431/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "31",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7432/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "32",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7440/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "33",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7441/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "34",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7446/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "35",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7447/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "36",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7452/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "37",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7453/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "38",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.A 840/2026",
+          "case_type": "CRL.A",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "39",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 9672/2018",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "40",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7001/2025",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "41",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 2035/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "42",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 2000/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "42",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 2654/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "43",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6840/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "44",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 6924/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "45",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7172/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "46",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7266/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "47",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7269/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "48",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7296/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "49",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7395/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "50",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.RP 829/2026",
+          "case_type": "CRL.RP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "51",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.RP 615/2026",
+          "case_type": "CRL.RP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "52",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.RP 682/2026",
+          "case_type": "CRL.RP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "53",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.RP 832/2026",
+          "case_type": "CRL.RP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "54",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15641/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "55",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15643/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "56",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16041/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "57",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16048/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "58",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16049/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "59",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16078/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "60",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.A 815/2026",
+          "case_type": "CRL.A",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "61",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.A 878/2026",
+          "case_type": "CRL.A",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "62",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.A 879/2026",
+          "case_type": "CRL.A",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "63",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.A 883/2026",
+          "case_type": "CRL.A",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "64",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.A 884/2026",
+          "case_type": "CRL.A",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "65",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7422/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "66",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7429/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "67",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7437/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "68",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7438/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "69",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.P 7454/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "70",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.RP 660/2026",
+          "case_type": "CRL.RP",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "71",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.RP 716/2026",
+          "case_type": "CRL.RP",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "72",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.RP 724/2026",
+          "case_type": "CRL.RP",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "73",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.RP 804/2026",
+          "case_type": "CRL.RP",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "74",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.RP 833/2026",
+          "case_type": "CRL.RP",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "75",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRL.RP 836/2026",
+          "case_type": "CRL.RP",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "76",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 26105/2025",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "1",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 13298/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "2",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15341/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "3",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15394/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "4",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15711/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "5",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15887/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "6",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15923/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "7",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15926/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "8",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15934/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "9",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15941/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "10",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15949/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "11",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15956/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "12",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15994/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "13",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15999/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "14",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16001/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "15",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16002/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "16",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16004/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "17",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16015/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "18",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16020/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "19",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16023/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "20",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16024/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "21",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16030/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "22",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16034/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "23",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16037/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "24",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16038/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "25",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16039/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "26",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16040/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "27",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16046/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "28",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16050/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "29",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16057/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "30",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16064/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "31",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16066/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "32",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16068/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "33",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16069/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "34",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16070/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "35",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16072/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "36",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16075/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "37",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16077/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "38",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15252/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "39",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15738/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "40",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15993/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "41",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15906/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "42",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15907/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "43",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16018/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "44",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16027/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "45",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16028/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "46",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16031/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "47",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16033/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "48",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16035/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "49",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16036/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "50",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16042/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "51",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16043/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "52",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16044/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "53",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16045/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "54",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16047/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "55",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16051/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "56",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16053/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "57",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16055/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "58",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16059/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "59",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16061/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "60",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16063/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "61",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16071/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "62",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16073/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "63",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16076/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "64",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15363/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "65",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15389/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "66",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15448/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "67",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15832/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "68",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15984/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "69",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CRP 483/2026",
+          "case_type": "CRP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "1",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "MFA 3589/2026",
+          "case_type": "MFA",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "2",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "RFA 1046/2026",
+          "case_type": "RFA",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "3",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "RPFC 136/2026",
+          "case_type": "RPFC",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "4",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "RSA 895/2026",
+          "case_type": "RSA",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "5",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15977/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "6",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15980/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "7",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16021/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "8",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16032/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "9",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16060/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "10",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16067/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "11",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16074/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "12",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15933/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "13",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16026/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "14",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16052/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "15",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 16054/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "16",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "CP 160/2026",
+          "case_type": "CP",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "17",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "RFA 1050/2026",
+          "case_type": "RFA",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "18",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "RPFC 135/2026",
+          "case_type": "RPFC",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "19",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 15839/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "20",
+          "judge_name": "R. NATARAJ",
+          "court_hall": "11"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-29",
+      "court_hall": "21",
+      "judge_name": "ANANT RAMANATH HEGDE",
+      "total_scheduled": 2,
+      "total_heard": 0,
+      "total_not_heard": 2,
+      "heard_pct": 0.0,
+      "govt_scheduled": 2,
+      "govt_heard": 0,
+      "govt_heard_pct": 0.0,
+      "commoner_scheduled": 0,
+      "commoner_heard": 0,
+      "commoner_heard_pct": 0.0,
+      "by_stage": {
+        "UNKNOWN": {
+          "scheduled": 2,
+          "heard": 0
+        }
+      },
+      "by_type": {
+        "WP": {
+          "scheduled": 2,
+          "heard": 0
+        }
+      },
+      "cases": [
+        {
+          "case_number": "WP 19885/2025",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "1",
+          "judge_name": "ANANT RAMANATH HEGDE",
+          "court_hall": "21"
+        },
+        {
+          "case_number": "WP 15749/2025",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "1",
+          "judge_name": "ANANT RAMANATH HEGDE",
+          "court_hall": "21"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-29",
+      "court_hall": "22",
+      "judge_name": "S RACHAIAH",
+      "total_scheduled": 8,
+      "total_heard": 0,
+      "total_not_heard": 8,
+      "heard_pct": 0.0,
+      "govt_scheduled": 8,
+      "govt_heard": 0,
+      "govt_heard_pct": 0.0,
+      "commoner_scheduled": 0,
+      "commoner_heard": 0,
+      "commoner_heard_pct": 0.0,
+      "by_stage": {
+        "UNKNOWN": {
+          "scheduled": 8,
+          "heard": 0
+        }
+      },
+      "by_type": {
+        "CRL.P": {
+          "scheduled": 8,
+          "heard": 0
+        }
+      },
+      "cases": [
+        {
+          "case_number": "CRL.P 1857/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "1",
+          "judge_name": "S RACHAIAH",
+          "court_hall": "22"
+        },
+        {
+          "case_number": "CRL.P 1880/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "2",
+          "judge_name": "S RACHAIAH",
+          "court_hall": "22"
+        },
+        {
+          "case_number": "CRL.P 1890/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "3",
+          "judge_name": "S RACHAIAH",
+          "court_hall": "22"
+        },
+        {
+          "case_number": "CRL.P 1921/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "4",
+          "judge_name": "S RACHAIAH",
+          "court_hall": "22"
+        },
+        {
+          "case_number": "CRL.P 2577/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "5",
+          "judge_name": "S RACHAIAH",
+          "court_hall": "22"
+        },
+        {
+          "case_number": "CRL.P 3623/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "6",
+          "judge_name": "S RACHAIAH",
+          "court_hall": "22"
+        },
+        {
+          "case_number": "CRL.P 4471/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "7",
+          "judge_name": "S RACHAIAH",
+          "court_hall": "22"
+        },
+        {
+          "case_number": "CRL.P 5572/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "8",
+          "judge_name": "S RACHAIAH",
+          "court_hall": "22"
+        }
+      ]
+    }
+  ]
+}
