@@ -157,9 +157,9 @@
     "commoner_heard_pct": 78.4,
     "bias_gap_pct": -14.3
   },
-  "narrative": "(Narrative skipped — no free Gemini model available)",
+  "narrative": "On May 29, 2026, the Karnataka High Court recorded a hearing rate of 72.7%, with 141 out of 194 scheduled cases being heard. This represents a significant increase in efficiency compared to late April 2026, when historical data shows daily hearing rates fluctuating between 35% and 43.2%.\n\nPerformance across the four active benches was polarized. The bench of S. Sunil Dutt Yadav and S. Rachaiah (Hall 9) maintained high operational output with a 94.4% hearing rate. R. Nataraj (Hall 11) handled the highest volume, presiding over 166 cases with a 74.7% clearance. Conversely, benches led by Anant Ramanath Hegde and S. Rachaiah (sitting individually in Hall 22) recorded zero hearings for their combined 10 scheduled cases.\n\nAnalysis by case stage shows that Admission and Orders remain the most prioritized, with hearing rates of 80% and 79% respectively. Preliminary hearings followed at 72.5%, while 60.4% of cases categorized as \"Unknown\" reached a hearing. \n\nCase-type distribution shows Writ Petitions (WP) comprised the bulk of the docket with 96 cases, maintaining a 76% hearing rate. Criminal Petitions (CRL.P) showed a lower engagement level at 61.4% but showed improvement compared to the <30% rates observed in late April. Other specific categories, such as Writ Appeals (WA) and Miscellaneous First Appeals (MFA), achieved 100% hearing rates, albeit on smaller volume. Overall, the data indicates a shift toward higher procedural throughput compared to previous historical benchmarks.",
   "narrative_format": "markdown",
-  "narrative_model": null,
+  "narrative_model": "gemini-3.1-flash-lite",
   "judge_reports": [
     {
       "date": "2026-05-29",
