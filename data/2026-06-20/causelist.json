@@ -1,0 +1,57 @@
+{
+  "date": "2026-06-20",
+  "court": "High Court of Karnataka at Bengaluru",
+  "excluded_admin_cases": 0,
+  "judges": [
+    {
+      "judge_names": [
+        "ASHOK S.KINAGI"
+      ],
+      "court_hall": "9",
+      "bench_type": "SINGLE",
+      "cause_list_no": 1,
+      "cases": [
+        {
+          "sl_no": "1",
+          "case_number": "WP 63/2025",
+          "case_type": "WP",
+          "case_year": 2025,
+          "case_seq": 63,
+          "subject_code": "",
+          "subject_desc": "",
+          "stage": "PRELIMINARY HEARING",
+          "petitioner": "SRI. DEVARAJ",
+          "respondent": "THE BENGALURU (DATE) VIJAYA RAGHAVA WATER SUPPLY AND SARATHY H M SEWERAGE BOARD SANJEEV B L PRELIMINARY HEARING - B GROUP",
+          "pet_advocates": [],
+          "res_advocates": [],
+          "is_connected": false,
+          "connected_to": "",
+          "is_govt_case": false,
+          "govt_side": "",
+          "filing_year": 2025,
+          "case_age_years": 1
+        },
+        {
+          "sl_no": "2",
+          "case_number": "WP 17915/2023",
+          "case_type": "WP",
+          "case_year": 2023,
+          "case_seq": 17915,
+          "subject_code": "",
+          "subject_desc": "",
+          "stage": "PRELIMINARY HEARING",
+          "petitioner": "SHRI HARISH N S",
+          "respondent": "THE STATE OF (DATE) AND OTHERS KARNATAKA AND VIJAYA KUMAR OTHERS AGA FOR R1 (MOA NOT FILED) H L PRADEEP KUMAR FOR R2 AJIT KALYAN FOR R3 (NOC) EVIDENCE 3 EP 8/2024 (,) PET: SRI. D. CHARAN RES: SRI. SHREYAS A/W RECTIFICATION OF SHIVARAJU M K M PATEL O/OBJNS RAISED ON BINDU V SHIVCHARAN R LIST OF DOCUMENTS ASHOK BANNIDINNI AND & RAKSHITHA V FILED IN COURT ON VAISHANAVI K MANCHALI HEMANTH RAJ 9/1/26 BY ADV FOR PETITIONER (REG:1) TYPED COPY OF ALL MANUSCRIPTS TO BE FILED. 2) ENGLISH TRANSLATION COPY OF KANNADA DOCUMENTS TO BE FILED 3) DOCUMENTS TO BE VERIFIED AND SIGNED BY PETITIONER) 2) RECTIFICATION OF O/OBJNS RAISED ON MEMO A/W LIST OF DOCUMENTS FILED IN COURT ON 12/12/25 BY ADV FOR PETITIONER (REG: 1) CERTIFIED COPY TO BE FILED. 2) DOCUMENTS TO BE SIGNED AND VERIFIED BY PETITIONER.) 3) NON FILING OF LIST OF WITNESSES BY ADVOCATE FOR RESPONDENT 4) LIST OF DOCUMENTS FILED BY ADV FOR PETITIONER (PEN DRIVE IS KEPT IN VOLUME-5) (LETTER RECEIVED FROM HON'BLE SUPREME COURT OF INDIA DTD 1/12/25 A/W COPY OF THE ORDER DTD 27/11/25 PASSED IN CIVIL APPEAL NO.10019/25 WITH SLP(C) NO.23737/25 IS KEPT IN SEPARATE WRAPPER) (DATE)",
+          "pet_advocates": [],
+          "res_advocates": [],
+          "is_connected": false,
+          "connected_to": "",
+          "is_govt_case": false,
+          "govt_side": "",
+          "filing_year": 2023,
+          "case_age_years": 3
+        }
+      ]
+    }
+  ]
+}

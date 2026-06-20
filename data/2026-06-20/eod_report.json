@@ -1,0 +1,99 @@
+{
+  "summary": {
+    "date": "2026-06-20",
+    "total_judges": 1,
+    "total_scheduled": 2,
+    "total_heard": 2,
+    "govt_scheduled": 0,
+    "govt_heard": 0,
+    "commoner_scheduled": 2,
+    "commoner_heard": 2,
+    "by_judge": [
+      {
+        "judge": "ASHOK S.KINAGI",
+        "hall": "9",
+        "scheduled": 2,
+        "heard": 2,
+        "heard_pct": 100.0,
+        "govt_heard_pct": 0.0,
+        "commoner_heard_pct": 100.0
+      }
+    ],
+    "by_stage": [
+      {
+        "label": "PRELIMINARY HEARING",
+        "scheduled": 2,
+        "heard": 2,
+        "heard_pct": 100.0
+      }
+    ],
+    "by_case_type": [
+      {
+        "label": "WP",
+        "scheduled": 2,
+        "heard": 2,
+        "heard_pct": 100.0
+      }
+    ],
+    "heard_pct": 100.0,
+    "govt_heard_pct": 0,
+    "commoner_heard_pct": 100.0,
+    "bias_gap_pct": -100.0
+  },
+  "narrative": "On June 20, 2026, the Karnataka High Court registered a 100% overall hearing rate, resolving all 2 scheduled cases. This represents a significant contraction in docket volume compared to preceding weekdays, such as June 19, when the court scheduled 2,256 cases and heard 1,125 (49.9%). The caseload was similarly high earlier in the week, with hearing rates of 44.0% on June 18 (1,142 heard of 2,596) and 43.5% on June 17 (1,157 heard of 2,661).\n\nThe entire docket for June 20 was handled in Court Hall 9 by Justice Ashok S. Kinagi, who achieved a perfect 100% hearing rate for both scheduled matters. \n\nIn terms of hearing stages and case types, both scheduled matters were Writ Petitions (WP) listed under the Preliminary Hearing stage, yielding a 100% conversion rate. This focused clearance stands in contrast to the typical weekday distribution. For instance, on June 19, Writ Petitions represented the largest case category but recorded a much lower hearing rate of 45.1% (410 of 910 cases heard), while the dominant stages were Orders (53.7% heard) and Admissions (46.4% heard). The specialized, low-volume session on June 20 allowed for complete disposition of its scheduled administrative and preliminary writ matters.",
+  "narrative_format": "markdown",
+  "narrative_model": "gemini-flash-latest",
+  "judge_reports": [
+    {
+      "date": "2026-06-20",
+      "court_hall": "9",
+      "judge_name": "ASHOK S.KINAGI",
+      "total_scheduled": 2,
+      "total_heard": 2,
+      "total_not_heard": 0,
+      "heard_pct": 100.0,
+      "govt_scheduled": 0,
+      "govt_heard": 0,
+      "govt_heard_pct": 0.0,
+      "commoner_scheduled": 2,
+      "commoner_heard": 2,
+      "commoner_heard_pct": 100.0,
+      "by_stage": {
+        "PRELIMINARY HEARING": {
+          "scheduled": 2,
+          "heard": 2
+        }
+      },
+      "by_type": {
+        "WP": {
+          "scheduled": 2,
+          "heard": 2
+        }
+      },
+      "cases": [
+        {
+          "case_number": "WP 63/2025",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "1",
+          "judge_name": "ASHOK S.KINAGI",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 17915/2023",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "2",
+          "judge_name": "ASHOK S.KINAGI",
+          "court_hall": "9"
+        }
+      ]
+    }
+  ]
+}
