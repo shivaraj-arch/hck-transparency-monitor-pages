@@ -9641,6 +9641,78 @@
           "heard_pct": 50.0
         }
       ]
+    },
+    {
+      "date": "2026-10-22",
+      "court": "High Court of Karnataka at Bengaluru",
+      "scheduled": 92,
+      "heard": 89,
+      "heard_pct": 96.7,
+      "judges": 3,
+      "by_stage": [
+        {
+          "label": "UNKNOWN",
+          "scheduled": 45,
+          "heard": 42,
+          "heard_pct": 93.3
+        },
+        {
+          "label": "ORDERS",
+          "scheduled": 21,
+          "heard": 21,
+          "heard_pct": 100.0
+        },
+        {
+          "label": "ADMISSION",
+          "scheduled": 16,
+          "heard": 16,
+          "heard_pct": 100.0
+        },
+        {
+          "label": "PRELIMINARY HEARING",
+          "scheduled": 10,
+          "heard": 10,
+          "heard_pct": 100.0
+        }
+      ],
+      "by_case_type": [
+        {
+          "label": "CRL.P",
+          "scheduled": 39,
+          "heard": 38,
+          "heard_pct": 97.4
+        },
+        {
+          "label": "WP",
+          "scheduled": 37,
+          "heard": 37,
+          "heard_pct": 100.0
+        },
+        {
+          "label": "CRL.A",
+          "scheduled": 4,
+          "heard": 4,
+          "heard_pct": 100.0
+        },
+        {
+          "label": "CRL.RP",
+          "scheduled": 4,
+          "heard": 4,
+          "heard_pct": 100.0
+        },
+        {
+          "label": "WA",
+          "scheduled": 4,
+          "heard": 2,
+          "heard_pct": 50.0
+        },
+        {
+          "label": "COMAP",
+          "scheduled": 1,
+          "heard": 1,
+          "heard_pct": 100.0
+        }
+      ]
     }
   ]
 }

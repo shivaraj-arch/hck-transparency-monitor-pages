@@ -1,0 +1,1275 @@
+{
+  "summary": {
+    "date": "2026-10-22",
+    "total_judges": 3,
+    "total_scheduled": 92,
+    "total_heard": 89,
+    "govt_scheduled": 40,
+    "govt_heard": 38,
+    "commoner_scheduled": 52,
+    "commoner_heard": 51,
+    "by_judge": [
+      {
+        "judge": "R. NATARAJ & B.PRAMOD",
+        "hall": "9",
+        "scheduled": 12,
+        "heard": 10,
+        "heard_pct": 83.3,
+        "govt_heard_pct": 0.0,
+        "commoner_heard_pct": 90.9
+      },
+      {
+        "judge": "G BASAVARAJA",
+        "hall": "10",
+        "scheduled": 48,
+        "heard": 47,
+        "heard_pct": 97.9,
+        "govt_heard_pct": 97.3,
+        "commoner_heard_pct": 100.0
+      },
+      {
+        "judge": "RAGHAVENDRA SEETHARAM SRIVATSA",
+        "hall": "11",
+        "scheduled": 32,
+        "heard": 32,
+        "heard_pct": 100.0,
+        "govt_heard_pct": 100.0,
+        "commoner_heard_pct": 100.0
+      }
+    ],
+    "by_stage": [
+      {
+        "label": "UNKNOWN",
+        "scheduled": 45,
+        "heard": 42,
+        "heard_pct": 93.3
+      },
+      {
+        "label": "ORDERS",
+        "scheduled": 21,
+        "heard": 21,
+        "heard_pct": 100.0
+      },
+      {
+        "label": "ADMISSION",
+        "scheduled": 16,
+        "heard": 16,
+        "heard_pct": 100.0
+      },
+      {
+        "label": "PRELIMINARY HEARING",
+        "scheduled": 10,
+        "heard": 10,
+        "heard_pct": 100.0
+      }
+    ],
+    "by_case_type": [
+      {
+        "label": "CRL.P",
+        "scheduled": 39,
+        "heard": 38,
+        "heard_pct": 97.4
+      },
+      {
+        "label": "WP",
+        "scheduled": 37,
+        "heard": 37,
+        "heard_pct": 100.0
+      },
+      {
+        "label": "CRL.A",
+        "scheduled": 4,
+        "heard": 4,
+        "heard_pct": 100.0
+      },
+      {
+        "label": "CRL.RP",
+        "scheduled": 4,
+        "heard": 4,
+        "heard_pct": 100.0
+      },
+      {
+        "label": "WA",
+        "scheduled": 4,
+        "heard": 2,
+        "heard_pct": 50.0
+      },
+      {
+        "label": "COMAP",
+        "scheduled": 1,
+        "heard": 1,
+        "heard_pct": 100.0
+      },
+      {
+        "label": "MFA",
+        "scheduled": 1,
+        "heard": 1,
+        "heard_pct": 100.0
+      },
+      {
+        "label": "RFA",
+        "scheduled": 1,
+        "heard": 1,
+        "heard_pct": 100.0
+      },
+      {
+        "label": "WPHC",
+        "scheduled": 1,
+        "heard": 1,
+        "heard_pct": 100.0
+      }
+    ],
+    "heard_pct": 96.7,
+    "govt_heard_pct": 95.0,
+    "commoner_heard_pct": 98.1,
+    "bias_gap_pct": -3.1
+  },
+  "narrative": "On October 22, 2026, the Karnataka High Court recorded an overall hearing rate of 96.7%, hearing 89 of the 92 scheduled matters across three active benches. This represents a substantial rise in hearing efficiency compared to previous sessions, which logged overall rates of 52.3% on October 17 (955 of 1,827 heard), 40.1% on October 16 (1,221 of 3,046 heard), and 38.8% on October 15 (1,247 of 3,217 heard), driven by a significantly lighter scheduled docket.\n\nBench throughput remained consistently high across all three court halls. In Hall 11, Justice Raghavendra Seetharam Srivatsa achieved a 100% clearance rate, hearing all 32 listed matters. Justice G Basavaraja handled the largest single-judge docket in Hall 10, hearing 47 of 48 scheduled cases (97.9%). The division bench of Justices R. Nataraj and B. Pramod in Hall 9 heard 10 of their 12 scheduled matters (83.3%).\n\nAll formal procedural stages registered complete hearing conversion: Orders (21 scheduled), Admission (16 scheduled), and Preliminary Hearing (10 scheduled) each achieved a 100% hearing rate. This marks a sharp contrast to October 17, when Orders reached 56.1%, Admission reached 47.4%, and Preliminary Hearing reached 51.6%. Matters with unspecified procedural stages saw 42 of 45 cases heard (93.3%).\n\nThe day’s docket was heavily concentrated in Criminal Petitions (CRL.P) and Writ Petitions (WP), which together constituted 82.6% of all scheduled listings. Writ Petitions attained a 100% hearing rate across 37 cases, improving notably over historical clearance rates that ranged between 34.3% and 48.7% between October 15 and 17. Criminal Petitions saw 38 of 39 matters heard (97.4%), while Writ Appeals recorded the lowest clearance among multi-case categories, with 2 of 4 matters heard (50.0%).",
+  "narrative_format": "markdown",
+  "narrative_model": "gemini-flash-latest",
+  "judge_reports": [
+    {
+      "date": "2026-10-22",
+      "court_hall": "9",
+      "judge_name": "R. NATARAJ & B.PRAMOD",
+      "total_scheduled": 12,
+      "total_heard": 10,
+      "total_not_heard": 2,
+      "heard_pct": 83.3,
+      "govt_scheduled": 1,
+      "govt_heard": 0,
+      "govt_heard_pct": 0.0,
+      "commoner_scheduled": 11,
+      "commoner_heard": 10,
+      "commoner_heard_pct": 90.9,
+      "by_stage": {
+        "UNKNOWN": {
+          "scheduled": 12,
+          "heard": 10
+        }
+      },
+      "by_type": {
+        "WPHC": {
+          "scheduled": 1,
+          "heard": 1
+        },
+        "COMAP": {
+          "scheduled": 1,
+          "heard": 1
+        },
+        "WA": {
+          "scheduled": 4,
+          "heard": 2
+        },
+        "WP": {
+          "scheduled": 6,
+          "heard": 6
+        }
+      },
+      "cases": [
+        {
+          "case_number": "WPHC 109/2026",
+          "case_type": "WPHC",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "1",
+          "judge_name": "R. NATARAJ & B.PRAMOD",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "COMAP 517/2026",
+          "case_type": "COMAP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "2",
+          "judge_name": "R. NATARAJ & B.PRAMOD",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WA 2400/2026",
+          "case_type": "WA",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "3",
+          "judge_name": "R. NATARAJ & B.PRAMOD",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WA 2401/2026",
+          "case_type": "WA",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "4",
+          "judge_name": "R. NATARAJ & B.PRAMOD",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WA 2402/2026",
+          "case_type": "WA",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "5",
+          "judge_name": "R. NATARAJ & B.PRAMOD",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WA 2403/2026",
+          "case_type": "WA",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "6",
+          "judge_name": "R. NATARAJ & B.PRAMOD",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 33010/2026",
+          "case_type": "WP",
+          "subject_code": "KLGP",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "7",
+          "judge_name": "R. NATARAJ & B.PRAMOD",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 33030/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "8",
+          "judge_name": "R. NATARAJ & B.PRAMOD",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 33035/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "9",
+          "judge_name": "R. NATARAJ & B.PRAMOD",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 33062/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "10",
+          "judge_name": "R. NATARAJ & B.PRAMOD",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 33076/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "11",
+          "judge_name": "R. NATARAJ & B.PRAMOD",
+          "court_hall": "9"
+        },
+        {
+          "case_number": "WP 33077/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "12",
+          "judge_name": "R. NATARAJ & B.PRAMOD",
+          "court_hall": "9"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "court_hall": "10",
+      "judge_name": "G BASAVARAJA",
+      "total_scheduled": 48,
+      "total_heard": 47,
+      "total_not_heard": 1,
+      "heard_pct": 97.9,
+      "govt_scheduled": 37,
+      "govt_heard": 36,
+      "govt_heard_pct": 97.3,
+      "commoner_scheduled": 11,
+      "commoner_heard": 11,
+      "commoner_heard_pct": 100.0,
+      "by_stage": {
+        "UNKNOWN": {
+          "scheduled": 33,
+          "heard": 32
+        },
+        "ADMISSION": {
+          "scheduled": 15,
+          "heard": 15
+        }
+      },
+      "by_type": {
+        "CRL.A": {
+          "scheduled": 4,
+          "heard": 4
+        },
+        "CRL.P": {
+          "scheduled": 39,
+          "heard": 38
+        },
+        "CRL.RP": {
+          "scheduled": 4,
+          "heard": 4
+        },
+        "WP": {
+          "scheduled": 1,
+          "heard": 1
+        }
+      },
+      "cases": [
+        {
+          "case_number": "CRL.A 1761/2026",
+          "case_type": "CRL.A",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "1",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.A 1762/2026",
+          "case_type": "CRL.A",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "2",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16025/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "3",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16027/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "4",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16033/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "5",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16034/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "6",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16042/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "7",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16043/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "8",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16047/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "9",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16048/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "10",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16058/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "11",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16060/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": false,
+          "sl_no": "12",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16062/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "13",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16066/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "14",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16068/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "15",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.RP 1714/2026",
+          "case_type": "CRL.RP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "16",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.RP 1717/2026",
+          "case_type": "CRL.RP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "17",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "WP 33036/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "18",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16018/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "19",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16020/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "20",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16021/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "21",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16026/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "22",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16029/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "23",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16037/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "24",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16039/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "25",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16045/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "26",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16055/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "27",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16065/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "28",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16069/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "29",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16032/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "30",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16061/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "31",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16064/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "32",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.RP 1715/2026",
+          "case_type": "CRL.RP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "33",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.A 1737/2026",
+          "case_type": "CRL.A",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "34",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.A 1759/2026",
+          "case_type": "CRL.A",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "35",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16022/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "36",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16035/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "37",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16036/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "38",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16038/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "39",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16040/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "40",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16046/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "41",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16049/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "42",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16052/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "43",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16053/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "44",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16054/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "45",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16057/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "46",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.P 16059/2026",
+          "case_type": "CRL.P",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "47",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        },
+        {
+          "case_number": "CRL.RP 1716/2026",
+          "case_type": "CRL.RP",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "48",
+          "judge_name": "G BASAVARAJA",
+          "court_hall": "10"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "court_hall": "11",
+      "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+      "total_scheduled": 32,
+      "total_heard": 32,
+      "total_not_heard": 0,
+      "heard_pct": 100.0,
+      "govt_scheduled": 2,
+      "govt_heard": 2,
+      "govt_heard_pct": 100.0,
+      "commoner_scheduled": 30,
+      "commoner_heard": 30,
+      "commoner_heard_pct": 100.0,
+      "by_stage": {
+        "ORDERS": {
+          "scheduled": 21,
+          "heard": 21
+        },
+        "PRELIMINARY HEARING": {
+          "scheduled": 10,
+          "heard": 10
+        },
+        "ADMISSION": {
+          "scheduled": 1,
+          "heard": 1
+        }
+      },
+      "by_type": {
+        "RFA": {
+          "scheduled": 1,
+          "heard": 1
+        },
+        "WP": {
+          "scheduled": 30,
+          "heard": 30
+        },
+        "MFA": {
+          "scheduled": 1,
+          "heard": 1
+        }
+      },
+      "cases": [
+        {
+          "case_number": "RFA 1950/2026",
+          "case_type": "RFA",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "1",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33007/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "2",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33018/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "3",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33022/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "4",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33024/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "5",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33029/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "6",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33031/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "7",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33033/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "8",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33037/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "9",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33038/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "10",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33042/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "11",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33045/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "12",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33047/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "13",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33048/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "14",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33050/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "15",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33052/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "16",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33054/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "17",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33059/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "18",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33061/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "19",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33066/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "20",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33067/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "ORDERS",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "21",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 32986/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "22",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33025/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "23",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33039/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "24",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33043/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "25",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33046/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": true,
+          "was_heard": true,
+          "sl_no": "26",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33051/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "27",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33053/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "28",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33056/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "29",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33065/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "30",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "WP 33069/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "PRELIMINARY HEARING",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "31",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        },
+        {
+          "case_number": "MFA 7674/2026",
+          "case_type": "MFA",
+          "subject_code": "",
+          "stage": "ADMISSION",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "32",
+          "judge_name": "RAGHAVENDRA SEETHARAM SRIVATSA",
+          "court_hall": "11"
+        }
+      ]
+    }
+  ]
+}
