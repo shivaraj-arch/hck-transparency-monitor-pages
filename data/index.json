@@ -10385,6 +10385,36 @@
           "heard_pct": 29.2
         }
       ]
+    },
+    {
+      "date": "2026-11-07",
+      "court": "High Court of Karnataka at Bengaluru",
+      "scheduled": 3,
+      "heard": 2,
+      "heard_pct": 66.7,
+      "judges": 1,
+      "by_stage": [
+        {
+          "label": "UNKNOWN",
+          "scheduled": 3,
+          "heard": 2,
+          "heard_pct": 66.7
+        }
+      ],
+      "by_case_type": [
+        {
+          "label": "WP",
+          "scheduled": 2,
+          "heard": 1,
+          "heard_pct": 50.0
+        },
+        {
+          "label": "RSA",
+          "scheduled": 1,
+          "heard": 1,
+          "heard_pct": 100.0
+        }
+      ]
     }
   ]
 }

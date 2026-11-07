@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-07",
+  "court": "High Court of Karnataka at Bengaluru",
+  "excluded_admin_cases": 0,
+  "judges": [
+    {
+      "judge_names": [
+        "ASHOK S.KINAGI"
+      ],
+      "court_hall": "2A",
+      "bench_type": "SINGLE",
+      "cause_list_no": 1,
+      "cases": [
+        {
+          "sl_no": "1",
+          "case_number": "WP 3603/2026",
+          "case_type": "WP",
+          "case_year": 2026,
+          "case_seq": 3603,
+          "subject_code": "",
+          "subject_desc": "",
+          "stage": "",
+          "petitioner": "MR. JUSTUS C K",
+          "respondent": "STATE OF AND OTHERS KARNATAKA AND SHOWRI H R OTHERS GA FOR R1 AJAY J NANDALIKE FOR R2 & R3",
+          "pet_advocates": [],
+          "res_advocates": [],
+          "is_connected": false,
+          "connected_to": "",
+          "is_govt_case": false,
+          "govt_side": "",
+          "filing_year": 2026,
+          "case_age_years": 0
+        },
+        {
+          "sl_no": "1.1",
+          "case_number": "WP 38357/2025",
+          "case_type": "WP",
+          "case_year": 2025,
+          "case_seq": 38357,
+          "subject_code": "",
+          "subject_desc": "",
+          "stage": "",
+          "petitioner": "H B",
+          "respondent": "THE KARNATAKA SIDDALINGASWAMY AND POWER CORPORATION OTHERS LIMITED AND OTHERS PRASANNA V R AJAY J NANDALIKE M SUBRAMANYA BHAT FOR R4 - R6 ADITYA R CHAKRAGIRI FOR R7 - R21 SUVARNA M L FOR R22 - R36 HEARING - INTERLOCUTORY APPLN",
+          "pet_advocates": [],
+          "res_advocates": [],
+          "is_connected": true,
+          "connected_to": "1",
+          "is_govt_case": false,
+          "govt_side": "",
+          "filing_year": 2025,
+          "case_age_years": 1
+        },
+        {
+          "sl_no": "2",
+          "case_number": "RSA 1890/2013",
+          "case_type": "RSA",
+          "case_year": 2013,
+          "case_seq": 1890,
+          "subject_code": "SP",
+          "subject_desc": "",
+          "stage": "",
+          "petitioner": "SRI NANJUNDAPPA",
+          "respondent": "SRI JAYAPPA REG: IA 1/26 FOR CD NAIK N R K T GURUDEVA OF 280 DAYS IN FILING M PRAKASH PRASAD THE RECALLING CHANDRASHEKAR P PATIL APPLICATION 2) IA 2/26 FOR RECALLING THE ORDER DTD 18/11/25 (PB K/B) EVIDENCE 3 EP 8/2024 (,) PET: SRI. D. CHARAN RES: SRI. SHREYAS (FOR FURTHER CROSS SHIVARAJU M K M PATEL EXAMINATION OF RW - BINDU V SHIVCHARAN R 1) ASHOK BANNIDINNI AND & RAKSHITHA V A/W RECTIFICATION OF VAISHANAVI K MANCHALI HEMANTH RAJ OFFICE OBJECTION RAISED ON IA 7/26 FOR ADJOURNMENT FILED BY ADV FOR RESPONDENT (REG: COPY TO BE SERVED TO ADV FOR PETITIONER 2) NON FILING OF LIST OF WITNESSES BY ADVOCATE FOR RESPONDENT (PEN DRIVE IS KEPT IN VOLUME-5) (LETTER RECEIVED FROM HON'BLE SUPREME COURT OF INDIA DTD 1/12/25 A/W COPY OF THE ORDER DTD 27/11/25 PASSED IN CIVIL APPEAL NO.10019/25 WITH SLP(C) NO.23737/25 IS KEPT IN SEPARATE WRAPPER) (DATE)",
+          "pet_advocates": [],
+          "res_advocates": [],
+          "is_connected": true,
+          "connected_to": "1",
+          "is_govt_case": false,
+          "govt_side": "",
+          "filing_year": 2013,
+          "case_age_years": 13
+        }
+      ]
+    }
+  ]
+}

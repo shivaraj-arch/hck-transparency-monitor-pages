@@ -1,0 +1,120 @@
+{
+  "summary": {
+    "date": "2026-11-07",
+    "total_judges": 1,
+    "total_scheduled": 3,
+    "total_heard": 2,
+    "govt_scheduled": 0,
+    "govt_heard": 0,
+    "commoner_scheduled": 3,
+    "commoner_heard": 2,
+    "by_judge": [
+      {
+        "judge": "ASHOK S.KINAGI",
+        "hall": "2A",
+        "scheduled": 3,
+        "heard": 2,
+        "heard_pct": 66.7,
+        "govt_heard_pct": 0.0,
+        "commoner_heard_pct": 66.7
+      }
+    ],
+    "by_stage": [
+      {
+        "label": "UNKNOWN",
+        "scheduled": 3,
+        "heard": 2,
+        "heard_pct": 66.7
+      }
+    ],
+    "by_case_type": [
+      {
+        "label": "WP",
+        "scheduled": 2,
+        "heard": 1,
+        "heard_pct": 50.0
+      },
+      {
+        "label": "RSA",
+        "scheduled": 1,
+        "heard": 1,
+        "heard_pct": 100.0
+      }
+    ],
+    "heard_pct": 66.7,
+    "govt_heard_pct": 0,
+    "commoner_heard_pct": 66.7,
+    "bias_gap_pct": -66.7
+  },
+  "narrative": "On November 7, 2026, the Karnataka High Court recorded an overall hearing rate of 66.7%, effectively hearing 2 out of the 3 scheduled cases for the day. Judicial activity was concentrated under a single bench, with Justice Ashok S. Kinagi presiding in Hall 2A. Justice Kinagi matched the overall daily efficiency benchmark by addressing 2 of the 3 cases assigned to his courtroom, achieving a 66.7% hearing conversion rate.\n\nFrom a procedural standpoint, all 3 listed matters were recorded under an unspecified stage (\"UNKNOWN\"), yielding a 66.7% hearing rate at that stage. In terms of case type distribution, clearance varied between civil appeals and writ matters. Regular Second Appeals (RSA) achieved a 100.0% clearance rate, hearing the single scheduled case. Conversely, Writ Petitions (WP) recorded a 50.0% hearing rate, with 1 of the 2 scheduled matters taken up by the court.\n\nCompared to retrieved historical context, today’s 66.7% overall hearing rate represents a higher completion percentage than previously recorded full-docket sessions, such as October 17, 2026 (52.3% of 1,827 cases heard), September 3, 2026 (35.6% of 2,386 cases heard), and September 1, 2026 (41.2% of 2,520 cases heard), though today's dataset reflects a significantly smaller listing volume of 3 cases. The 50.0% hearing efficiency for Writ Petitions aligns closely with historical performance for the category, which stood at 48.7% on October 17, 31.4% on September 3, and 38.8% on September 1.",
+  "narrative_format": "markdown",
+  "narrative_model": "gemini-3.5-flash",
+  "judge_reports": [
+    {
+      "date": "2026-11-07",
+      "court_hall": "2A",
+      "judge_name": "ASHOK S.KINAGI",
+      "total_scheduled": 3,
+      "total_heard": 2,
+      "total_not_heard": 1,
+      "heard_pct": 66.7,
+      "govt_scheduled": 0,
+      "govt_heard": 0,
+      "govt_heard_pct": 0.0,
+      "commoner_scheduled": 3,
+      "commoner_heard": 2,
+      "commoner_heard_pct": 66.7,
+      "by_stage": {
+        "UNKNOWN": {
+          "scheduled": 3,
+          "heard": 2
+        }
+      },
+      "by_type": {
+        "WP": {
+          "scheduled": 2,
+          "heard": 1
+        },
+        "RSA": {
+          "scheduled": 1,
+          "heard": 1
+        }
+      },
+      "cases": [
+        {
+          "case_number": "WP 3603/2026",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "1",
+          "judge_name": "ASHOK S.KINAGI",
+          "court_hall": "2A"
+        },
+        {
+          "case_number": "WP 38357/2025",
+          "case_type": "WP",
+          "subject_code": "",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": false,
+          "sl_no": "1.1",
+          "judge_name": "ASHOK S.KINAGI",
+          "court_hall": "2A"
+        },
+        {
+          "case_number": "RSA 1890/2013",
+          "case_type": "RSA",
+          "subject_code": "SP",
+          "stage": "",
+          "is_govt_case": false,
+          "was_heard": true,
+          "sl_no": "2",
+          "judge_name": "ASHOK S.KINAGI",
+          "court_hall": "2A"
+        }
+      ]
+    }
+  ]
+}
