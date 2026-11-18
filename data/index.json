@@ -10751,6 +10751,90 @@
           "heard_pct": 63.8
         }
       ]
+    },
+    {
+      "date": "2026-11-18",
+      "court": "High Court of Karnataka at Bengaluru",
+      "scheduled": 2810,
+      "heard": 655,
+      "heard_pct": 23.3,
+      "judges": 50,
+      "by_stage": [
+        {
+          "label": "ORDERS",
+          "scheduled": 1069,
+          "heard": 304,
+          "heard_pct": 28.4
+        },
+        {
+          "label": "ADMISSION",
+          "scheduled": 609,
+          "heard": 149,
+          "heard_pct": 24.5
+        },
+        {
+          "label": "FINAL HEARING",
+          "scheduled": 530,
+          "heard": 21,
+          "heard_pct": 4.0
+        },
+        {
+          "label": "PRELIMINARY HEARING",
+          "scheduled": 375,
+          "heard": 112,
+          "heard_pct": 29.9
+        },
+        {
+          "label": "UNKNOWN",
+          "scheduled": 117,
+          "heard": 59,
+          "heard_pct": 50.4
+        },
+        {
+          "label": "FURTHER HEARING",
+          "scheduled": 100,
+          "heard": 6,
+          "heard_pct": 6.0
+        }
+      ],
+      "by_case_type": [
+        {
+          "label": "WP",
+          "scheduled": 1314,
+          "heard": 286,
+          "heard_pct": 21.8
+        },
+        {
+          "label": "CRL.P",
+          "scheduled": 469,
+          "heard": 107,
+          "heard_pct": 22.8
+        },
+        {
+          "label": "MFA",
+          "scheduled": 427,
+          "heard": 146,
+          "heard_pct": 34.2
+        },
+        {
+          "label": "RSA",
+          "scheduled": 108,
+          "heard": 34,
+          "heard_pct": 31.5
+        },
+        {
+          "label": "CRL.A",
+          "scheduled": 101,
+          "heard": 12,
+          "heard_pct": 11.9
+        },
+        {
+          "label": "RFA",
+          "scheduled": 90,
+          "heard": 13,
+          "heard_pct": 14.4
+        }
+      ]
     }
   ]
 }
